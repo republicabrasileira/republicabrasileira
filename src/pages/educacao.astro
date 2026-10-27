@@ -118,16 +118,21 @@ const iniciais = IDEB.series[0].valores;
   </p>
 
   <div class="secao-titulo"><h2>Universidades: quem abriu mais?</h2></div>
-  <p>Universidades federais criadas por lei em cada governo:</p>
+  <p>
+    Universidades federais criadas por lei em cada governo, pela contagem do MEC. "Do zero" são as que não existiam antes
+    em nenhuma forma; as demais foram escolas e faculdades promovidas a universidade ou campi separados de universidades
+    mais antigas.
+  </p>
   <div class="tabela-rolagem">
-    <table class="dados propostas" style="min-width:640px">
-      <thead><tr><th>Governo</th><th>Quantas</th><th>Quais</th><th>Observação</th></tr></thead>
+    <table class="dados propostas" style="min-width:720px">
+      <thead><tr><th>Governo</th><th>Criadas</th><th>Do zero</th><th>Quais</th><th>Observação</th></tr></thead>
       <tbody>
         {
           UNIVERSIDADES.map((u) => (
             <tr>
               <th scope="row">{u.governo}</th>
-              <td style="width:10%;font-weight:700">{u.quantidade ?? 'várias'}</td>
+              <td style="width:8%;font-weight:700">{u.quantidade ?? 'várias'}</td>
+              <td style="width:8%;font-weight:700">{u.doZero ?? '—'}</td>
               <td>{u.exemplos}</td>
               <td>{u.nota}</td>
             </tr>
@@ -137,13 +142,18 @@ const iniciais = IDEB.series[0].valores;
     </table>
   </div>
   <p>
-    <strong>A ditadura ou depois?</strong> A ditadura ampliou a rede federal e espalhou universidades pelos estados, mas a
-    sua principal herança no ensino superior foi o crescimento das faculdades <strong>privadas</strong>, depois da
-    reforma de 1968. Depois de 1985, quem mais criou universidades federais foi Lula, em 2003–2010 (14), com o Reuni
-    ampliando as vagas das federais que já existiam. Muitas das universidades "novas" de todos os governos foram criadas
-    pelo desmembramento de campi que já funcionavam.
+    <strong>A ditadura ou depois?</strong> Pela contagem do MEC, quem mais criou universidades federais foi Lula
+    (14, em 2003–2010), seguido de JK (11) e, empatados, Costa e Silva, já na ditadura, e FHC (6 cada). A ditadura
+    espalhou universidades pelos estados, mas sua principal herança no ensino superior foi o crescimento das faculdades
+    <strong>privadas</strong>, depois da reforma de 1968.
   </p>
-  <p>Alunos matriculados no ensino superior (em milhões):</p>
+  <p>
+    <strong>O número esconde um detalhe:</strong> a maioria das universidades "novas", em todos os governos, já existia de
+    outra forma. Das 14 de Lula, 9 foram escolas, faculdades ou campi promovidos a universidade, e só 5 foram criadas do
+    zero. Das 5 de Temer e da única de Bolsonaro, nenhuma. Transformar uma faculdade em universidade traz mais orçamento,
+    cursos e autonomia, mas não é o mesmo que abrir uma instituição onde não havia nada. Para medir a expansão, as
+    matrículas dizem mais. Alunos no ensino superior, em milhões:
+  </p>
   <BarrasGoverno
     cor="var(--fatos)"
     itens={MATRICULAS_SUPERIOR.map((m) => ({ rotulo: String(m.ano), valor: m.valor, texto: num(m.valor, 1) }))}

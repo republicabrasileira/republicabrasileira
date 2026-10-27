@@ -41,18 +41,43 @@ export const MATRICULAS_SUPERIOR = [
 // Universidades federais criadas por lei em cada governo
 export const UNIVERSIDADES = [
   {
+    governo: 'JK (1956–1961), antes da ditadura',
+    quantidade: 11,
+    doZero: null,
+    exemplos: 'Segundo lugar na contagem do MEC',
+    nota: 'Para comparação: até hoje, só Lula criou mais.',
+  },
+  {
     governo: 'Ditadura militar (1964–1985)',
     quantidade: null,
-    exemplos: 'UFSCar e UFS (1968), UFOP, UFPel e FURG (1969), UFMT (1970), UFMS (1979), UNIR (1982)',
+    doZero: null,
+    exemplos: 'Só no governo Costa e Silva (1967–1969) foram 6, segundo o MEC. Ex.: UFSCar e UFS (1968), UFOP, UFPel e FURG (1969), UFMT (1970), UFMS (1979), UNIR (1982)',
     nota: 'A rede federal cresceu, mas a marca do período foi a Reforma Universitária de 1968, que abriu caminho para a expansão das faculdades privadas.',
   },
-  { governo: 'Itamar Franco', quantidade: 2, exemplos: 'UFLA e Unifesp (1994), transformadas a partir de escolas federais', nota: '' },
-  { governo: 'FHC', quantidade: 4, exemplos: 'UFT (2000), UFCG, Univasf e UFRA (2002)', nota: 'Desmente a frase "tucanos não criaram nenhuma universidade".' },
-  { governo: 'Lula (2003–2010)', quantidade: 14, exemplos: 'UFABC, UFFS, Unila, Unipampa, UFOPA, Unilab, entre outras', nota: 'Além do Reuni (2007), que ampliou vagas nas federais existentes, e dos 38 Institutos Federais (2008).' },
-  { governo: 'Dilma', quantidade: 4, exemplos: 'UFSB, UFOB, UFCA e Unifesspa (2013)', nota: 'Também enviou ao Congresso os projetos de cinco universidades que só seriam sancionadas em 2018.' },
-  { governo: 'Temer', quantidade: 5, exemplos: 'UFCAT, UFJ, UFR, UFAPE e UFDPar (2018)', nota: 'Todas por desmembramento de campi existentes; quatro delas vieram de projetos do governo Dilma.' },
-  { governo: 'Bolsonaro', quantidade: 1, exemplos: 'UFNT (2019)', nota: 'Desmembrada da UFT.' },
-  { governo: 'Lula (2023–2026)', quantidade: 2, exemplos: 'Unind e UFEsporte (2026)', nota: 'Projetos enviados em 2025.' },
+  {
+    governo: 'FHC',
+    quantidade: 6,
+    doZero: 1,
+    exemplos: 'UFLA e Unifesp (1994), UFT (2000), UFCG, Univasf e UFRA (2002)',
+    nota: 'Só a Univasf nasceu do zero; as outras vieram de escolas federais, de campi desmembrados ou da antiga universidade estadual do Tocantins. As leis da UFLA e da Unifesp são de dezembro de 1994 (governo Itamar), mas o MEC as conta com FHC. Desmente a frase "tucanos não criaram nenhuma universidade".',
+  },
+  {
+    governo: 'Lula (2003–2010)',
+    quantidade: 14,
+    doZero: 5,
+    exemplos: 'Do zero: UFABC, Unipampa, UFFS, Unila e Unilab. Transformadas de escolas e faculdades: UTFPR, Unifal, UFTM, UFVJM, UFERSA e UFCSPA. Desmembradas de campi: UFGD, UFRB e UFOPA',
+    nota: 'O maior número da história. Das escolas transformadas, só a da UFERSA (ESAM, 1967) e o campus de Dourados (UFGD, anos 1970) vêm da ditadura; as demais são de 1909 a 1961. Houve ainda o Reuni (2007), que ampliou vagas nas federais existentes, e 38 Institutos Federais (2008).',
+  },
+  {
+    governo: 'Dilma',
+    quantidade: 4,
+    doZero: 1,
+    exemplos: 'Do zero: UFSB. Desmembradas: UFOB, UFCA e Unifesspa (2013)',
+    nota: 'Também enviou ao Congresso os projetos de universidades que só seriam sancionadas em 2018.',
+  },
+  { governo: 'Temer', quantidade: 5, doZero: 0, exemplos: 'UFCAT, UFJ, UFR, UFAPE e UFDPar (2018)', nota: 'Todas por desmembramento de campi existentes; quatro vieram de projetos do governo Dilma.' },
+  { governo: 'Bolsonaro', quantidade: 1, doZero: 0, exemplos: 'UFNT (2019)', nota: 'Desmembrada da UFT.' },
+  { governo: 'Lula (2023–2026)', quantidade: 2, doZero: null, exemplos: 'Unind e UFEsporte (2026)', nota: 'Projetos enviados em 2025.' },
 ];
 
 // Programas mais conhecidos: quem criou, quem mudou e como estão hoje
@@ -82,6 +107,8 @@ export const FONTES = [
   { titulo: '73% dos alunos não sabem o básico em matemática, diz Pisa — O Povo', url: 'https://mais.opovo.com.br/jornal/cidades/2023/12/06/73-dos-alunos-nao-sabem-o-basico-em-matematica-diz-pisa.html' },
   { titulo: 'Por que o Ceará tem as melhores escolas públicas do Brasil — Gazeta do Povo', url: 'https://www.gazetadopovo.com.br/educacao/por-que-o-ceara-tem-as-melhores-escolas-publicas-do-brasil-32nzq3njgh0o8kgb2p4wi223p/' },
   { titulo: 'Brasil tem mais alunos a distância que presenciais (Censo da Educação Superior) — Agência Brasil', url: 'https://agenciabrasil.ebc.com.br/educacao/noticia/2025-09/brasil-tem-mais-alunos-em-cursos-distancia-que-em-presenciais' },
+  { titulo: 'Universidades criadas por presidente, com dados do MEC: Lula 14, JK 11, Costa e Silva e FHC 6 — Agência Pública (2017)', url: 'https://apublica.org/checagem/2017/11/truco-exageros-e-imprecisoes-marcam-discurso-de-lula-em-caravana/' },
+  { titulo: 'Lista de universidades federais, com o ano de fundação das instituições de origem — Wikipédia', url: 'https://pt.wikipedia.org/wiki/Lista_de_universidades_federais_do_Brasil' },
   { titulo: 'ProUni e novas universidades: 14 com Lula e 4 com Dilma (MEC) — Agência Pública', url: 'https://apublica.org/checagem/2015/09/truco-prouni-e-novas-universidades-nao-e-bem-assim-marcon/' },
   { titulo: 'Lei 10.419/2002, que cria a UFCG — Planalto', url: 'https://planalto.gov.br/ccivil_03/LEIS/2002/L10419.htm' },
   { titulo: 'MEC conclui criação de 5 universidades — Poder360', url: 'https://www.poder360.com.br/governo/ministerio-da-educacao-empossa-reitores-e-conclui-criacao-de-5-universidades/' },
