@@ -57,14 +57,19 @@ ordem judicial e desocupou o Pinheirinho, em São José dos Campos. Cerca de 1.5
 de um terreno ligado ao empresário Naji Nahas. A esquerda, incluindo PT e PSOL, tratou Alckmin como o
 responsável direto pela violência da operação. Guilherme Boulos escreveu exatamente isso.
 
+E não foi só a charge. Durante a desocupação, o senador Randolfe Rodrigues, então no PSOL, escreveu nas
+redes que Alckmin poderia **"adotar a suástica como símbolo de seu governo"**.
+
 Dez anos depois, Alckmin saiu do PSDB, entrou no PSB e virou vice na chapa de Lula em 2022. Foi reeleito
-vice em 2026.
+vice em 2026. Quando a aliança foi fechada, Randolfe, já ao lado de Lula, mudou o tom. À *Folha de
+S.Paulo*, disse: "Não tenho dúvida do compromisso do governador Alckmin com a democracia". E completou: "Em
+2012, nem Randolfe nem o Brasil sabiam o que era o fascismo".
 
 ## A pergunta que fica
 
-É justo perguntar à militância: se o homem que vocês desenharam como nazista em 2012 hoje é o vice do seu
-presidente, o que a palavra "fascista" realmente significa para vocês? Um conceito histórico ou só o nome que se dá a quem está do
-outro lado naquela eleição?
+É justo perguntar à militância: se o homem que vocês desenharam como nazista e associaram à suástica em 2012
+hoje é o vice do seu presidente, o que a palavra "fascista" realmente significa para vocês? Um conceito
+histórico ou só o nome que se dá a quem está do outro lado naquela eleição?
 
 ## Fontes
 
@@ -73,4 +78,6 @@ outro lado naquela eleição?
 - [Artigo acadêmico sobre a tese "fascismo de esquerda" — Revista História Unisinos](https://www.revistas.unisinos.br/index.php/historia/article/download/21042/60748881/60790549)
 - [Oito anos depois, onde estão os envolvidos no caso Pinheirinho — Brasil de Fato](https://brasildefato.com.br/2020/01/29/oito-anos-depois-onde-estao-os-principais-envolvidos-no-caso-pinheirinho/)
 - [Pinheirinho: o massacre na desocupação — Global Voices](https://globalvoices.org/2012/01/25/brazil-pinheirinho-massacre-eviction/)
+- [Randolfe associou Alckmin a nazismo em 2012, mas hoje diz que errou — Jornal de Brasília](https://jornaldebrasilia.com.br/noticias/politica-e-poder/randolfe-associou-alckmin-a-nazismo-em-2012-mas-hoje-diz-que-errou/)
+- [Marco de 10 anos do Pinheirinho assombra flerte do PT com Alckmin — Jornal de Brasília](https://jornaldebrasilia.com.br/noticias/politica-e-poder/marco-de-10-anos-da-desocupacao-do-pinheirinho-assombra-flerte-do-pt-com-alckmin/)
 - [Lula é reeleito; Alckmin segue vice — TRE-SP](https://www.tre-sp.jus.br/comunicacao/noticias/2026/Outubro/eleicoes-2026-lula-e-reeleito-presidente-da-republica-confira-resultado-do-2o-turno-em-sp)
