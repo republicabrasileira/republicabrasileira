@@ -33,8 +33,16 @@ E o sigilo chegou ao caso Master. A coluna de Tácio Lorran, do *Metrópoles*, p
 torno da sua prisão. A FAB, que controla o tráfego aéreo do país, negou com base no mesmo artigo da lei
 que permite o sigilo de até 100 anos, alegando proteger a "intimidade" de quem usou o avião, porque o
 itinerário permitiria saber por onde andaram os seus ocupantes. Em nota, a FAB disse que não impõe
-sigilo a listas de passageiros, que ficam com os donos das aeronaves. Na prática, o resultado é o mesmo:
-o público não sabe para onde o avião do dono do maior escândalo bancário do país voou na semana da prisão.
+sigilo a listas de passageiros, que ficam com os donos das aeronaves.
+
+Depois da repercussão, a FAB **voltou atrás** e entregou os planos de voo em 16 de outubro de 2026. Eles
+mostram que o jato tinha decolagem marcada de Guarulhos para **Dubai, com escala em Malta**, na noite de 17
+de novembro de 2025. O horário foi adiado três vezes, e o voo acabou cancelado às 23h36: Vorcaro foi
+preso antes de embarcar. Um formulário apresentado pela defesa previa quatro pessoas a bordo, mas
+**os nomes continuam desconhecidos**.
+
+Se não havia nada a esconder, por que negar primeiro? A tentativa de sigilo só chamou mais atenção para
+uma viagem que, segundo os registros, terminaria em Dubai na semana da prisão.
 
 **O que ela quer esconder?** Não sei, e não vou inventar. Não encontrei nenhuma prova de irregularidade.
 Mas o argumento de que "ela não tem cargo" não se sustenta: a primeira-dama viaja com estrutura pública,
@@ -97,6 +105,22 @@ A lista de nomes ligados a Vorcaro atravessa todos os partidos:
 Aparecer numa investigação **não é prova de crime**. Muitos desses pagamentos podem ter explicação legal. Mas
 quem diz que o caso Master é "coisa da direita" ou "coisa da esquerda" está mentindo para você.
 
+### E o dinheiro "por fora" para Lula?
+
+Em outubro de 2026, a revista *Veja* publicou que Vorcaro, ao tentar fechar um acordo de delação, citou
+**R$ 30 milhões em dinheiro vivo** para um documentário sobre Lula e para o Instituto Lula. Também teria
+dito que o ex-tesoureiro do PT João Vaccari cobrava uma "taxa" de 10% sobre o que o Master captasse em
+fundos de pensão. A revista divulgou um áudio atribuído a Vorcaro. Um dos advogados dele confirmou que a voz
+é dele; outro questionou a autenticidade da gravação.
+
+O outro lado: **a Polícia Federal e a Procuradoria-Geral da República rejeitaram a delação por falta de
+provas**, e a PF afirmou que Vorcaro não prestou depoimento com esse conteúdo. O Instituto Lula nega ter
+recebido o dinheiro, e o PT chamou o caso de "farsa".
+
+Em resumo: é uma acusação séria, feita pelo próprio dono do banco, mas **sem prova aceita até agora**. O
+mesmo critério vale para todos: assim como as suspeitas contra Flávio, esta também precisa ser
+investigada até o fim, e não arquivada por conveniência política.
+
 ## 5. E o Moraes?
 
 Os fatos:
@@ -144,6 +168,10 @@ contrato da esposa, de preferência não para os próprios colegas.
 - [Lula diz que revogará sigilos de 100 anos no 1º dia de governo — Tribuna de Jundiaí](https://tribunadejundiai.com.br/politica/lula-diz-que-revogara-sigilos-de-100-de-bolsonaro-no-1dia-de-governo/)
 - [Lula determina que CGU reavalie sigilos — PT](https://pt.org.br/lula-determina-que-cgu-investigue-sigilos-de-100-anos/)
 - [FAB põe até 100 anos de sigilo em lista de passageiros de jato de Vorcaro — Metrópoles](https://www.metropoles.com/colunas/tacio-lorran/sigilo-100-anos-fab-vorcaro)
+- [Plano de voo de Daniel Vorcaro é liberado pela FAB após negativa — Aerojota](https://aerojota.com.br/plano-de-voo-de-daniel-vorcaro/)
+- [Vorcaro financiou filme de Lula em troca de acesso a fundos, diz revista — Poder360](https://www.poder360.com.br/poder-justica/vorcaro-financiou-filme-de-lula-em-troca-de-acesso-a-fundos-diz-revista/)
+- [Vorcaro cita R$ 30 milhões a filme de Lula, mas PF e PGR apontam falta de provas — O Tempo](https://www.otempo.com.br/politica/judiciario/2026/10/9/vorcaro-cita-r-30-milhoes-a-filme-de-lula-segundo-revista-mas-pf-e-pgr-apontam-falta-de-provas)
+- [Flávio diz que Lula recebeu propina de Vorcaro; PT nega e fala em "farsa" — CNN Brasil](https://www.cnnbrasil.com.br/politica/flavio-diz-que-lula-recebeu-propina-de-vorcaro-pt-nega-e-fala-em-farsa/)
 - [FAB impõe sigilo de 100 anos a lista de jato de Vorcaro, tema de promessa de Lula — Times Brasil](https://timesbrasil.com.br/brasil/fab-impoe-sigilo-de-100-anos-sobre-lista-de-passageiros-do-jato-de-vorcaro-tema-de-promessa-de-lula/)
 
 **Abertura de sigilos**
