@@ -10,7 +10,10 @@ const presidentes = await getPresidentes();
 <Base titulo="Presidentes" descricao="Todos os presidentes desde o fim da ditadura militar, em 1985, e o que cada um prometeu.">
   <span class="selo-pilar fatos">Fatos</span>
   <h1>Presidentes desde 1985</h1>
-  <p class="suave">Do fim da ditadura militar até hoje: quem governou, o que prometeu e o que cumpriu.</p>
+  <p class="suave">
+    Do fim da ditadura militar até hoje: quem governou, o que prometeu e o que cumpriu. Prefere ver em ordem?
+    <a href={url('/mandatos/')}>Linha do tempo de todos os mandatos →</a>
+  </p>
   <div class="cartoes">
     {
       presidentes.map((p) => (

@@ -1,7 +1,7 @@
 ---
 titulo: Triplex, Bolsonaro e 8 de janeiro — dois pesos e duas medidas?
 descricao: Lula não foi absolvido. Bolsonaro está preso. O 8 de janeiro foi golpe ou baderna? Os fatos, as dúvidas e onde cada lado exagera.
-data: 2026-10-27
+data: 2026-10-15
 tags: [Justiça, Lava Jato, 8 de janeiro, Bolsonaro]
 ---
 

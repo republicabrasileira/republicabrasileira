@@ -1,7 +1,7 @@
 ---
 titulo: O voto dos idosos em 2026 e as perguntas que ninguém quer fazer
 descricao: A campanha de Lula mobilizou os eleitores acima de 70 anos. Isso é legítimo? E quem garante que o voto foi livre?
-data: 2026-10-27
+data: 2026-10-26
 tags: [eleições 2026, voto, idosos]
 ---
 

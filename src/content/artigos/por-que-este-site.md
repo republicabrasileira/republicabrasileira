@@ -1,16 +1,16 @@
 ---
 titulo: Por que este site existe
 descricao: Promessa de campanha não pode ser esquecida no dia seguinte à eleição.
-data: 2026-10-26
+data: 2026-10-01
 tags: [editorial]
 ---
 
 Toda eleição produz uma lista de promessas. Poucas semanas depois da posse, quase ninguém lembra delas,
 nem quem prometeu, nem quem votou.
 
-Em 25 de outubro de 2026, Lula foi eleito para o seu **quarto mandato**, o primeiro presidente da
-história do Brasil eleito quatro vezes pelo voto direto. Ao fim dele, serão 16 anos no Planalto e mais de
-duas décadas de promessas, e cada uma delas pode ser conferida.
+Em outubro de 2026, o Brasil volta às urnas. Desde o fim da ditadura, oito presidentes passaram pelo
+Planalto, e Lula, que disputa um **quarto mandato**, já governou por doze anos. São quatro décadas de
+promessas, e cada uma delas pode ser conferida.
 
 O **República Brasileira** existe para fazer isso.
 

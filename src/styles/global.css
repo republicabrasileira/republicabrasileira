@@ -110,8 +110,7 @@ main { padding-top: 28px; padding-bottom: 72px; }
 /* ---------- início ---------- */
 .abertura { display: grid; grid-template-columns: 1.5fr 1fr; gap: 40px; align-items: start; padding: 12px 0 8px; }
 .abertura h1 { font-size: clamp(2.3rem, 6vw, 4rem); margin: 0.15em 0 0.35em; }
-.abertura h1 mark { background: linear-gradient(transparent 58%, var(--amarelo) 58% 92%, transparent 92%); color: inherit; padding: 0 2px; }
-@media (prefers-color-scheme: dark) { .abertura h1 mark { background: linear-gradient(transparent 58%, #6b5714 58% 92%, transparent 92%); } }
+.abertura h1 mark { background: var(--amarelo); color: #17191d; padding: 0 0.14em; border-radius: 4px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 .abertura p.lead { font-size: 1.2rem; color: var(--tinta-2); max-width: 560px; }
 .botoes { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
 .botao { display: inline-block; padding: 11px 18px; border-radius: var(--raio); font-weight: 600; text-decoration: none; border: 2px solid var(--tinta); color: var(--tinta); }
@@ -169,7 +168,7 @@ a.cartao:hover { border-color: var(--tinta-2); transform: translateY(-2px); }
 .artigo header h1 { font-size: clamp(2rem, 5vw, 3rem); }
 .artigo header .lead { font-size: 1.2rem; color: var(--tinta-2); margin: 0 0 14px; }
 .artigo .corpo { font-size: 1.08rem; line-height: 1.75; }
-.artigo .corpo > p:first-of-type::first-letter { float: left; font: 700 3.6em/0.8 var(--serif); padding: 6px 8px 0 0; color: var(--verde); }
+.artigo .corpo:first-of-type > p:first-of-type::first-letter { float: left; font: 700 3.6em/0.8 var(--serif); padding: 6px 8px 0 0; color: var(--verde); }
 .artigo p, .artigo li, .artigo blockquote { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
 .artigo h2 { font-size: 1.6rem; }
 .artigo figure { margin: 2em 0; }
@@ -216,6 +215,13 @@ table.dados th:first-child, table.dados td:first-child { text-align: left; }
 table.dados thead th { white-space: normal; vertical-align: bottom; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--tinta-2); font-weight: 600; }
 table.dados tbody tr:last-child td { border-bottom: 0; }
 table.dados td.neg { color: var(--g-negativo); }
+table.dados.propostas { min-width: 900px; }
+table.dados.propostas th, table.dados.propostas td { white-space: normal; text-align: left; vertical-align: top; line-height: 1.45; }
+table.dados.propostas td { width: 22%; }
+table.dados.propostas tbody th { font-family: var(--serif); font-size: 1rem; color: var(--tinta); }
+table.dados.duas-colunas tbody th { width: 24%; }
+table.dados.duas-colunas td { width: 38%; }
+table.dados.propostas td.vazio { color: var(--tinta-3); font-style: italic; }
 
 .grafico { margin: 8px 0 6px; overflow-x: auto; position: relative; }
 .grafico svg { display: block; width: 100%; min-width: 640px; height: auto; }
@@ -242,10 +248,21 @@ table.dados td.neg { color: var(--g-negativo); }
 .governo dd { margin: 2px 0 0; }
 .governo .nota { margin-top: 12px; padding: 10px 14px; background: var(--superficie); border-left: 4px solid var(--opiniao); border-radius: 0 var(--raio) var(--raio) 0; font-size: 0.95rem; }
 
+/* ---------- esquerda e direita ---------- */
+.eixos { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; max-width: 700px; margin: 20px auto 8px; background: var(--linha); border: 2px solid var(--linha); border-radius: var(--raio); overflow: hidden; }
+.eixos div { background: var(--superficie); padding: 16px; }
+.eixos strong { display: block; font-family: var(--serif); font-size: 1.05rem; margin-bottom: 4px; }
+.eixos span { font-size: 0.9rem; color: var(--tinta-2); }
+.espectro { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; max-width: 700px; margin: 16px auto 24px; }
+.espectro div { background: var(--superficie); border: 1px solid var(--linha); border-radius: var(--raio); padding: 14px; text-align: center; }
+.espectro p { margin: 10px 0 0; font-weight: 600; font-size: 0.95rem; }
+.nota-opiniao { margin: 32px 0; padding: 16px 20px; background: var(--superficie); border-left: 4px solid var(--opiniao); border-radius: 0 var(--raio) var(--raio) 0; }
+.nota-opiniao p { margin: 10px 0 0; }
+
 /* ---------- responsivo ---------- */
 @media (max-width: 820px) {
   .abertura, .destaque-artigo, .governo { grid-template-columns: 1fr; gap: 24px; }
-  .pilares { grid-template-columns: 1fr; }
+  .pilares, .eixos, .espectro { grid-template-columns: 1fr; }
   .pilar { border-left: 0; border-top: 1px solid var(--linha); padding: 18px 0; }
   .pilar:first-child { border-top: 0; }
   .barras .linha-barra { grid-template-columns: 96px 1fr 56px; }

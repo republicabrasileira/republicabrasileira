@@ -1,0 +1,126 @@
+---
+import Base from '../layouts/Base.astro';
+import BarrasGoverno from '../components/BarrasGoverno.astro';
+import { PRIMEIRO_TURNO, SEGUNDO_TURNO, CANDIDATOS, PROPOSTAS, FONTES } from '../data/eleicoes-2026';
+import { pct } from '../lib/formato';
+import { url } from '../lib/url';
+---
+
+<Base
+  titulo="Eleições 2026"
+  descricao="Resultado da eleição presidencial de 2026 e as propostas de Lula, Flávio Bolsonaro, Augusto Cury e Renan Santos lado a lado."
+>
+  <header class="estreito">
+    <span class="selo-pilar fatos">Fatos</span>
+    <h1>Eleições 2026: quem propôs o quê</h1>
+    <p class="suave" style="font-size:1.15rem">
+      O resultado e as propostas dos quatro candidatos mais votados, tema por tema. No fim, o que eu considero mais
+      importante para a população.
+    </p>
+  </header>
+
+  <div class="secao-titulo"><h2>O resultado</h2></div>
+  <div class="destaque-artigo">
+    <div>
+      <h3>1º turno · 4 de outubro</h3>
+      <BarrasGoverno
+        cor="var(--fatos)"
+        itens={PRIMEIRO_TURNO.map((c) => ({ rotulo: c.nome, valor: c.pct, texto: pct(c.pct, 2) }))}
+      />
+      <p class="pequeno suave">Percentual dos votos válidos.</p>
+    </div>
+    <div>
+      <h3>2º turno · 25 de outubro</h3>
+      <BarrasGoverno
+        cor="var(--fatos)"
+        itens={SEGUNDO_TURNO.map((c) => ({ rotulo: c.nome, valor: c.pct, texto: pct(c.pct, 2) }))}
+      />
+      <p class="pequeno suave">
+        Lula virou a eleição: foi a primeira vez que o segundo colocado no 1º turno venceu o 2º. A diferença final foi de
+        cerca de 4,4 milhões de votos.
+      </p>
+    </div>
+  </div>
+
+  <div class="secao-titulo"><h2>As propostas, lado a lado</h2></div>
+  <div class="tabela-rolagem">
+    <table class="dados propostas">
+      <thead>
+        <tr>
+          <th>Tema</th>
+          {
+            CANDIDATOS.map((c) => (
+              <th>
+                {c.nome} ({c.partido})
+                <br />
+                <span style="text-transform:none;letter-spacing:0;font-weight:400">{c.resultado}</span>
+              </th>
+            ))
+          }
+        </tr>
+      </thead>
+      <tbody>
+        {
+          PROPOSTAS.map((linha) => (
+            <tr>
+              <th scope="row">{linha.tema}</th>
+              {CANDIDATOS.map((c) => (
+                <td class={linha[c.id].startsWith('Não detalhado') ? 'vazio' : ''}>{linha[c.id]}</td>
+              ))}
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+  <p class="pequeno suave">
+    Resumo dos planos de governo registrados no TSE, a partir da cobertura da imprensa (fontes no fim da página). Onde
+    aparece "não detalhado", o tema não constava nas fontes consultadas; isso não quer dizer que o candidato não tenha
+    nenhuma proposta sobre ele.
+  </p>
+
+  <section class="estreito artigo" style="margin:48px 0 0">
+    <span class="selo-pilar opiniao">Opinião</span>
+    <h2 style="margin-top:12px">O que mais importa para a população</h2>
+    <div class="corpo">
+      <p>
+        <strong>1. Segurança é o único consenso.</strong> Os quatro prometem endurecer contra o crime organizado; mudam
+        os métodos. Lula aposta em asfixiar o dinheiro das facções, Flávio em penas mais duras, Cury em integrar as
+        polícias e Renan em medidas de exceção. Como Lula venceu, a cobrança é clara: o Ministério da Segurança
+        Pública, prometido em 2022 e não entregue, precisa sair do papel.
+      </p>
+      <p>
+        <strong>2. O bolso.</strong> As duas visões são opostas. Lula quer aliviar quem ganha menos (isenção do IR, cesta
+        básica sem imposto, fim da 6x1). Flávio queria baratear o consumo e o emprego para quem contrata. O risco do
+        caminho escolhido é o mesmo de sempre: gastar mais sem dizer de onde vem o dinheiro. O plano de Lula não traz
+        o custo das promessas.
+      </p>
+      <p>
+        <strong>3. A fila do SUS tem três ideias que se completam.</strong> Ampliar especialistas (Lula), usar os
+        horários vagos da rede privada (Flávio) e telemedicina para consultas básicas (Cury). Nenhuma exclui a outra.
+        Um governo sério copiaria as boas ideias dos adversários.
+      </p>
+      <p>
+        <strong>4. Ideias de quem perdeu que valem cobrança.</strong> Rastrear emendas parlamentares com tecnologia
+        pública e auditável (Renan) e mandato fixo para ministros do STF (Cury) atacam problemas reais de
+        transparência e de poder sem controle, como mostrei no texto
+        <a href={url('/artigos/sigilos-vorcaro-mesma-lei/')}>Sigilos, Vorcaro e a mesma lei para todos</a>.
+      </p>
+      <p>
+        Lula venceu, e as promessas dele já estão na página <a href={url('/cobrancas/')}>O que cobrar</a>. A partir de
+        agora, cada uma será acompanhada.
+      </p>
+    </div>
+  </section>
+
+  <div class="secao-titulo"><h2>Fontes</h2></div>
+  <ul class="pequeno">
+    {
+      FONTES.map((f) => (
+        <li>
+          <a href={f.url} target="_blank" rel="noopener">{f.titulo}</a>
+        </li>
+      ))
+    }
+  </ul>
+</Base>

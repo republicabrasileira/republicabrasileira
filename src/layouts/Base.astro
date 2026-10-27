@@ -12,11 +12,11 @@ const { titulo, descricao = 'O que eu penso, o que os fatos mostram e o que deve
 const tituloPagina = titulo ? `${titulo} · ${NOME}` : NOME;
 const atual = Astro.url.pathname;
 const links = [
-  { href: url('/'), texto: 'Início' },
   { href: url('/artigos/'), texto: 'Opinião' },
   { href: url('/presidentes/'), texto: 'Presidentes' },
   { href: url('/economia/'), texto: 'Economia' },
-  { href: url('/mandatos/'), texto: 'Linha do tempo' },
+  { href: url('/eleicoes-2026/'), texto: 'Eleições 2026' },
+  { href: url('/esquerda-e-direita/'), texto: 'Esquerda e direita' },
   { href: url('/cobrancas/'), texto: 'O que cobrar', classe: 'cobrar' },
   { href: url('/sobre/'), texto: 'Sobre' },
 ];

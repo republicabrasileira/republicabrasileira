@@ -1,0 +1,169 @@
+---
+import Base from '../layouts/Base.astro';
+import { url } from '../lib/url';
+
+const valores = [
+  { tema: 'Papel do Estado', esquerda: 'Estado forte, que induz o desenvolvimento e corrige desigualdades.', direita: 'Estado menor e mais eficiente; o mercado e a iniciativa privada geram riqueza.' },
+  { tema: 'Impostos', esquerda: 'Mais impostos sobre os mais ricos para financiar serviços públicos.', direita: 'Menos impostos e menos gasto público.' },
+  { tema: 'Empresas estatais', esquerda: 'Estatais estratégicas (Petrobras, bancos públicos) devem continuar com o Estado.', direita: 'Privatizar o que o setor privado faz melhor.' },
+  { tema: 'Programas sociais', esquerda: 'Transferência de renda como direito, ampliada.', direita: 'Programas focados e temporários, com porta de saída.' },
+  { tema: 'Trabalho', esquerda: 'Mais proteção ao trabalhador e sindicatos fortes.', direita: 'Regras mais flexíveis para facilitar a contratação.' },
+  { tema: 'Segurança', esquerda: 'Atacar as causas sociais do crime e controlar as armas.', direita: 'Penas mais duras e direito do cidadão de ter arma.' },
+  { tema: 'Costumes', esquerda: 'Pautas progressistas: aborto, drogas, identidade de gênero.', direita: 'Valores tradicionais, família e religião.' },
+];
+---
+
+<Base
+  titulo="Esquerda e direita"
+  descricao="De onde vêm os termos esquerda e direita, o que cada lado defende e como isso funciona no Brasil."
+>
+  <article class="artigo">
+    <header>
+      <span class="selo-pilar fatos">Fatos</span>
+      <h1>Esquerda e direita: de onde vem, o que significa e como é no Brasil</h1>
+      <p class="lead">
+        Todo mundo usa as palavras, quase ninguém sabe a origem. Começou com a disposição das cadeiras numa assembleia
+        em 1789.
+      </p>
+    </header>
+
+    <div class="corpo">
+      <h2>1. Nasceu numa votação</h2>
+      <p>
+        Em setembro de 1789, no começo da Revolução Francesa, a Assembleia Nacional discutia se o rei teria poder de
+        veto sobre as leis. Para facilitar a contagem dos votos, os deputados que defendiam o veto absoluto do rei se
+        sentaram à <strong>direita</strong> do presidente da Assembleia. Os que eram contra, ou aceitavam no máximo um
+        veto limitado, ficaram à <strong>esquerda</strong>.
+      </p>
+      <p>
+        A divisão pegou. "Direita" passou a significar quem queria <strong>conservar</strong> a ordem, a tradição e a
+        autoridade. "Esquerda" passou a significar quem queria <strong>mudar</strong>, em nome da igualdade. Ao longo do
+        século XIX, os parlamentos de outros países europeus adotaram a mesma lógica.
+      </p>
+
+      <h2>2. O sentido mudou com o tempo</h2>
+      <p>
+        Em 1789, os <strong>liberais</strong>, defensores da liberdade individual, do comércio e de limites ao rei, eram a
+        esquerda. Com a Revolução Industrial surgiram os movimentos operários e o socialismo, que passaram a ocupar a
+        esquerda. Os liberais econômicos acabaram do outro lado.
+      </p>
+      <p>
+        Por isso, hoje, "liberal" na economia é associado à direita, e o mesmo rótulo pode significar coisas diferentes
+        em países diferentes. Nos Estados Unidos, "liberal" quer dizer progressista, ou seja, de esquerda.
+      </p>
+
+      <h2>3. O que cada lado costuma defender hoje</h2>
+      <p>São tendências, não regras: muita gente concorda com um lado na economia e com o outro nos costumes.</p>
+    </div>
+
+    <div class="tabela-rolagem">
+      <table class="dados propostas duas-colunas" style="min-width:560px">
+        <thead>
+          <tr><th>Tema</th><th>Esquerda costuma defender</th><th>Direita costuma defender</th></tr>
+        </thead>
+        <tbody>
+          {
+            valores.map((v) => (
+              <tr>
+                <th scope="row">{v.tema}</th>
+                <td>{v.esquerda}</td>
+                <td>{v.direita}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+
+    <div class="corpo">
+      <h2>4. Na verdade, são dois eixos</h2>
+      <p>
+        Uma linha só, da esquerda à direita, não explica tudo. Cientistas políticos costumam usar dois eixos: um
+        <strong>econômico</strong> (mais Estado ou mais mercado) e outro de <strong>liberdade</strong> (mais liberdade
+        individual ou mais autoridade e controle).
+      </p>
+    </div>
+
+    <div class="eixos" role="img" aria-label="Quadrante com dois eixos: economia e liberdade">
+      <div><strong>Esquerda libertária</strong><span>Mais Estado na economia, mais liberdade nos costumes. Ex.: social-democracia europeia.</span></div>
+      <div><strong>Direita libertária</strong><span>Mais mercado, mais liberdade individual. Ex.: liberais clássicos, libertários.</span></div>
+      <div><strong>Esquerda autoritária</strong><span>Estado controla a economia e a vida. Ex.: regimes comunistas como a URSS e Cuba.</span></div>
+      <div><strong>Direita autoritária</strong><span>Ordem, nação e líder acima de tudo. Ex.: fascismo, nazismo, ditaduras militares.</span></div>
+    </div>
+    <p class="pequeno suave" style="text-align:center">↑ mais liberdade · ↓ mais autoridade · ← mais Estado · → mais mercado</p>
+
+    <div class="corpo">
+      <p>
+        Os extremos dos dois lados se parecem num ponto: partido único, censura e perseguição de opositores. A
+        discussão sobre onde fica o fascismo está no texto
+        <a href={url('/artigos/fascismo-e-o-vice-de-lula/')}>"Fascista!": a palavra que virou xingamento</a>.
+      </p>
+
+      <h2>5. Como é no Brasil</h2>
+      <p>
+        <strong>1922–1937:</strong> nascem os dois polos radicais. O Partido Comunista do Brasil (PCB), de 1922, na
+        extrema esquerda; a Ação Integralista Brasileira, de 1932, inspirada no fascismo italiano, na extrema direita.
+      </p>
+      <p>
+        <strong>Era Vargas (1930–1945):</strong> difícil de classificar. Criou a CLT e os direitos trabalhistas, mas
+        governou como ditador no Estado Novo (1937–1945), com censura e perseguição de comunistas e integralistas.
+      </p>
+      <p>
+        <strong>1945–1964:</strong> o PTB (trabalhista) ficava na esquerda, o PSD no centro e a UDN, liberal e
+        conservadora, na direita.
+      </p>
+      <p>
+        <strong>Ditadura militar (1964–1985):</strong> regime de direita, anticomunista. Os partidos foram extintos e
+        substituídos por dois: a ARENA, do governo, e o MDB, uma oposição tolerada.
+      </p>
+      <p>
+        <strong>Redemocratização:</strong> por causa da ditadura, quase ninguém queria ser chamado de direita. Em 1987, o
+        cientista político Leôncio Martins Rodrigues chamou isso de <strong>"direita envergonhada"</strong>: pela
+        autodeclaração dos deputados, o Brasil parecia um país sem direita.
+      </p>
+      <p>
+        <strong>1994–2014:</strong> a disputa nacional foi entre PT (esquerda) e PSDB (que nasceu social-democrata, de
+        centro-esquerda, e no governo adotou uma agenda econômica liberal). No meio, o "centrão": partidos que apoiam
+        quem estiver no governo em troca de cargos e verbas.
+      </p>
+      <p>
+        <strong>De 2013 para cá:</strong> protestos de rua, Lava Jato e o impeachment de Dilma abriram espaço para uma
+        direita que se assume como direita, conservadora nos costumes e liberal na economia. Ela chegou ao poder com
+        Bolsonaro em 2018. Desde então, a polarização é PT contra PL, e o centrão continua decidindo votações.
+      </p>
+
+      <h2>6. Onde ficam os partidos hoje</h2>
+      <p>
+        Pesquisas com cientistas políticos e com os próprios parlamentares chegam a uma ordem parecida. É uma
+        aproximação: dentro de cada partido há gente mais de um lado ou do outro.
+      </p>
+    </div>
+
+    <div class="espectro">
+      <div><span class="selo-pilar" style="background:#b23a2b">Esquerda</span><p>PSOL · PCdoB · PT · PSB · PDT</p></div>
+      <div><span class="selo-pilar" style="background:#7a7f88">Centro</span><p>MDB · PSD · PSDB</p></div>
+      <div><span class="selo-pilar" style="background:#1f5fa8">Direita</span><p>União · PP · Republicanos · Novo · PL</p></div>
+    </div>
+
+    <div class="corpo">
+      <aside class="nota-opiniao">
+        <span class="selo-pilar opiniao">Opinião</span>
+        <p>
+          Esquerda e direita são ferramentas para entender o debate, não times de futebol. Quem chama todo adversário de
+          "fascista" ou de "comunista" está fugindo da discussão. Uma boa ideia continua boa, venha de onde vier, e
+          um governo deve ser cobrado pelo que prometeu, não pelo lado em que senta.
+        </p>
+      </aside>
+
+      <h2>Fontes</h2>
+      <ul class="pequeno">
+        <li><a href="https://www.opovo.com.br/noticias/politica/2020/11/22/direita--esquerda--centro--qual-a-origem-destes-termos-na-politica-e-quais-suas-diferencas.html" target="_blank" rel="noopener">Direita, esquerda, centro: qual a origem destes termos — O Povo</a></li>
+        <li><a href="https://observador.pt/programas/5-continentes/o-binomio-esquerda-e-direita-ainda-serve-para-ler-o-mundo/" target="_blank" rel="noopener">O binômio esquerda e direita ainda serve para ler o mundo? — Observador</a></li>
+        <li><a href="https://congressoemfoco.com.br/area/pais/esquerdas-e-direitas-os-plurais-necessarios" target="_blank" rel="noopener">Esquerdas e direitas: os plurais necessários — Congresso em Foco</a></li>
+        <li><a href="https://www.scielo.br/j/op/a/fb7t4KkpVsJfvHwgLnf3wxS/" target="_blank" rel="noopener">Estudo sobre a "direita envergonhada" — Revista Opinião Pública (Unicamp/SciELO)</a></li>
+        <li><a href="https://scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/?lang=en" target="_blank" rel="noopener">Classificação ideológica atualizada dos partidos brasileiros — Revista Dados (SciELO, 2023)</a></li>
+        <li><a href="https://www.em.com.br/app/noticia/politica/2013/09/16/interna_politica,449344/trabalho-inedito-da-ufmg-mostra-a-ideologia-dos-deputados-federais-e-estaduais.shtml" target="_blank" rel="noopener">Trabalho da UFMG mostra a ideologia dos deputados — Estado de Minas</a></li>
+      </ul>
+    </div>
+  </article>
+</Base>
