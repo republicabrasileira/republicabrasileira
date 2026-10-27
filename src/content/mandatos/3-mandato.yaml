@@ -1,0 +1,28 @@
+numero: 3
+presidente: Luiz Inácio Lula da Silva
+inicio: 2023
+fim: 2026
+eleicao: 2022
+
+# EXEMPLOS — confira dados e fontes antes de marcar verificado: true
+promessas:
+  - titulo: Isentar do Imposto de Renda quem ganha até R$ 5 mil por mês
+    tema: Economia
+    status: cumprida
+    analise: Exemplo. Indique a lei aprovada e quando passou a valer.
+    verificado: false
+
+  - titulo: Retomar a política de aumento real do salário mínimo
+    tema: Trabalho
+    status: cumprida
+    analise: Exemplo. Indique a lei e os reajustes de cada ano.
+    verificado: false
+
+  - titulo: Zerar o desmatamento na Amazônia até 2030
+    tema: Meio ambiente
+    status: em_andamento
+    analise: Exemplo. Use os dados anuais do Prodes/Inpe.
+    fontes:
+      - titulo: TerraBrasilis — Inpe
+        url: https://terrabrasilis.dpi.inpe.br/
+    verificado: false

@@ -1,0 +1,15 @@
+numero: 4
+presidente: Luiz Inácio Lula da Silva
+inicio: 2027
+fim: 2030
+eleicao: 2026
+resumo: Mandato que começa em 1º de janeiro de 2027.
+planoDeGoverno: https://divulgacandcontas.tse.jus.br/
+
+# Preencha com as promessas da campanha de 2026 (status inicial: nao_iniciada)
+promessas:
+  - titulo: Exemplo de promessa da campanha de 2026 — substitua
+    tema: Economia
+    status: nao_iniciada
+    analise: Copie o texto da promessa e a fonte (plano de governo, debate, entrevista).
+    verificado: false

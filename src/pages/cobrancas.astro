@@ -1,0 +1,40 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Promessa from '../components/Promessa.astro';
+import { PENDENTES } from '../lib/status';
+import { url } from '../lib/url';
+
+const mandatos = (await getCollection('mandatos')).sort((a, b) => a.data.numero - b.data.numero);
+const atual = mandatos.at(-1)!;
+const anteriores = mandatos.slice(0, -1);
+
+const pendentes = anteriores.flatMap((m) =>
+  m.data.promessas
+    .filter((p) => PENDENTES.includes(p.status))
+    .map((p) => ({ ...p, origem: `${m.data.numero}º mandato` })),
+);
+---
+
+<Base
+  titulo={`O que cobrar do ${atual.data.numero}º mandato`}
+  descricao="Promessas pendentes dos mandatos anteriores e os novos compromissos de campanha."
+>
+  <h1>O que cobrar do {atual.data.numero}º mandato</h1>
+  <p class="suave">
+    {atual.data.presidente} · {atual.data.inicio}–{atual.data.fim}. Esta página junta o que ficou pendente nos mandatos
+    anteriores com o que foi prometido na campanha de {atual.data.eleicao}.
+  </p>
+
+  <h2>Promessas da campanha de {atual.data.eleicao} ({atual.data.promessas.length})</h2>
+  <ul class="promessas">
+    {atual.data.promessas.map((p) => <Promessa {...p} />)}
+  </ul>
+  <p><a href={url(`/mandatos/${atual.id}/`)}>Acompanhar o {atual.data.numero}º mandato →</a></p>
+
+  <h2>Pendências de mandatos anteriores ({pendentes.length})</h2>
+  <p class="suave">Promessas não cumpridas, parciais ou ainda em andamento.</p>
+  <ul class="promessas">
+    {pendentes.map((p) => <Promessa {...p} />)}
+  </ul>
+</Base>

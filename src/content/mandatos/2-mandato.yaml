@@ -1,0 +1,13 @@
+numero: 2
+presidente: Luiz Inácio Lula da Silva
+inicio: 2007
+fim: 2010
+eleicao: 2006
+
+# EXEMPLOS — confira dados e fontes antes de marcar verificado: true
+promessas:
+  - titulo: Levar energia elétrica a todos os domicílios (Luz para Todos)
+    tema: Infraestrutura
+    status: em_andamento
+    analise: Exemplo. Registre a meta, o que foi alcançado e o que ficou pendente.
+    verificado: false

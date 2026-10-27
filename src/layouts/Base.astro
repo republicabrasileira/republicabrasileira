@@ -1,0 +1,70 @@
+---
+import '../styles/global.css';
+import { url } from '../lib/url';
+
+interface Props {
+  titulo?: string;
+  descricao?: string;
+}
+
+const NOME = 'República Brasileira';
+const { titulo, descricao = 'Análises, ideias e o acompanhamento das promessas do presidente da República.' } = Astro.props;
+const tituloPagina = titulo ? `${titulo} · ${NOME}` : NOME;
+const atual = Astro.url.pathname;
+const links = [
+  { href: url('/'), texto: 'Início' },
+  { href: url('/artigos/'), texto: 'Artigos' },
+  { href: url('/mandatos/'), texto: 'Mandatos' },
+  { href: url('/cobrancas/'), texto: 'O que cobrar' },
+  { href: url('/sobre/'), texto: 'Sobre' },
+];
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{tituloPagina}</title>
+    <meta name="description" content={descricao} />
+    <meta property="og:title" content={tituloPagina} />
+    <meta property="og:description" content={descricao} />
+    <link rel="icon" type="image/svg+xml" href={url('/favicon.svg')} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="faixa" aria-hidden="true"></div>
+    <header class="topo">
+      <div class="container topo-interno">
+        <a href={url('/')} class="marca">
+          <img src={url('/favicon.svg')} alt="" width="28" height="28" />
+          <span>{NOME}</span>
+        </a>
+        <nav>
+          {
+            links.map((l) => (
+              <a href={l.href} aria-current={atual === l.href || (l.href !== url('/') && atual.startsWith(l.href)) ? 'page' : undefined}>
+                {l.texto}
+              </a>
+            ))
+          }
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <slot />
+    </main>
+
+    <footer class="rodape">
+      <div class="container">
+        <p>{NOME} — opiniões do autor. Dados de promessas sempre acompanhados de fontes.</p>
+      </div>
+    </footer>
+  </body>
+</html>

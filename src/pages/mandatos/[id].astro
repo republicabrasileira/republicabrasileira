@@ -1,0 +1,57 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Placar from '../../components/Placar.astro';
+import Promessa from '../../components/Promessa.astro';
+import { STATUS, STATUS_LABEL } from '../../lib/status';
+import { url } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const mandatos = await getCollection('mandatos');
+  return mandatos.map((mandato) => ({ params: { id: mandato.id }, props: { mandato } }));
+}
+
+const { mandato } = Astro.props;
+const m = mandato.data;
+const presentes = STATUS.filter((s) => m.promessas.some((p) => p.status === s));
+---
+
+<Base titulo={`${m.numero}º mandato (${m.inicio}–${m.fim})`} descricao={`Promessas de ${m.presidente} na eleição de ${m.eleicao}.`}>
+  <p class="suave"><a href={url('/mandatos/')}>← Mandatos</a></p>
+  <h1>{m.numero}º mandato · {m.inicio}–{m.fim}</h1>
+  <p class="suave">
+    {m.presidente}, eleito em {m.eleicao}.
+    {m.planoDeGoverno && <a href={m.planoDeGoverno} target="_blank" rel="noopener">Plano de governo registrado</a>}
+  </p>
+  {m.resumo && <p>{m.resumo}</p>}
+
+  <Placar promessas={m.promessas} />
+
+  <h2>Promessas</h2>
+  <div class="filtros" id="filtros">
+    <button type="button" data-filtro="todas" aria-pressed="true">Todas ({m.promessas.length})</button>
+    {
+      presentes.map((s) => (
+        <button type="button" data-filtro={s} aria-pressed="false">
+          {STATUS_LABEL[s]} ({m.promessas.filter((p) => p.status === s).length})
+        </button>
+      ))
+    }
+  </div>
+
+  <ul class="promessas" id="promessas">
+    {m.promessas.map((p) => <Promessa {...p} />)}
+  </ul>
+</Base>
+
+<script>
+  const botoes = document.querySelectorAll<HTMLButtonElement>('#filtros button');
+  const itens = document.querySelectorAll<HTMLElement>('#promessas > li');
+  botoes.forEach((b) =>
+    b.addEventListener('click', () => {
+      const filtro = b.dataset.filtro;
+      botoes.forEach((o) => o.setAttribute('aria-pressed', String(o === b)));
+      itens.forEach((li) => (li.hidden = filtro !== 'todas' && li.dataset.status !== filtro));
+    }),
+  );
+</script>

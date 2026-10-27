@@ -1,0 +1,38 @@
+---
+import Base from '../layouts/Base.astro';
+import { STATUS, STATUS_LABEL } from '../lib/status';
+---
+
+<Base titulo="Sobre" descricao="O que é o República Brasileira e como as promessas são avaliadas.">
+  <article class="artigo">
+    <h1>Sobre</h1>
+    <p>
+      O <strong>República Brasileira</strong> é um espaço pessoal de análise da política nacional. Aqui eu acompanho as
+      promessas do presidente da República mandato a mandato, registro o que foi cumprido e organizo o que precisa ser
+      cobrado.
+    </p>
+
+    <h2>Metodologia</h2>
+    <p>
+      Cada promessa vem de uma fonte verificável: plano de governo registrado no TSE, discurso ou entrevista. Cada uma
+      recebe um destes status:
+    </p>
+    <ul class="promessas">
+      {
+        STATUS.map((s) => (
+          <li class="promessa" data-status={s}>
+            <span class="selo">{STATUS_LABEL[s]}</span>
+          </li>
+        ))
+      }
+    </ul>
+    <p>
+      O percentual de cumprimento conta promessas cumpridas como 1 ponto e parcialmente cumpridas como meio ponto,
+      dividido pelo total de promessas avaliadas. Promessas ainda não iniciadas não entram na conta.
+    </p>
+    <p>
+      Itens marcados como <span class="aviso">rascunho</span> ainda não tiveram dados e fontes conferidos.
+    </p>
+    <p>Os artigos expressam a opinião do autor.</p>
+  </article>
+</Base>

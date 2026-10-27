@@ -1,0 +1,37 @@
+---
+import { STATUS_LABEL, type Status } from '../lib/status';
+
+interface Props {
+  titulo: string;
+  tema: string;
+  status: Status;
+  analise?: string;
+  fontes: { titulo: string; url: string }[];
+  verificado: boolean;
+  origem?: string;
+}
+
+const { titulo, tema, status, analise, fontes, verificado, origem } = Astro.props;
+---
+
+<li class="promessa" data-status={status} data-tema={tema}>
+  <span class="selo">{STATUS_LABEL[status]}</span>
+  <span class="tag">{tema}</span>
+  {origem && <span class="tag">{origem}</span>}
+  {!verificado && <span class="aviso" title="Dados e fontes ainda não conferidos">rascunho</span>}
+  <h3>{titulo}</h3>
+  {analise && <p>{analise}</p>}
+  {
+    fontes.length > 0 && (
+      <ul class="fontes">
+        {fontes.map((f) => (
+          <li>
+            <a href={f.url} target="_blank" rel="noopener">
+              {f.titulo}
+            </a>
+          </li>
+        ))}
+      </ul>
+    )
+  }
+</li>

@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Placar from '../../components/Placar.astro';
+import { url } from '../../lib/url';
+
+const mandatos = (await getCollection('mandatos')).sort((a, b) => a.data.numero - b.data.numero);
+---
+
+<Base titulo="Mandatos" descricao="Todas as promessas de cada mandato e quanto delas foi cumprido.">
+  <h1>Mandatos</h1>
+  <p class="suave">Cada mandato reúne as promessas feitas na campanha, com status e fontes.</p>
+  <div class="cartoes">
+    {
+      mandatos.map((m) => (
+        <a class="cartao" href={url(`/mandatos/${m.id}/`)}>
+          <h3>{m.data.numero}º mandato</h3>
+          <p class="suave">
+            {m.data.presidente} · {m.data.inicio}–{m.data.fim} · eleição de {m.data.eleicao}
+          </p>
+          {m.data.resumo && <p>{m.data.resumo}</p>}
+          <Placar promessas={m.data.promessas} />
+        </a>
+      ))
+    }
+  </div>
+</Base>

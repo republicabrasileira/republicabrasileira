@@ -1,0 +1,41 @@
+---
+import { STATUS, STATUS_LABEL, placar, type Status } from '../lib/status';
+
+interface Props {
+  promessas: { status: Status }[];
+}
+
+const p = placar(Astro.props.promessas);
+---
+
+<div class="placar">
+  {
+    p.percentual === null ? (
+      <p class="suave">Nenhuma promessa avaliada ainda.</p>
+    ) : (
+      <div>
+        <span class="placar-numero">{p.percentual}%</span>
+        <span class="suave"> de cumprimento ({p.avaliadas} promessas avaliadas)</span>
+      </div>
+    )
+  }
+  {
+    p.total > 0 && (
+      <div class="barra" role="img" aria-label="Distribuição das promessas por status">
+        {STATUS.filter((s) => p.contagem[s]).map((s) => (
+          <span data-status={s} style={`width:${(p.contagem[s] / p.total) * 100}%;background:var(--cor)`} />
+        ))}
+      </div>
+    )
+  }
+  <div class="legenda">
+    {
+      STATUS.filter((s) => p.contagem[s]).map((s) => (
+        <span data-status={s}>
+          <i style="background:var(--cor)" />
+          {STATUS_LABEL[s]}: {p.contagem[s]}
+        </span>
+      ))
+    }
+  </div>
+</div>

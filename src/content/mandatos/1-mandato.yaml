@@ -1,0 +1,23 @@
+numero: 1
+presidente: Luiz Inácio Lula da Silva
+inicio: 2003
+fim: 2006
+eleicao: 2002
+resumo: Primeiro mandato, eleito com o programa "Um Brasil para Todos".
+
+# EXEMPLOS — confira dados e fontes antes de marcar verificado: true
+promessas:
+  - titulo: Garantir que todo brasileiro faça três refeições por dia (Fome Zero)
+    tema: Social
+    status: parcial
+    analise: Exemplo. Descreva aqui o que foi feito, com números e datas.
+    fontes:
+      - titulo: Divulgação de candidaturas — TSE
+        url: https://divulgacandcontas.tse.jus.br/
+    verificado: false
+
+  - titulo: Criar 10 milhões de empregos
+    tema: Economia
+    status: parcial
+    analise: Exemplo. Compare a promessa com os dados oficiais de emprego do período.
+    verificado: false
