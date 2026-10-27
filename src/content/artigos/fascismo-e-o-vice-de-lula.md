@@ -1,7 +1,7 @@
 ---
 titulo: '"Fascista!": a palavra que virou xingamento e o vice que já foi chamado assim'
 descricao: A militância chama a direita de fascista. Mas sabe de onde veio o fascismo? E por que o homem desenhado como nazista em 2012 hoje é vice de Lula?
-data: 2026-10-27
+data: 2026-10-17
 tags: [fascismo, história, Alckmin]
 ---
 
@@ -60,8 +60,8 @@ responsável direto pela violência da operação. Guilherme Boulos escreveu exa
 E não foi só a charge. Durante a desocupação, o senador Randolfe Rodrigues, então no PSOL, escreveu nas
 redes que Alckmin poderia **"adotar a suástica como símbolo de seu governo"**.
 
-Dez anos depois, Alckmin saiu do PSDB, entrou no PSB e virou vice na chapa de Lula em 2022. Foi reeleito
-vice em 2026. Quando a aliança foi fechada, Randolfe, já ao lado de Lula, mudou o tom. À *Folha de
+Dez anos depois, Alckmin saiu do PSDB, entrou no PSB e virou vice na chapa de Lula em 2022. Em 2026, é de novo
+candidato a vice, na disputa do segundo turno. Quando a aliança foi fechada, em 2022, Randolfe, já ao lado de Lula, mudou o tom. À *Folha de
 S.Paulo*, disse: "Não tenho dúvida do compromisso do governador Alckmin com a democracia". E completou: "Em
 2012, nem Randolfe nem o Brasil sabiam o que era o fascismo".
 
@@ -80,4 +80,4 @@ histórico ou só o nome que se dá a quem está do outro lado naquela eleição
 - [Pinheirinho: o massacre na desocupação — Global Voices](https://globalvoices.org/2012/01/25/brazil-pinheirinho-massacre-eviction/)
 - [Randolfe associou Alckmin a nazismo em 2012, mas hoje diz que errou — Jornal de Brasília](https://jornaldebrasilia.com.br/noticias/politica-e-poder/randolfe-associou-alckmin-a-nazismo-em-2012-mas-hoje-diz-que-errou/)
 - [Marco de 10 anos do Pinheirinho assombra flerte do PT com Alckmin — Jornal de Brasília](https://jornaldebrasilia.com.br/noticias/politica-e-poder/marco-de-10-anos-da-desocupacao-do-pinheirinho-assombra-flerte-do-pt-com-alckmin/)
-- [Lula é reeleito; Alckmin segue vice — TRE-SP](https://www.tre-sp.jus.br/comunicacao/noticias/2026/Outubro/eleicoes-2026-lula-e-reeleito-presidente-da-republica-confira-resultado-do-2o-turno-em-sp)
+- [Resultado do 1º turno de 2026 — Poder360](https://www.poder360.com.br/poder-eleicoes-2026/compare-resultados-por-regiao-e-estado-do-1o-turno-para-o-2o-turno/)
