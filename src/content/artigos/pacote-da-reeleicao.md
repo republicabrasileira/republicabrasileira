@@ -1,6 +1,6 @@
 ---
 titulo: O pacote da reeleição
-descricao: Bolsa Família maior, fim da 6x1, perdão para MEIs e crédito barato, tudo nas semanas da eleição. Em 2022 foi Bolsonaro, agora é Lula. Quem paga a conta?
+descricao: Bolsa Família maior, fim das bets, fim da 6x1, perdão para MEIs e crédito barato, tudo nas semanas da eleição. Em 2022 foi Bolsonaro, agora é Lula. Quem paga a conta?
 data: 2026-10-20
 tags: [eleições 2026, contas públicas, Bolsa Família, escala 6x1]
 ---
@@ -13,6 +13,10 @@ em torno da votação. A lista é longa, e o timing não é coincidência.
 
 - **17 de setembro, 17 dias antes do 1º turno:** reajuste de 15% no Bolsa Família. O piso por família
   subiu de R$ 600 para R$ 691, com pagamento a partir de outubro. Foi o primeiro reajuste desde março de 2023.
+- **25 de setembro, 9 dias antes do 1º turno:** medida provisória que **proíbe as bets**. Aqui o governo
+  não gasta, deixa de arrecadar cerca de R$ 800 milhões por mês, mas faz um anúncio popular na reta final
+  da campanha, depois de quase três anos cobrando outorgas e impostos do setor. Escrevi sobre isso em
+  [O fim das bets e a pergunta que o governo não responde](../fim-das-bets/).
 - **14 e 16 de outubro, entre o 1º e o 2º turno:** o Senado aprovou por 75 a 1 o fim da escala 6x1, e o
   Congresso promulgou a emenda dois dias depois. A jornada cai para 42 horas em 60 dias e para 40 horas
   cerca de um ano depois, sem corte de salário.
@@ -82,6 +86,8 @@ vão herdar.
 
 - [Bolsa Família terá piso de R$ 691 em outubro — O Povo](https://www.opovo.com.br/trends/bolsa-familia-tera-piso-de-r-691-em-outubro-valor-medio-previsto-sobe-para-r-777/)
 - [Lula anuncia primeiro reajuste no Bolsa Família desde março de 2023 — Congresso em Foco](https://www.congressoemfoco.com.br/noticia/122353/lula-anuncia-primeiro-reajuste-no-bolsa-familia-desde-marco-de-2023)
+- [MP proíbe bets e determina encerramento das operações em 30 dias — Agência Senado](https://www12.senado.leg.br/noticias/materias/2026/09/28/mp-proibe-bets-e-determina-encerramento-das-operacoes-em-30-dias)
+- [Com o fim das bets, União vai perder receita de R$ 800 milhões por mês — Folha de Pernambuco](https://www.folhape.com.br/economia/apostas-com-o-fim-das-bets-uniao-vai-perder-receita-de-r-800/514883/)
 - [Senado aprova fim da escala 6x1 e redução da jornada — Agência Brasil](https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/senado-aprova-fim-da-escala-6x1-e-reducao-da-jornada-de-trabalho)
 - [Congresso promulga emenda do fim da 6x1 — Agência Brasil](https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/congresso-promulga-emenda-do-fim-da-6x1-escala-5x2-comeca-em-60-dias)
 - [O Congresso aprovou o fim da 6x1. Isso pode ser revertido? — Nexo](https://www.nexojornal.com.br/expresso/2026/10/15/votacao-do-fim-da-escala-6x1-flavio-bolsonaro-pode-proibir)
