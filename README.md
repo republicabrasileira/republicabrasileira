@@ -22,7 +22,10 @@ O nome do arquivo vira o endereço: `/artigos/meu-texto/`.
 
 ## Como cadastrar uma promessa
 
-Edite o arquivo do mandato em `src/content/mandatos/` e adicione um item em `promessas`:
+Cada presidente tem uma ficha em `src/content/presidentes/` (ex.: `lula.yaml`) e cada mandato um arquivo em
+`src/content/mandatos/` (ex.: `lula-3.yaml`), ligado ao presidente pelo campo `presidente: lula`.
+
+Para cadastrar uma promessa, edite o arquivo do mandato e adicione um item em `promessas`:
 
 ```yaml
   - titulo: Texto da promessa
@@ -35,7 +38,20 @@ Edite o arquivo do mandato em `src/content/mandatos/` e adicione um item em `pro
     verificado: true       # false mostra o selo "rascunho"
 ```
 
-O placar e a página "O que cobrar" se atualizam sozinhos. O mandato de maior número é sempre tratado como o atual.
+O placar e a página "O que cobrar" se atualizam sozinhos. O mandato mais recente (maior `inicio`) é sempre
+tratado como o atual, e "O que cobrar" lista as pendências dos mandatos anteriores do mesmo presidente.
+
+Para um novo mandato, crie `src/content/mandatos/NOME-N.yaml`:
+
+```yaml
+presidente: lula        # nome do arquivo em src/content/presidentes/
+ordem: 4                # 4º mandato deste presidente
+forma: direta           # direta | indireta | sucessao
+inicio: 2027
+fim: 2030
+eleicao: 2026
+promessas: []
+```
 
 ## Rodar no computador
 

@@ -1,4 +1,4 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection, reference, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { STATUS } from './lib/status';
 
@@ -15,14 +15,28 @@ const artigos = defineCollection({
 
 const fonte = z.object({ titulo: z.string(), url: z.string().url() });
 
+const presidentes = defineCollection({
+  loader: glob({ pattern: '*.yaml', base: './src/content/presidentes' }),
+  schema: z.object({
+    nome: z.string(),
+    nomeCompleto: z.string(),
+    partido: z.string(),
+    resumo: z.string(),
+    fontes: z.array(fonte).default([]),
+  }),
+});
+
 const mandatos = defineCollection({
   loader: glob({ pattern: '*.yaml', base: './src/content/mandatos' }),
   schema: z.object({
-    numero: z.number(),
-    presidente: z.string(),
+    presidente: reference('presidentes'),
+    // 1º, 2º... mandato deste presidente
+    ordem: z.number(),
     inicio: z.number(),
     fim: z.number(),
-    eleicao: z.number(),
+    // direta = eleito pelo voto; indireta = Colégio Eleitoral; sucessao = vice que assumiu
+    forma: z.enum(['direta', 'indireta', 'sucessao']),
+    eleicao: z.number().optional(),
     resumo: z.string().optional(),
     planoDeGoverno: z.string().url().optional(),
     promessas: z
@@ -41,4 +55,4 @@ const mandatos = defineCollection({
   }),
 });
 
-export const collections = { artigos, mandatos };
+export const collections = { artigos, presidentes, mandatos };

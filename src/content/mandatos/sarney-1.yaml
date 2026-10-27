@@ -1,0 +1,41 @@
+presidente: sarney
+ordem: 1
+forma: indireta
+inicio: 1985
+fim: 1990
+eleicao: 1985
+resumo: >-
+  Eleição indireta, sem campanha popular. As promessas abaixo são os compromissos da Aliança Democrática
+  de Tancredo Neves, que Sarney herdou ao assumir.
+
+promessas:
+  - titulo: Restabelecer as eleições diretas para presidente
+    tema: Democracia
+    status: cumprida
+    analise: >-
+      A emenda constitucional de maio de 1985 restabeleceu as eleições diretas e deu direito de voto aos
+      analfabetos. A primeira eleição direta aconteceu em 1989.
+    fontes:
+      - titulo: Governo Sarney — História do Mundo
+        url: https://www.historiadomundo.com.br/idade-contemporanea/governo-sarney.htm
+    verificado: true
+
+  - titulo: Convocar uma Assembleia Nacional Constituinte
+    tema: Democracia
+    status: cumprida
+    analise: A Constituinte foi instalada em fevereiro de 1987 e promulgou a Constituição em 5 de outubro de 1988.
+    fontes:
+      - titulo: A Nova República chega aos 40 anos — Revista Pesquisa FAPESP
+        url: https://revistapesquisa.fapesp.br/a-nova-republica-chega-aos-40-anos/
+    verificado: true
+
+  - titulo: Controlar a inflação
+    tema: Economia
+    status: nao_cumprida
+    analise: >-
+      O Plano Cruzado (1986) congelou preços e teve sucesso inicial, mas fracassou. Vieram o Cruzado II,
+      o Plano Bresser e o Plano Verão, e o governo terminou em hiperinflação.
+    fontes:
+      - titulo: O governo Sarney — Prepara Enem
+        url: https://www.preparaenem.com/historia-do-brasil/o-governo-sarney.htm
+    verificado: true

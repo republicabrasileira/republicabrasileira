@@ -1,0 +1,58 @@
+---
+import Base from '../../layouts/Base.astro';
+import Placar from '../../components/Placar.astro';
+import { getPresidentes, periodo, FORMA_LABEL } from '../../lib/dados';
+import { url } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const presidentes = await getPresidentes();
+  return presidentes.map((presidente) => ({ params: { id: presidente.id }, props: { presidente } }));
+}
+
+const { presidente: p } = Astro.props;
+---
+
+<Base titulo={p.data.nome} descricao={`${p.data.nomeCompleto}: mandatos, promessas e o que foi cumprido.`}>
+  <p class="suave"><a href={url('/presidentes/')}>← Presidentes</a></p>
+  <h1>{p.data.nome}</h1>
+  <p class="suave">{p.data.nomeCompleto} · {p.data.partido} · {periodo(p)}</p>
+  <p>{p.data.resumo}</p>
+  {
+    p.data.fontes.length > 0 && (
+      <p class="suave">
+        Fontes:{' '}
+        {p.data.fontes.map((f, i) => (
+          <>
+            {i > 0 && ' · '}
+            <a href={f.url} target="_blank" rel="noopener">{f.titulo}</a>
+          </>
+        ))}
+      </p>
+    )
+  }
+
+  {
+    p.mandatos.length > 1 && (
+      <>
+        <h2>Todos os mandatos</h2>
+        <Placar promessas={p.mandatos.flatMap((m) => m.data.promessas)} />
+      </>
+    )
+  }
+
+  <h2>Mandatos</h2>
+  <div class="cartoes">
+    {
+      p.mandatos.map((m) => (
+        <a class="cartao" href={url(`/mandatos/${m.id}/`)}>
+          <h3>{m.data.ordem}º mandato · {m.data.inicio}–{m.data.fim}</h3>
+          <p class="suave">
+            {FORMA_LABEL[m.data.forma]}
+            {m.data.eleicao && ` · ${m.data.eleicao}`}
+          </p>
+          <Placar promessas={m.data.promessas} />
+        </a>
+      ))
+    }
+  </div>
+</Base>

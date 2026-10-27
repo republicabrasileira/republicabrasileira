@@ -1,0 +1,22 @@
+presidente: dilma
+ordem: 2
+forma: direta
+inicio: 2015
+fim: 2016
+eleicao: 2014
+resumo: Mandato interrompido pelo impeachment em 31 de agosto de 2016.
+
+promessas:
+  - titulo: Não mexer em direitos trabalhistas "nem que a vaca tussa"
+    tema: Trabalho
+    status: nao_cumprida
+    analise: >-
+      Em setembro de 2014, Dilma disse que não mudaria férias, 13º, FGTS e hora extra "nem que a vaca
+      tussa". Logo após a reeleição, o governo editou as Medidas Provisórias 664 e 665, que endureceram o
+      acesso ao seguro-desemprego e à pensão por morte. Até senadores do PT criticaram.
+    fontes:
+      - titulo: Dilma diz que não reduz direitos trabalhistas "nem que a vaca tussa" — Congresso em Foco
+        url: https://www.congressoemfoco.com.br/noticia/57620/dilma-diz-que-nao-reduz-direitos-trabalhistas-%e2%80%9cnem-que-a-vaca-tussa%e2%80%9d
+      - titulo: Dilma deu tiro no pé com MPs, diz senador petista — Congresso em Foco
+        url: https://congressoemfoco.com.br/noticia/48732/dilma-deu-tiro-no-pe-com-mps-diz-senador-petista
+    verificado: true

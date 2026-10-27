@@ -1,0 +1,41 @@
+presidente: collor
+ordem: 1
+forma: direta
+inicio: 1990
+fim: 1992
+eleicao: 1989
+resumo: Mandato interrompido pela renúncia em 29 de dezembro de 1992, durante o impeachment.
+
+promessas:
+  - titulo: Caçar os "marajás" — acabar com privilégios e corrupção no setor público
+    tema: Gestão pública
+    status: nao_cumprida
+    analise: >-
+      Foi o principal slogan da campanha. O mandato terminou num processo de impeachment motivado pelo
+      esquema de corrupção do seu tesoureiro, PC Farias. Em 2025, Collor foi preso após condenação do STF
+      por corrupção em outro caso.
+    fontes:
+      - titulo: De caçador de marajás a preso — Congresso em Foco
+        url: https://www.congressoemfoco.com.br/noticia/108064/de-cacador-de-marajas-a-preso-a-ascensao-e-queda-de-collor
+    verificado: true
+
+  - titulo: Não confiscar a poupança
+    tema: Economia
+    status: nao_cumprida
+    analise: >-
+      Na campanha de 1989, Collor acusou Lula de planejar confiscar a poupança. Em 16 de março de 1990, um
+      dia após a posse, o Plano Collor bloqueou cerca de 80% dos depósitos por 18 meses. Collor depois
+      negou ter prometido preservar a poupança: "Eu nunca afirmei isso".
+    fontes:
+      - titulo: Plano Collor, 36 anos — Jornal Opção
+        url: https://www.jornalopcao.com.br/reportagens/plano-collor-36-anos-o-dia-em-que-o-brasil-acordou-confiscado-805625/
+    verificado: true
+
+  - titulo: Derrotar a inflação
+    tema: Economia
+    status: nao_cumprida
+    analise: A inflação caiu logo após o Plano Collor, mas voltou a subir; a estabilização só veio com o Plano Real, em 1994.
+    fontes:
+      - titulo: Plano Collor, 36 anos — Jornal Opção
+        url: https://www.jornalopcao.com.br/reportagens/plano-collor-36-anos-o-dia-em-que-o-brasil-acordou-confiscado-805625/
+    verificado: false

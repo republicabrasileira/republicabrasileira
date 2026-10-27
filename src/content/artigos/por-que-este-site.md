@@ -16,8 +16,8 @@ O **República Brasileira** existe para fazer isso.
 
 ## O que você encontra aqui
 
-- **Mandatos:** cada promessa feita nas campanhas de 2002, 2006, 2022 e 2026, com status e fonte. Cumprida,
-  parcial, em andamento ou não cumprida.
+- **Presidentes:** todos desde o fim da ditadura, em 1985, de Sarney a Lula. Cada promessa tem status e
+  fonte: cumprida, parcial, em andamento ou não cumprida.
 - **O que cobrar:** o que ficou pendente dos mandatos anteriores, somado ao que foi prometido para 2027–2030.
 - **Artigos:** análises e opiniões sobre a política brasileira.
 

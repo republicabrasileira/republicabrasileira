@@ -1,0 +1,16 @@
+presidente: fhc
+ordem: 2
+forma: direta
+inicio: 1999
+fim: 2002
+eleicao: 1998
+resumo: Programa "Avança, Brasil". Reeleito no primeiro turno.
+
+promessas:
+  - titulo: Manter a política cambial do Real
+    tema: Economia
+    status: nao_cumprida
+    analise: >-
+      O governo defendeu o câmbio controlado durante a campanha de 1998. Em janeiro de 1999, duas semanas
+      após a posse, o real foi desvalorizado e passou a flutuar.
+    verificado: false

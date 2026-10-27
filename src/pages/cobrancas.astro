@@ -1,40 +1,53 @@
 ---
-import { getCollection } from 'astro:content';
+import { getEntry } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import Promessa from '../components/Promessa.astro';
+import { getMandatos } from '../lib/dados';
 import { PENDENTES } from '../lib/status';
 import { url } from '../lib/url';
 
-const mandatos = (await getCollection('mandatos')).sort((a, b) => a.data.numero - b.data.numero);
+const mandatos = await getMandatos();
 const atual = mandatos.at(-1)!;
-const anteriores = mandatos.slice(0, -1);
+const presidente = (await getEntry(atual.data.presidente))!;
+const nome = presidente.data.nome;
 
-const pendentes = anteriores.flatMap((m) =>
-  m.data.promessas
-    .filter((p) => PENDENTES.includes(p.status))
-    .map((p) => ({ ...p, origem: `${m.data.numero}º mandato` })),
-);
+// Só cobra o que o próprio presidente atual deixou pendente
+const pendentes = mandatos
+  .filter((m) => m.id !== atual.id && m.data.presidente.id === presidente.id)
+  .flatMap((m) =>
+    m.data.promessas
+      .filter((p) => PENDENTES.includes(p.status))
+      .map((p) => ({ ...p, origem: `${m.data.ordem}º mandato` })),
+  );
 ---
 
 <Base
-  titulo={`O que cobrar do ${atual.data.numero}º mandato`}
-  descricao="Promessas pendentes dos mandatos anteriores e os novos compromissos de campanha."
+  titulo={`O que cobrar de ${nome}`}
+  descricao={`Promessas pendentes e novos compromissos de ${nome} para ${atual.data.inicio}–${atual.data.fim}.`}
 >
-  <h1>O que cobrar do {atual.data.numero}º mandato</h1>
+  <h1>O que cobrar de {nome} no {atual.data.ordem}º mandato</h1>
   <p class="suave">
-    {atual.data.presidente} · {atual.data.inicio}–{atual.data.fim}. Esta página junta o que ficou pendente nos mandatos
-    anteriores com o que foi prometido na campanha de {atual.data.eleicao}.
+    {atual.data.inicio}–{atual.data.fim}. Esta página junta o que foi prometido na campanha de {atual.data.eleicao}
+    com o que o próprio {nome} deixou pendente nos mandatos anteriores.
   </p>
 
   <h2>Promessas da campanha de {atual.data.eleicao} ({atual.data.promessas.length})</h2>
   <ul class="promessas">
     {atual.data.promessas.map((p) => <Promessa {...p} />)}
   </ul>
-  <p><a href={url(`/mandatos/${atual.id}/`)}>Acompanhar o {atual.data.numero}º mandato →</a></p>
+  <p><a href={url(`/mandatos/${atual.id}/`)}>Acompanhar o {atual.data.ordem}º mandato →</a></p>
 
-  <h2>Pendências de mandatos anteriores ({pendentes.length})</h2>
-  <p class="suave">Promessas não cumpridas, parciais ou ainda em andamento.</p>
-  <ul class="promessas">
-    {pendentes.map((p) => <Promessa {...p} />)}
-  </ul>
+  {
+    pendentes.length > 0 && (
+      <>
+        <h2>Pendências de mandatos anteriores ({pendentes.length})</h2>
+        <p class="suave">Promessas de {nome} não cumpridas, parciais ou ainda em andamento.</p>
+        <ul class="promessas">
+          {pendentes.map((p) => (
+            <Promessa {...p} />
+          ))}
+        </ul>
+      </>
+    )
+  }
 </Base>

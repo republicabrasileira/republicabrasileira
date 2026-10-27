@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import Placar from '../../components/Placar.astro';
+import { getPresidentes, periodo } from '../../lib/dados';
+import { url } from '../../lib/url';
+
+const presidentes = await getPresidentes();
+---
+
+<Base titulo="Presidentes" descricao="Todos os presidentes desde o fim da ditadura militar, em 1985, e o que cada um prometeu.">
+  <h1>Presidentes desde 1985</h1>
+  <p class="suave">Do fim da ditadura militar até hoje: quem governou, o que prometeu e o que cumpriu.</p>
+  <div class="cartoes">
+    {
+      presidentes.map((p) => (
+        <a class="cartao" href={url(`/presidentes/${p.id}/`)}>
+          <h3>{p.data.nome}</h3>
+          <p class="suave">
+            {p.data.partido} · {periodo(p)} · {p.mandatos.length} {p.mandatos.length > 1 ? 'mandatos' : 'mandato'}
+          </p>
+          <Placar promessas={p.mandatos.flatMap((m) => m.data.promessas)} />
+        </a>
+      ))
+    }
+  </div>
+</Base>

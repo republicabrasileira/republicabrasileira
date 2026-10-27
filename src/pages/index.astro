@@ -1,49 +1,47 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, getEntry } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import Placar from '../components/Placar.astro';
+import { getMandatos, getPresidentes, periodo } from '../lib/dados';
 import { url, dataBR } from '../lib/url';
 
 const artigos = (await getCollection('artigos', ({ data }) => !data.rascunho))
   .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf())
   .slice(0, 5);
-const mandatos = (await getCollection('mandatos')).sort((a, b) => a.data.numero - b.data.numero);
-const atual = mandatos.at(-1);
+const presidentes = await getPresidentes();
+const atual = (await getMandatos()).at(-1)!;
+const presidenteAtual = (await getEntry(atual.data.presidente))!;
 ---
 
 <Base>
   <section class="hero">
     <h1>República Brasileira</h1>
     <p>
-      O que foi prometido, o que foi feito e o que ainda precisa ser cobrado. Análises e ideias sobre a política
-      brasileira, com fontes.
+      O que foi prometido, o que foi feito e o que ainda precisa ser cobrado. Todos os presidentes desde o fim da
+      ditadura, com fontes.
     </p>
   </section>
 
-  <h2>Mandatos</h2>
+  <a class="cartao destaque" href={url('/cobrancas/')}>
+    <p class="suave">Mandato atual · {atual.data.inicio}–{atual.data.fim}</p>
+    <h3>O que cobrar de {presidenteAtual.data.nome} no {atual.data.ordem}º mandato →</h3>
+    <p>{atual.data.promessas.length} promessas de campanha para acompanhar, mais as pendências dos mandatos anteriores.</p>
+  </a>
+
+  <h2>Presidentes desde 1985</h2>
   <div class="cartoes">
     {
-      mandatos.map((m) => (
-        <a class="cartao" href={url(`/mandatos/${m.id}/`)}>
-          <h3>{m.data.numero}º mandato</h3>
+      presidentes.map((p) => (
+        <a class="cartao" href={url(`/presidentes/${p.id}/`)}>
+          <h3>{p.data.nome}</h3>
           <p class="suave">
-            {m.data.presidente} · {m.data.inicio}–{m.data.fim}
+            {p.data.partido} · {periodo(p)}
           </p>
-          <Placar promessas={m.data.promessas} />
+          <Placar promessas={p.mandatos.flatMap((m) => m.data.promessas)} />
         </a>
       ))
     }
   </div>
-
-  {
-    atual && (
-      <p>
-        <a href={url('/cobrancas/')}>
-          <strong>O que cobrar do {atual.data.numero}º mandato →</strong>
-        </a>
-      </p>
-    )
-  }
 
   <h2>Últimos artigos</h2>
   <ul class="lista-artigos">

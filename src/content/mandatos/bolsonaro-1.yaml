@@ -1,0 +1,57 @@
+presidente: bolsonaro
+ordem: 1
+forma: direta
+inicio: 2019
+fim: 2022
+eleicao: 2018
+resumo: >-
+  Levantamento do g1 ao fim do mandato avaliou 58 compromissos de 2018: 21 cumpridos (36%), cerca de 16%
+  parciais e 48% não cumpridos. Abaixo, os principais.
+
+promessas:
+  - titulo: Fazer a reforma da Previdência
+    tema: Economia
+    status: cumprida
+    analise: Aprovada em novembro de 2019 (Emenda Constitucional 103).
+    fontes: &jp
+      - titulo: Após meio mandato, veja promessas de Bolsonaro realizadas e deixadas de lado — Jovem Pan
+        url: https://jovempan.com.br/noticias/politica/apos-meio-mandato-veja-promessas-de-bolsonaro-que-foram-realizadas-e-as-deixadas-de-lado.html
+    verificado: false
+
+  - titulo: Dar autonomia ao Banco Central
+    tema: Economia
+    status: cumprida
+    analise: Aprovada em 2021 (Lei Complementar 179).
+    fontes: *jp
+    verificado: false
+
+  - titulo: Reduzir os ministérios para 15
+    tema: Gestão pública
+    status: nao_cumprida
+    analise: O governo terminou com 23 pastas com status de ministério.
+    fontes: &istoe
+      - titulo: Governo Bolsonaro cumpriu apenas 36% das promessas, aponta levantamento — IstoÉ
+        url: https://istoe.com.br/governo-bolsonaro-cumpriu-apenas-36-das-promessas-feitas-aponta-levantamento/
+    verificado: true
+
+  - titulo: Privatizar estatais
+    tema: Economia
+    status: parcial
+    analise: >-
+      Privatizações lideram a lista de promessas não cumpridas no levantamento do g1. A principal entrega
+      foi a privatização da Eletrobras, em 2022.
+    fontes: *istoe
+    verificado: false
+
+  - titulo: Acabar com a reeleição para presidente
+    tema: Política
+    status: nao_cumprida
+    analise: Não houve proposta aprovada, e Bolsonaro disputou a reeleição em 2022.
+    fontes: *istoe
+    verificado: true
+
+  - titulo: Criar alíquota única e corrigir a tabela do Imposto de Renda
+    tema: Economia
+    status: nao_cumprida
+    fontes: *istoe
+    verificado: true

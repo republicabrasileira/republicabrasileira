@@ -1,0 +1,32 @@
+presidente: temer
+ordem: 1
+forma: sucessao
+inicio: 2016
+fim: 2018
+resumo: >-
+  Sem campanha própria. Os compromissos vêm do documento "Uma Ponte para o Futuro", lançado pelo PMDB em
+  2015, que virou o programa do governo. O Aos Fatos concluiu que a maior parte dele ficou pelo caminho.
+
+promessas:
+  - titulo: Criar um teto para os gastos públicos
+    tema: Economia
+    status: cumprida
+    analise: Aprovado pela Emenda Constitucional 95, de dezembro de 2016. Foi substituído pelo arcabouço fiscal em 2023.
+    fontes: &aosfatos
+      - titulo: Governo Temer deixa para trás maioria das promessas da "Ponte para o Futuro" — Aos Fatos
+        url: https://aosfatos.org/noticias/governo-temer-deixa-para-tras-maioria-das-promessas-da-ponte-para-o-futuro/
+    verificado: true
+
+  - titulo: Fazer a reforma trabalhista
+    tema: Trabalho
+    status: cumprida
+    analise: Aprovada em 2017 (Lei 13.467).
+    fontes: *aosfatos
+    verificado: true
+
+  - titulo: Fazer a reforma da Previdência
+    tema: Economia
+    status: nao_cumprida
+    analise: A proposta travou no Congresso em 2018. A reforma só foi aprovada em 2019, no governo Bolsonaro.
+    fontes: *aosfatos
+    verificado: true

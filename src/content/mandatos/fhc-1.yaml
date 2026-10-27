@@ -1,0 +1,17 @@
+presidente: fhc
+ordem: 1
+forma: direta
+inicio: 1995
+fim: 1998
+eleicao: 1994
+resumo: >-
+  Programa "Mãos à Obra, Brasil", simbolizado pela mão espalmada com cinco prioridades: emprego, saúde,
+  agricultura, segurança e educação.
+planoDeGoverno: https://static.scielo.org/scielobooks/b27wf/pdf/cardoso-9788599662663.pdf
+
+promessas:
+  - titulo: Manter a estabilidade da moeda com o Plano Real
+    tema: Economia
+    status: cumprida
+    analise: A inflação (IPCA) caiu de 916% em 1994 para menos de 2% em 1998.
+    verificado: false

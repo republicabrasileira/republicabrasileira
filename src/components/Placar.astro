@@ -5,6 +5,9 @@ interface Props {
   promessas: { status: Status }[];
 }
 
+// Abaixo disso o percentual distorce a comparação entre presidentes
+const MINIMO_PARA_PERCENTUAL = 5;
+
 const p = placar(Astro.props.promessas);
 ---
 
@@ -12,6 +15,10 @@ const p = placar(Astro.props.promessas);
   {
     p.percentual === null ? (
       <p class="suave">Nenhuma promessa avaliada ainda.</p>
+    ) : p.avaliadas < MINIMO_PARA_PERCENTUAL ? (
+      <p class="suave">
+        Só {p.avaliadas} {p.avaliadas > 1 ? 'promessas avaliadas' : 'promessa avaliada'}: poucas para calcular um percentual justo.
+      </p>
     ) : (
       <div>
         <span class="placar-numero">{p.percentual}%</span>
