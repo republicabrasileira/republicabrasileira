@@ -47,7 +47,7 @@ const mandatos = defineCollection({
           status: z.enum(STATUS),
           analise: z.string().optional(),
           fontes: z.array(fonte).default([]),
-          // false = rascunho: aparece com aviso até você conferir dados e fontes
+          // false = rascunho: aparece com aviso até dados e fontes serem conferidos
           verificado: z.boolean().default(false),
         }),
       )

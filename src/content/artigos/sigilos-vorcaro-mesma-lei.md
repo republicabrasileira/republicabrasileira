@@ -46,8 +46,7 @@ Muita gente desconfiou desse gesto, e a desconfiança tem fundamento num ponto: 
 outras pessoas.** E esse foi exatamente o centro da acusação no caso do triplex: um apartamento registrado em
 nome da OAS que, segundo o Ministério Público, estaria reservado a Lula.
 
-Uma correção: Lula **não foi acusado de sonegação**. A acusação era de corrupção passiva e lavagem de
-dinheiro. E, como mostrei [em outro texto](../triplex-bolsonaro-8-de-janeiro/), o caso foi anulado e
+A acusação contra Lula no triplex era de **corrupção passiva e lavagem de dinheiro**. E, como mostrei [em outro texto](../triplex-bolsonaro-8-de-janeiro/), o caso foi anulado e
 prescreveu sem que ninguém julgasse se a acusação era verdadeira. Não dá para afirmar que ele escondeu
 patrimônio em nome de terceiros. Também não dá para afirmar que não escondeu.
 

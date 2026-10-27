@@ -74,8 +74,8 @@ tem problemas reais, mas chamá-lo de preso político é uma afirmação mais fo
 </figure>
 
 Muita gente compara o 8 de janeiro de 2023 com o protesto de **24 de maio de 2017** contra Michel Temer.
-Uma correção antes de comparar: o protesto de 2017 não foi uma ação do MST. Foi um ato de centrais
-sindicais e movimentos sociais contra as reformas trabalhista e da Previdência, chamado "Ocupa Brasília".
+O protesto de 2017, chamado "Ocupa Brasília", foi um ato de centrais sindicais e movimentos sociais
+contra as reformas trabalhista e da Previdência.
 
 **O que aconteceu em 2017:** houve confronto com a polícia, e três prédios da Esplanada foram
 incendiados, entre eles dois ministérios. Pelo menos 49 pessoas ficaram feridas e 7 foram presas. Temer
