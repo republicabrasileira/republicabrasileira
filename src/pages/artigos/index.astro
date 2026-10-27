@@ -8,21 +8,24 @@ const artigos = (await getCollection('artigos', ({ data }) => !data.rascunho)).s
 );
 ---
 
-<Base titulo="Artigos" descricao="Textos, análises e ideias sobre a política brasileira.">
-  <h1>Artigos</h1>
-  <ul class="lista-artigos">
+<Base titulo="Opinião" descricao="O que eu penso sobre a política brasileira, com os fatos e as fontes ao lado.">
+  <header class="estreito">
+    <span class="selo-pilar opiniao">Opinião</span>
+    <h1>O que eu penso</h1>
+    <p class="suave" style="font-size:1.15rem">
+      Textos de opinião assumida. Os fatos citados têm fonte no fim de cada texto; a interpretação é minha.
+    </p>
+  </header>
+  <ul class="lista-artigos grande" style="margin-top:28px">
     {
       artigos.map((a) => (
         <li>
+          <span class="data">{dataBR(a.data.data)}</span>
           <a href={url(`/artigos/${a.id}/`)}>{a.data.titulo}</a>
-          <div class="suave">
-            {dataBR(a.data.data)} — {a.data.descricao}
-          </div>
-          <div>
-            {a.data.tags.map((t) => (
-              <span class="tag">{t}</span>
-            ))}
-          </div>
+          <p class="suave" style="margin:0 0 6px">{a.data.descricao}</p>
+          {a.data.tags.map((t) => (
+            <span class="tag">{t}</span>
+          ))}
         </li>
       ))
     }

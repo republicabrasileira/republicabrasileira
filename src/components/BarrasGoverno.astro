@@ -1,0 +1,32 @@
+---
+// Barras horizontais comparando governos. Aceita valores negativos (barra parte do zero).
+interface Props {
+  itens: { rotulo: string; valor: number; texto: string }[];
+  cor?: string;
+}
+
+const { itens, cor = 'var(--g-positivo)' } = Astro.props;
+const min = Math.min(0, ...itens.map((i) => i.valor));
+const max = Math.max(0, ...itens.map((i) => i.valor));
+const escala = (v: number) => ((v - min) / (max - min)) * 100;
+const zero = escala(0);
+---
+
+<div class="barras">
+  {
+    itens.map((i) => (
+      <div class="linha-barra" title={`${i.rotulo}: ${i.texto}`}>
+        <span>{i.rotulo}</span>
+        <div class="trilho">
+          {min < 0 && <div class="zero" style={`left:${zero}%`} />}
+          <span
+            style={`left:${Math.min(zero, escala(i.valor))}%;width:${Math.max(Math.abs(escala(i.valor) - zero), 0.6)}%;background:${
+              i.valor < 0 ? 'var(--g-negativo)' : cor
+            }`}
+          />
+        </div>
+        <span class="valor">{i.texto}</span>
+      </div>
+    ))
+  }
+</div>

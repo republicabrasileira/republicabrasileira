@@ -1,0 +1,95 @@
+---
+// Dólar médio mensal desde o Plano Real, com faixas por governo e dica ao passar o mouse.
+import economia from '../data/economia.json';
+import { mes } from '../lib/formato';
+
+const W = 960, H = 300, ESQ = 44, DIR = 8, TOPO = 36, BASE = 28;
+const serie = economia.dolarMensal;
+const MAX = 7;
+const x = (i: number) => ESQ + (i / (serie.length - 1)) * (W - ESQ - DIR);
+const y = (v: number) => TOPO + ((MAX - v) / MAX) * (H - TOPO - BASE);
+const caminho = serie.map((p, i) => `${i ? 'L' : 'M'}${x(i).toFixed(1)},${y(p.valor).toFixed(1)}`).join('');
+
+const indiceMes = (m: string) => {
+  const i = serie.findIndex((p) => p.mes >= m);
+  return i === -1 ? serie.length - 1 : i;
+};
+const faixas = economia.governos
+  .filter((g) => g.fim >= serie[0].mes)
+  .map((g, i) => {
+    const ini = indiceMes(g.inicio < serie[0].mes ? serie[0].mes : g.inicio);
+    const fim = indiceMes(g.fim);
+    const nome = g.nome.replace(/ \(.*\)/, '');
+    return { nome, x: x(ini), w: x(fim) - x(ini), par: i % 2 === 0 };
+  });
+const pontos = JSON.stringify(serie.map((p) => [mes(p.mes), p.valor]));
+---
+
+<figure class="grafico" id="grafico-dolar" data-pontos={pontos} data-esq={ESQ} data-dir={DIR} data-w={W} data-h={H} data-topo={TOPO} data-base={BASE} data-max={MAX}>
+  <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Dólar médio mensal desde julho de 1994">
+    {faixas.map((f) => f.par && <rect x={f.x} y={TOPO - 26} width={f.w} height={H - TOPO - BASE + 26} fill="var(--g-faixa)" />)}
+    {faixas.map((f) => f.w > 40 && <text class="rotulo-faixa" x={f.x + f.w / 2} y={TOPO - 10} text-anchor="middle">{f.nome}</text>)}
+    {
+      [0, 2, 4, 6].map((g) => (
+        <>
+          <line x1={ESQ} x2={W - DIR} y1={y(g)} y2={y(g)} stroke={g === 0 ? 'var(--tinta-3)' : 'var(--g-grade)'} />
+          <text class="eixo" x={ESQ - 6} y={y(g) + 4} text-anchor="end">R$ {g}</text>
+        </>
+      ))
+    }
+    {
+      serie.map(
+        (p, i) =>
+          p.mes.endsWith('-01') &&
+          Number(p.mes.slice(0, 4)) % 4 === 0 && (
+            <text class="eixo" x={x(i)} y={H - 8} text-anchor="middle">
+              {p.mes.slice(0, 4)}
+            </text>
+          ),
+      )
+    }
+    <path d={caminho} fill="none" stroke="var(--g-linha)" stroke-width="2" stroke-linejoin="round" />
+    <line class="cursor" y1={TOPO} y2={H - BASE} stroke="var(--tinta-3)" stroke-dasharray="3 3" opacity="0" />
+    <circle class="ponto" r="5" fill="var(--g-linha)" stroke="var(--superficie)" stroke-width="2" opacity="0" />
+    <rect class="area" x={ESQ} y={TOPO} width={W - ESQ - DIR} height={H - TOPO - BASE} fill="transparent" />
+  </svg>
+  <div class="dica" role="status"></div>
+  <figcaption class="fonte-grafico">Dólar comercial (venda), média mensal em reais, valores nominais. Fonte: Banco Central (série 3698).</figcaption>
+</figure>
+
+<script>
+  const fig = document.getElementById('grafico-dolar');
+  if (fig) {
+    const d = fig.dataset;
+    const pontos: [string, number][] = JSON.parse(d.pontos!);
+    const [W, H, ESQ, DIR, TOPO, BASE, MAX] = ['w', 'h', 'esq', 'dir', 'topo', 'base', 'max'].map((k) => Number(d[k]));
+    const svg = fig.querySelector('svg')!;
+    const cursor = svg.querySelector<SVGLineElement>('.cursor')!;
+    const ponto = svg.querySelector<SVGCircleElement>('.ponto')!;
+    const dica = fig.querySelector<HTMLDivElement>('.dica')!;
+    const mostrar = (ev: PointerEvent) => {
+      const caixa = svg.getBoundingClientRect();
+      const escala = caixa.width / W;
+      const vx = (ev.clientX - caixa.left) / escala;
+      const i = Math.round(((vx - ESQ) / (W - ESQ - DIR)) * (pontos.length - 1));
+      if (i < 0 || i >= pontos.length) return;
+      const px = ESQ + (i / (pontos.length - 1)) * (W - ESQ - DIR);
+      const py = TOPO + ((MAX - pontos[i][1]) / MAX) * (H - TOPO - BASE);
+      cursor.setAttribute('x1', String(px));
+      cursor.setAttribute('x2', String(px));
+      ponto.setAttribute('cx', String(px));
+      ponto.setAttribute('cy', String(py));
+      [cursor, ponto].forEach((el) => el.setAttribute('opacity', '1'));
+      dica.textContent = `${pontos[i][0]}: R$ ${pontos[i][1].toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+      dica.style.left = `${caixa.left - fig.getBoundingClientRect().left + px * escala + fig.scrollLeft}px`;
+      dica.style.top = `${py * escala}px`;
+      dica.style.opacity = '1';
+    };
+    const esconder = () => {
+      [cursor, ponto].forEach((el) => el.setAttribute('opacity', '0'));
+      dica.style.opacity = '0';
+    };
+    svg.addEventListener('pointermove', mostrar);
+    svg.addEventListener('pointerleave', esconder);
+  }
+</script>

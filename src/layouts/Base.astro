@@ -8,17 +8,19 @@ interface Props {
 }
 
 const NOME = 'República Brasileira';
-const { titulo, descricao = 'Análises, ideias e o acompanhamento das promessas do presidente da República.' } = Astro.props;
+const { titulo, descricao = 'O que eu penso, o que os fatos mostram e o que devemos cobrar dos presidentes do Brasil.' } = Astro.props;
 const tituloPagina = titulo ? `${titulo} · ${NOME}` : NOME;
 const atual = Astro.url.pathname;
 const links = [
   { href: url('/'), texto: 'Início' },
-  { href: url('/artigos/'), texto: 'Artigos' },
+  { href: url('/artigos/'), texto: 'Opinião' },
   { href: url('/presidentes/'), texto: 'Presidentes' },
+  { href: url('/economia/'), texto: 'Economia' },
   { href: url('/mandatos/'), texto: 'Linha do tempo' },
-  { href: url('/cobrancas/'), texto: 'O que cobrar' },
+  { href: url('/cobrancas/'), texto: 'O que cobrar', classe: 'cobrar' },
   { href: url('/sobre/'), texto: 'Sobre' },
 ];
+const hoje = new Date().toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' });
 ---
 
 <!doctype html>
@@ -34,22 +36,30 @@ const links = [
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <div class="faixa" aria-hidden="true"></div>
     <header class="topo">
-      <div class="container topo-interno">
+      <div class="container">
+        <div class="topo-linha">
+          <span>Brasil · atualizado em {hoje}</span>
+          <span>Opinião · Fatos · Cobrança</span>
+        </div>
         <a href={url('/')} class="marca">
-          <img src={url('/favicon.svg')} alt="" width="28" height="28" />
-          <span>{NOME}</span>
+          <strong>{NOME}</strong>
+          <span>Quem promete, deve</span>
         </a>
-        <nav>
+        <nav class="menu">
           {
             links.map((l) => (
-              <a href={l.href} aria-current={atual === l.href || (l.href !== url('/') && atual.startsWith(l.href)) ? 'page' : undefined}>
+              <a
+                href={l.href}
+                class={l.classe}
+                aria-current={atual === l.href || (l.href !== url('/') && atual.startsWith(l.href)) ? 'page' : undefined}
+              >
                 {l.texto}
               </a>
             ))
@@ -64,7 +74,12 @@ const links = [
 
     <footer class="rodape">
       <div class="container">
-        <p>{NOME} — opiniões do autor. Dados de promessas sempre acompanhados de fontes.</p>
+        <div class="pilares-mini">
+          <span><span class="selo-pilar opiniao">Opinião</span> o que eu penso</span>
+          <span><span class="selo-pilar fatos">Fatos</span> o que pesquisamos, com fonte</span>
+          <span><span class="selo-pilar cobranca">Cobrança</span> o que devemos cobrar</span>
+        </div>
+        <p>{NOME} não tem vínculo com partido, candidato ou governo. Encontrou um erro? Ele será corrigido.</p>
       </div>
     </footer>
   </body>

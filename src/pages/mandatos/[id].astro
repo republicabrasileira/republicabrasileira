@@ -24,6 +24,7 @@ const presentes = STATUS.filter((s) => m.promessas.some((p) => p.status === s));
   descricao={`Promessas de ${nome} no ${m.ordem}º mandato e o que foi cumprido.`}
 >
   <p class="suave"><a href={url(`/presidentes/${presidente.id}/`)}>← {nome}</a></p>
+  <span class="selo-pilar fatos">Fatos</span>
   <h1>{nome} · {m.ordem}º mandato</h1>
   <p class="suave">
     {m.inicio}–{m.fim} · {FORMA_LABEL[m.forma]}{m.eleicao && ` em ${m.eleicao}`}.

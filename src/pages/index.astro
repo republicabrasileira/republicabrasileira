@@ -1,40 +1,124 @@
 ---
 import { getCollection, getEntry } from 'astro:content';
 import Base from '../layouts/Base.astro';
+import BarrasGoverno from '../components/BarrasGoverno.astro';
 import Placar from '../components/Placar.astro';
+import economia from '../data/economia.json';
 import { getMandatos, getPresidentes, periodo } from '../lib/dados';
+import { PENDENTES } from '../lib/status';
+import { pct } from '../lib/formato';
 import { url, dataBR } from '../lib/url';
 
-const artigos = (await getCollection('artigos', ({ data }) => !data.rascunho))
-  .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf())
-  .slice(0, 5);
+const artigos = (await getCollection('artigos', ({ data }) => !data.rascunho)).sort(
+  (a, b) => b.data.data.valueOf() - a.data.data.valueOf(),
+);
+const [manchete, ...outros] = artigos;
 const presidentes = await getPresidentes();
-const atual = (await getMandatos()).at(-1)!;
+const mandatos = await getMandatos();
+const atual = mandatos.at(-1)!;
 const presidenteAtual = (await getEntry(atual.data.presidente))!;
+const pendentes = mandatos
+  .filter((m) => m.id !== atual.id && m.data.presidente.id === presidenteAtual.id)
+  .flatMap((m) => m.data.promessas.filter((p) => PENDENTES.includes(p.status)));
 ---
 
 <Base>
-  <section class="hero">
-    <h1>República Brasileira</h1>
-    <p>
-      O que foi prometido, o que foi feito e o que ainda precisa ser cobrado. Todos os presidentes desde o fim da
-      ditadura, com fontes.
-    </p>
+  <section class="abertura">
+    <div>
+      <span class="selo-pilar opiniao">Editorial</span>
+      <h1>Promessa de campanha é <mark>dívida</mark> com o eleitor.</h1>
+      <p class="lead">
+        Aqui você encontra o que eu penso sobre a política brasileira, os fatos que pesquisamos, sempre com fonte, e a
+        lista do que devemos cobrar de quem governa.
+      </p>
+      <div class="botoes">
+        <a class="botao cheio" href={url('/artigos/')}>Ler as opiniões</a>
+        <a class="botao cobranca" href={url('/cobrancas/')}>Ver o que cobrar</a>
+      </div>
+    </div>
+
+    <aside class="painel-cobranca">
+      <span class="selo-pilar cobranca">Cobrança</span>
+      <h2>{presidenteAtual.data.nome}, {atual.data.ordem}º mandato</h2>
+      <p class="suave pequeno">{atual.data.inicio}–{atual.data.fim} · eleito em {atual.data.eleicao}</p>
+      <div class="numeros">
+        <div class="numero">
+          <strong>{atual.data.promessas.length}</strong>
+          <span>promessas novas para acompanhar</span>
+        </div>
+        <div class="numero">
+          <strong>{pendentes.length}</strong>
+          <span>pendências dos mandatos anteriores</span>
+        </div>
+      </div>
+      <a href={url('/cobrancas/')}>Ver a lista completa →</a>
+    </aside>
   </section>
 
-  <a class="cartao destaque" href={url('/cobrancas/')}>
-    <p class="suave">Mandato atual · {atual.data.inicio}–{atual.data.fim}</p>
-    <h3>O que cobrar de {presidenteAtual.data.nome} no {atual.data.ordem}º mandato →</h3>
-    <p>{atual.data.promessas.length} promessas de campanha para acompanhar, mais as pendências dos mandatos anteriores.</p>
-  </a>
+  <section class="pilares">
+    <a class="pilar" href={url('/artigos/')}>
+      <span class="selo-pilar opiniao">Opinião</span>
+      <h3>O que eu penso</h3>
+      <p>Análises e posições sobre os temas do momento. Opinião assumida, separada dos fatos.</p>
+    </a>
+    <a class="pilar" href={url('/presidentes/')}>
+      <span class="selo-pilar fatos">Fatos</span>
+      <h3>O que pesquisamos</h3>
+      <p>Promessas de cada presidente desde 1985, o que foi cumprido e os números da economia, tudo com fonte.</p>
+    </a>
+    <a class="pilar" href={url('/cobrancas/')}>
+      <span class="selo-pilar cobranca">Cobrança</span>
+      <h3>O que devemos cobrar</h3>
+      <p>As promessas do mandato atual e tudo o que ficou pendente. Promessa esquecida não vale.</p>
+    </a>
+  </section>
 
-  <h2>Presidentes desde 1985</h2>
+  {
+    manchete && (
+      <>
+        <div class="secao-titulo">
+          <h2>Opinião</h2>
+          <a href={url('/artigos/')}>Todos os textos →</a>
+        </div>
+        <div class="destaque-artigo">
+          <a class="manchete" href={url(`/artigos/${manchete.id}/`)}>
+            <span class="data">{dataBR(manchete.data.data)}</span>
+            <h3>{manchete.data.titulo}</h3>
+            <p>{manchete.data.descricao}</p>
+            <span>Ler o texto →</span>
+          </a>
+          <ul class="lista-artigos">
+            {outros.slice(0, 4).map((a) => (
+              <li>
+                <span class="data">{dataBR(a.data.data)}</span>
+                <a href={url(`/artigos/${a.id}/`)}>{a.data.titulo}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </>
+    )
+  }
+
+  <div class="secao-titulo">
+    <h2>A economia de cada presidente</h2>
+    <a href={url('/economia/')}>PIB, inflação e dólar →</a>
+  </div>
+  <p class="suave">Crescimento médio do PIB por ano de governo, desde o fim da ditadura.</p>
+  <BarrasGoverno
+    itens={economia.governos.map((g) => ({ rotulo: g.nome, valor: g.pib.mediaAnual!, texto: pct(g.pib.mediaAnual!) }))}
+  />
+
+  <div class="secao-titulo">
+    <h2>Presidentes desde 1985</h2>
+    <a href={url('/presidentes/')}>Ver todos →</a>
+  </div>
   <div class="cartoes">
     {
       presidentes.map((p) => (
         <a class="cartao" href={url(`/presidentes/${p.id}/`)}>
           <h3>{p.data.nome}</h3>
-          <p class="suave">
+          <p class="suave pequeno">
             {p.data.partido} · {periodo(p)}
           </p>
           <Placar promessas={p.mandatos.flatMap((m) => m.data.promessas)} />
@@ -42,19 +126,4 @@ const presidenteAtual = (await getEntry(atual.data.presidente))!;
       ))
     }
   </div>
-
-  <h2>Últimos artigos</h2>
-  <ul class="lista-artigos">
-    {
-      artigos.map((a) => (
-        <li>
-          <a href={url(`/artigos/${a.id}/`)}>{a.data.titulo}</a>
-          <div class="suave">
-            {dataBR(a.data.data)} — {a.data.descricao}
-          </div>
-        </li>
-      ))
-    }
-  </ul>
-  <p><a href={url('/artigos/')}>Ver todos os artigos →</a></p>
 </Base>

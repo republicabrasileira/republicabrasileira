@@ -1,0 +1,174 @@
+---
+import Base from '../layouts/Base.astro';
+import GraficoPib from '../components/GraficoPib.astro';
+import GraficoDolar from '../components/GraficoDolar.astro';
+import BarrasGoverno from '../components/BarrasGoverno.astro';
+import economia from '../data/economia.json';
+import { CONTEXTO } from '../data/contexto-economia';
+import { num, pct, reais, mes } from '../lib/formato';
+import { url } from '../lib/url';
+
+const governos = economia.governos;
+const doReal = governos.filter((g) => g.dolar);
+const antesDoReal = governos.filter((g) => !g.dolar);
+const periodo = (g: (typeof governos)[number]) =>
+  `${g.inicio.slice(0, 4)}–${g.emAndamento ? 'hoje' : g.fim.slice(0, 4)}`;
+---
+
+<Base
+  titulo="Economia"
+  descricao="PIB, inflação, dólar e desemprego de cada presidente desde 1985, com dados oficiais do Banco Central e do IBGE."
+>
+  <header class="estreito">
+    <span class="selo-pilar fatos">Fatos</span>
+    <h1>A economia de cada presidente</h1>
+    <p class="suave" style="font-size:1.15rem">
+      Quanto o país cresceu, quanto os preços subiram, quanto valia o dólar e quantos estavam sem emprego. E também o
+      que cada um herdou, o cenário que encontrou lá fora e o que decidiu.
+    </p>
+    <p class="pequeno suave">Dados oficiais até {mes(economia.atualizadoEm)}. Fontes: Banco Central e IBGE.</p>
+  </header>
+
+  <div class="secao-titulo"><h2>Em números</h2></div>
+  <div class="tabela-rolagem">
+    <table class="dados">
+      <thead>
+        <tr>
+          <th>Governo</th>
+          <th>Período</th>
+          <th>PIB (média ao ano)</th>
+          <th>Inflação (média ao ano)</th>
+          <th>Dólar médio</th>
+          <th>Dólar no início → fim</th>
+          <th>Desemprego início → fim</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          governos.map((g) => (
+            <tr>
+              <td>
+                <a href={`#${g.id}`}>{g.nome}</a>
+              </td>
+              <td>{periodo(g)}</td>
+              <td class={g.pib.mediaAnual! < 0 ? 'neg' : ''}>{pct(g.pib.mediaAnual!)}</td>
+              <td>{pct(g.ipca.mediaAnual)}</td>
+              <td>{g.dolar ? reais(g.dolar.medio) : '—'}</td>
+              <td>{g.dolar ? `${reais(g.dolar.inicio)} → ${reais(g.dolar.fim)}` : 'outra moeda'}</td>
+              <td>{g.desemprego ? `${pct(g.desemprego.inicio)} → ${pct(g.desemprego.fim)}` : '—'}</td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+  <p class="pequeno suave">
+    O PIB de cada ano fica com quem governou a maior parte dele. Antes do Real (julho de 1994) a moeda era outra, por isso
+    não há dólar comparável. O desemprego só tem série oficial comparável (PNAD Contínua) a partir de 2012.
+  </p>
+
+  <div class="secao-titulo"><h2>Crescimento, ano a ano</h2></div>
+  <GraficoPib />
+
+  <div class="secao-titulo"><h2>Crescimento médio por governo</h2></div>
+  <BarrasGoverno itens={governos.map((g) => ({ rotulo: g.nome, valor: g.pib.mediaAnual!, texto: pct(g.pib.mediaAnual!) }))} />
+
+  <div class="secao-titulo"><h2>Inflação: antes e depois do Real</h2></div>
+  <p>
+    Antes do Plano Real, o Brasil viveu uma hiperinflação. Os números são de outra escala e não cabem no mesmo
+    gráfico:
+  </p>
+  <div class="numeros" style="grid-template-columns:repeat(auto-fit,minmax(180px,1fr))">
+    {
+      antesDoReal.map((g) => (
+        <div class="numero">
+          <strong style="color:var(--g-negativo)">{num(g.ipca.mediaAnual, 0)}%</strong>
+          <span>ao ano, em média · {g.nome}</span>
+        </div>
+      ))
+    }
+  </div>
+  <p>Depois do Real, a média anual de cada governo:</p>
+  <BarrasGoverno
+    cor="var(--g-negativo)"
+    itens={doReal.map((g) => ({ rotulo: g.nome, valor: g.ipca.mediaAnual, texto: pct(g.ipca.mediaAnual) }))}
+  />
+
+  <div class="secao-titulo"><h2>O dólar desde o Real</h2></div>
+  <GraficoDolar />
+  <p class="pequeno suave">
+    Valores nominais: R$ 3 em 2002 valiam muito mais do que R$ 3 hoje, por causa da inflação acumulada no período. O
+    gráfico mostra a tendência de cada governo, não o poder de compra.
+  </p>
+
+  <div class="secao-titulo"><h2>Governo a governo</h2></div>
+  {
+    governos.map((g) => {
+      const c = CONTEXTO[g.id];
+      return (
+        <section class="governo" id={g.id}>
+          <div>
+            <h3>{g.nome}</h3>
+            <p class="suave pequeno">{periodo(g)}</p>
+            <div class="mini">
+              <div>
+                <span>PIB/ano</span>
+                <strong>{pct(g.pib.mediaAnual!)}</strong>
+              </div>
+              <div>
+                <span>Inflação/ano</span>
+                <strong>{pct(g.ipca.mediaAnual)}</strong>
+              </div>
+              {g.dolar && (
+                <div>
+                  <span>Dólar médio</span>
+                  <strong>{reais(g.dolar.medio)}</strong>
+                </div>
+              )}
+              {g.desemprego && (
+                <div>
+                  <span>Desemprego</span>
+                  <strong>
+                    {num(g.desemprego.inicio)} → {num(g.desemprego.fim)}%
+                  </strong>
+                </div>
+              )}
+            </div>
+            <p class="pequeno" style="margin-top:12px">
+              <a href={url(`/presidentes/${c.presidente}/`)}>Promessas e mandatos →</a>
+            </p>
+          </div>
+          <div>
+            <dl>
+              <div>
+                <dt>O que herdou</dt>
+                <dd>{c.herdou}</dd>
+              </div>
+              <div>
+                <dt>O cenário (o que "surfou" ou enfrentou)</dt>
+                <dd>{c.cenario}</dd>
+              </div>
+              <div>
+                <dt>O que decidiu</dt>
+                <dd>{c.decisoes}</dd>
+              </div>
+            </dl>
+            {c.nota && <p class="nota">{c.nota}</p>}
+          </div>
+        </section>
+      );
+    })
+  }
+
+  <div class="secao-titulo"><h2>Como os números foram calculados</h2></div>
+  <ul class="suave">
+    <li><strong>PIB:</strong> média geométrica do crescimento real anual (IBGE, série 7326 do Banco Central).</li>
+    <li><strong>Inflação:</strong> IPCA acumulado mês a mês no período e convertido em média anual (série 433).</li>
+    <li><strong>Dólar:</strong> média das cotações mensais de venda, só a partir do Real (série 3698).</li>
+    <li><strong>Desemprego:</strong> taxa da PNAD Contínua no primeiro e no último mês do governo (série 24369).</li>
+    <li>
+      Dilma governou até abril de 2016, e Temer a partir de maio. O PIB de 2016 entra na conta de Temer, que governou
+      a maior parte do ano.
+    </li>
+  </ul>
+</Base>

@@ -1,0 +1,65 @@
+---
+// PIB ano a ano (barras), com faixas marcando cada governo.
+import economia from '../data/economia.json';
+import { num } from '../lib/formato';
+
+const W = 960, H = 320, ESQ = 44, DIR = 8, TOPO = 36, BASE = 28;
+const anos = economia.pibAnual;
+const MIN = -6, MAX = 8;
+const largura = (W - ESQ - DIR) / anos.length;
+const x = (i: number) => ESQ + i * largura;
+const y = (v: number) => TOPO + ((MAX - v) / (MAX - MIN)) * (H - TOPO - BASE);
+const indice = (ano: number) => anos.findIndex((a) => a.ano === ano);
+
+const faixas = economia.governos.map((g, i) => {
+  const lista = Object.keys(g.pib.anos).map(Number);
+  const ini = indice(Math.min(...lista));
+  const fim = indice(Math.max(...lista));
+  return { nome: g.nome.replace(/ \(.*\)/, ''), x: x(ini), w: (fim - ini + 1) * largura, par: i % 2 === 0 };
+});
+const grade = [-4, 0, 4, 8];
+---
+
+<figure class="grafico" aria-label="Crescimento do PIB ano a ano desde 1985">
+  <svg viewBox={`0 0 ${W} ${H}`} role="img">
+    {faixas.map((f) => f.par && <rect x={f.x} y={TOPO - 26} width={f.w} height={H - TOPO - BASE + 26} fill="var(--g-faixa)" />)}
+    {faixas.map((f) => <text class="rotulo-faixa" x={f.x + f.w / 2} y={TOPO - 10} text-anchor="middle">{f.nome}</text>)}
+    {
+      grade.map((g) => (
+        <>
+          <line x1={ESQ} x2={W - DIR} y1={y(g)} y2={y(g)} stroke={g === 0 ? 'var(--tinta-3)' : 'var(--g-grade)'} stroke-width="1" />
+          <text class="eixo" x={ESQ - 6} y={y(g) + 4} text-anchor="end">{g}%</text>
+        </>
+      ))
+    }
+    {
+      anos.map((a, i) => {
+        const topo = Math.min(y(a.valor), y(0));
+        const altura = Math.max(Math.abs(y(a.valor) - y(0)), 1);
+        return (
+          <rect
+            x={x(i) + largura * 0.18}
+            y={topo}
+            width={largura * 0.64}
+            height={altura}
+            rx="2"
+            fill={a.valor >= 0 ? 'var(--g-positivo)' : 'var(--g-negativo)'}
+          >
+            <title>{`${a.ano}: ${num(a.valor)}%`}</title>
+          </rect>
+        );
+      })
+    }
+    {
+      anos.map(
+        (a, i) =>
+          a.ano % 5 === 0 && (
+            <text class="eixo" x={x(i) + largura / 2} y={H - 8} text-anchor="middle">
+              {a.ano}
+            </text>
+          ),
+      )
+    }
+  </svg>
+  <figcaption class="fonte-grafico">Variação real do PIB (%). Fonte: IBGE, via Banco Central (série 7326). Passe o mouse nas barras para ver o valor.</figcaption>
+</figure>

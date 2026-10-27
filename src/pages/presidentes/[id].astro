@@ -14,6 +14,7 @@ const { presidente: p } = Astro.props;
 
 <Base titulo={p.data.nome} descricao={`${p.data.nomeCompleto}: mandatos, promessas e o que foi cumprido.`}>
   <p class="suave"><a href={url('/presidentes/')}>← Presidentes</a></p>
+  <span class="selo-pilar fatos">Fatos</span>
   <h1>{p.data.nome}</h1>
   <p class="suave">{p.data.nomeCompleto} · {p.data.partido} · {periodo(p)}</p>
   <p>{p.data.resumo}</p>
