@@ -43,7 +43,7 @@ quando tudo é fascismo, nada é.
 
 <figure>
   <img src="../../imagens/latuff-alckmin-pinheirinho-2012.png" alt="Charge de Carlos Latuff mostrando Geraldo Alckmin com bota e braçadeira com cifrão pisando na comunidade do Pinheirinho" />
-  <figcaption>Charge de Carlos Latuff (2012) sobre a desocupação do Pinheirinho. Não é uma foto.</figcaption>
+  <figcaption>Charge de Carlos Latuff (2012) sobre a desocupação do Pinheirinho.</figcaption>
 </figure>
 
 Circula nas redes a ideia de que Geraldo Alckmin "foi fotografado com uma suástica". **Isso não é
