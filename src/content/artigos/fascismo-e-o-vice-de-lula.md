@@ -46,10 +46,11 @@ quando tudo é fascismo, nada é.
   <figcaption>Charge de Carlos Latuff (2012) sobre a desocupação do Pinheirinho.</figcaption>
 </figure>
 
-Circula nas redes a ideia de que Geraldo Alckmin "foi fotografado com uma suástica". **Isso não é
-verdade.** A imagem acima é uma **charge** de Carlos Latuff, cartunista conhecido por suas posições de
-esquerda, publicada em 2012. A braçadeira no estilo nazista traz um **cifrão**, não uma suástica. A frase
-"Tradição, Família e Propriedade" ironiza o lema da TFP, um grupo católico ultraconservador.
+A imagem acima é uma charge de Carlos Latuff, cartunista conhecido por suas posições de esquerda,
+publicada em 2012. Ela mostra Geraldo Alckmin **vestido como nazista**: coturno militar esmagando as casas e
+a braçadeira vermelha com um círculo branco, idêntica à usada pelos nazistas, com um **cifrão** no lugar da
+suástica. A frase "Tradição, Família e Propriedade" ironiza o lema da TFP, um grupo católico
+ultraconservador. A mensagem da charge é clara: Alckmin seria um nazista a serviço do dinheiro.
 
 O contexto: em 22 de janeiro de 2012, a Polícia Militar de São Paulo, no governo Alckmin, cumpriu uma
 ordem judicial e desocupou o Pinheirinho, em São José dos Campos. Cerca de 1.500 famílias foram retiradas
@@ -61,9 +62,8 @@ vice em 2026.
 
 ## A pergunta que fica
 
-Não é justo dizer que Alckmin "usou suástica". Ele nunca usou. Mas é justo perguntar à militância: se o
-homem que vocês desenharam como nazista em 2012 hoje é o vice do seu presidente, o que a palavra
-"fascista" realmente significa para vocês? Um conceito histórico ou só o nome que se dá a quem está do
+É justo perguntar à militância: se o homem que vocês desenharam como nazista em 2012 hoje é o vice do seu
+presidente, o que a palavra "fascista" realmente significa para vocês? Um conceito histórico ou só o nome que se dá a quem está do
 outro lado naquela eleição?
 
 ## Fontes
