@@ -23,17 +23,24 @@ Os fatos:
 - Quando o governo preparou mudanças na regra do sigilo, o texto **não incluía** a agenda e os gastos da
   primeira-dama.
 
+**O que ela quer esconder?** Não sei, e não vou inventar. Não encontrei nenhuma prova de irregularidade.
+Mas o argumento de que "ela não tem cargo" não se sustenta: a primeira-dama viaja com estrutura pública,
+tem equipe e segurança pagas pelo contribuinte e participa de agendas oficiais. **Se o dinheiro é público, a
+informação também deve ser.** Isso vale para Janja e para qualquer primeira-dama que vier depois.
+
 O detalhe que torna isso pior: em 2022, Lula prometeu um "revogaço" dos sigilos de 100 anos do governo
 Bolsonaro **no primeiro dia de governo**. No poder, mandou a CGU revisar os sigilos do antecessor. Mas o
 próprio governo continuou usando o mesmo instrumento. Em 2023 foram 1.339 pedidos negados, número próximo
 ao de 2022. Segundo a CGU, foram cerca de **5,6 mil pedidos negados por "dados pessoais" desde 2023**.
 
-E o sigilo chegou ao caso Master. A coluna de Tácio Lorran, do *Metrópoles*, pediu à Força Aérea os
-**planos de voo do jato particular de Daniel Vorcaro** entre 10 e 20 de novembro de 2025, os dias em
-torno da sua prisão. A FAB, que controla o tráfego aéreo do país, negou com base no mesmo artigo da lei
-que permite o sigilo de até 100 anos, alegando proteger a "intimidade" de quem usou o avião, porque o
-itinerário permitiria saber por onde andaram os seus ocupantes. Em nota, a FAB disse que não impõe
-sigilo a listas de passageiros, que ficam com os donos das aeronaves.
+## 2. O sigilo chegou ao caso Master
+
+A coluna de Tácio Lorran, do *Metrópoles*, pediu à Força Aérea os **planos de voo do jato particular de
+Daniel Vorcaro**, dono do Banco Master, entre 10 e 20 de novembro de 2025, os dias em torno da sua prisão.
+A FAB, que controla o tráfego aéreo do país, negou com base no mesmo artigo da lei que permite o sigilo de
+até 100 anos, alegando proteger a "intimidade" de quem usou o avião, porque o itinerário permitiria saber
+por onde andaram os seus ocupantes. Em nota, a FAB disse que não impõe sigilo a listas de passageiros, que
+ficam com os donos das aeronaves.
 
 Depois da repercussão, a FAB **voltou atrás** e entregou os planos de voo em 16 de outubro de 2026. Eles
 mostram que o jato tinha decolagem marcada de Guarulhos para **Dubai, com escala em Malta**, na noite de 17
@@ -44,12 +51,7 @@ preso antes de embarcar. Um formulário apresentado pela defesa previa quatro pe
 Se não havia nada a esconder, por que negar primeiro? A tentativa de sigilo só chamou mais atenção para
 uma viagem que, segundo os registros, terminaria em Dubai na semana da prisão.
 
-**O que ela quer esconder?** Não sei, e não vou inventar. Não encontrei nenhuma prova de irregularidade.
-Mas o argumento de que "ela não tem cargo" não se sustenta: a primeira-dama viaja com estrutura pública,
-tem equipe e segurança pagas pelo contribuinte e participa de agendas oficiais. **Se o dinheiro é público, a
-informação também deve ser.** Isso vale para Janja e para qualquer primeira-dama que vier depois.
-
-## 2. A "abertura" dos sigilos foi teatro?
+## 3. A "abertura" dos sigilos foi teatro?
 
 No debate de 18 de outubro, Lula desafiou Flávio Bolsonaro a abrir os sigilos bancário, fiscal e telefônico.
 Em 22 de outubro, as duas campanhas assinaram um acordo de abertura "total e simultânea", incluindo
@@ -72,7 +74,7 @@ Flávio passou por um **fundo controlado pelo advogado de Eduardo Bolsonaro**. T
 **Conclusão:** um desafio de abrir sigilo na última semana de campanha serve mais como marketing do que como
 prestação de contas, dos dois lados.
 
-## 3. Flávio e Vorcaro
+## 4. Flávio e Vorcaro
 
 Daniel Vorcaro, dono do Banco Master, está no centro do que é apontado como a **maior fraude bancária do
 país**, com um rombo de cerca de R$ 52 bilhões ao Fundo Garantidor de Créditos. Ele foi preso em novembro de
@@ -89,7 +91,7 @@ O que se sabe sobre Flávio:
   fuga. Em 27 de outubro, fontes da PF disseram que ele viajou para os EUA. Aliados negam, e as versões ainda
   são conflitantes.
 
-## 4. Só ele? Não.
+## 5. Só ele? Não.
 
 A lista de nomes ligados a Vorcaro atravessa todos os partidos:
 
@@ -121,7 +123,7 @@ Em resumo: é uma acusação séria, feita pelo próprio dono do banco, mas **se
 mesmo critério vale para todos: assim como as suspeitas contra Flávio, esta também precisa ser
 investigada até o fim, e não arquivada por conveniência política.
 
-## 5. E o Moraes?
+## 6. E o Moraes?
 
 Os fatos:
 
