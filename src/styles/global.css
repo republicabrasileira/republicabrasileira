@@ -93,7 +93,13 @@ img { max-width: 100%; height: auto; }
 .faixa { height: 6px; background: linear-gradient(90deg, var(--verde) 0 55%, var(--amarelo) 55% 80%, #1d3557 80%); }
 .topo { background: var(--papel); border-bottom: 3px double var(--linha); }
 .topo-linha { display: flex; justify-content: space-between; gap: 12px; font-size: 0.8rem; color: var(--tinta-3); padding-top: 10px; text-transform: uppercase; letter-spacing: 0.08em; }
-.marca { display: block; text-align: center; text-decoration: none; color: var(--tinta); padding: 14px 0 6px; }
+.marca { display: flex; align-items: center; justify-content: center; gap: 18px; text-decoration: none; color: var(--tinta); padding: 14px 0 6px; }
+.marca img { width: 76px; height: 76px; flex: none; filter: drop-shadow(0 2px 4px rgb(0 0 0 / 0.25)); }
+.marca div { text-align: left; }
+@media (max-width: 560px) {
+  .marca { gap: 12px; }
+  .marca img { width: 52px; height: 52px; }
+}
 .marca strong { display: block; font: 700 clamp(2rem, 6vw, 3.2rem)/1 var(--serif); letter-spacing: -0.02em; }
 .marca span { display: block; margin-top: 6px; font-size: 0.82rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--tinta-2); }
 nav.menu { display: flex; flex-wrap: wrap; justify-content: center; gap: 2px 22px; padding: 10px 0 12px; border-top: 1px solid var(--linha); margin-top: 10px; }

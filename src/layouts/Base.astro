@@ -21,7 +21,8 @@ const links = [
   { href: url('/cobrancas/'), texto: 'O que cobrar', classe: 'cobrar' },
   { href: url('/sobre/'), texto: 'Sobre' },
 ];
-const hoje = new Date().toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' });
+const imagemCompartilhar = new URL(url('/logo/compartilhar.jpg'), Astro.site).href;
+const hoje =new Date().toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' });
 ---
 
 <!doctype html>
@@ -33,7 +34,11 @@ const hoje = new Date().toLocaleDateString('pt-BR', { day: 'numeric', month: 'lo
     <meta name="description" content={descricao} />
     <meta property="og:title" content={tituloPagina} />
     <meta property="og:description" content={descricao} />
-    <link rel="icon" type="image/svg+xml" href={url('/favicon.svg')} />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content={imagemCompartilhar} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/png" sizes="48x48" href={url('/logo/favicon-48.png')} />
+    <link rel="apple-touch-icon" href={url('/logo/apple-touch-icon.png')} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -50,8 +55,11 @@ const hoje = new Date().toLocaleDateString('pt-BR', { day: 'numeric', month: 'lo
           <span>Opinião · Fatos · Cobrança</span>
         </div>
         <a href={url('/')} class="marca">
-          <strong>{NOME}</strong>
-          <span>Quem promete, deve</span>
+          <img src={url('/logo/selo-192.png')} alt="" width="76" height="76" />
+          <div>
+            <strong>{NOME}</strong>
+            <span>Quem promete, deve</span>
+          </div>
         </a>
         <nav class="menu">
           {
