@@ -13,8 +13,17 @@ planoDeGoverno: https://static.poder360.com.br/uploads/2026/08/Programa-Governo-
 promessas:
   - titulo: Acabar com a escala 6x1, reduzindo a jornada de 44 para 40 horas sem cortar salário
     tema: Trabalho
-    status: nao_iniciada
-    fontes: &opovo
+    status: em_andamento
+    analise: >-
+      Aprovada pelo Senado por 75 a 1 em 14/10/2026 e promulgada como Emenda Constitucional 141 em
+      16/10/2026, nove dias antes do 2º turno (Flávio Bolsonaro também votou a favor). A escala vira 5x2,
+      com máximo de 42 horas semanais 60 dias após a publicação e 40 horas cerca de 14 meses depois, sem
+      redução de salário. A cobrança agora é a implantação e o efeito sobre o emprego.
+    fontes:
+      - titulo: Congresso promulga emenda do fim da 6x1; escala 5x2 começa em 60 dias — Agência Brasil
+        url: https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/congresso-promulga-emenda-do-fim-da-6x1-escala-5x2-comeca-em-60-dias
+      - titulo: Senado aprova fim da escala 6x1 e redução da jornada — Agência Brasil
+        url: https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/senado-aprova-fim-da-escala-6x1-e-reducao-da-jornada-de-trabalho
       - titulo: Confira as promessas de Lula em caso de reeleição — O Povo
         url: https://www.opovo.com.br/noticias/politica/eleicoes/2026/10/24/confira-as-promessas-de-lula-em-caso-de-reeleicao.html
     verificado: true
@@ -23,7 +32,9 @@ promessas:
     tema: Segurança
     status: nao_iniciada
     analise: Promessa repetida de 2022, quando não foi cumprida.
-    fontes: *opovo
+    fontes: &opovo
+      - titulo: Confira as promessas de Lula em caso de reeleição — O Povo
+        url: https://www.opovo.com.br/noticias/politica/eleicoes/2026/10/24/confira-as-promessas-de-lula-em-caso-de-reeleicao.html
     verificado: true
 
   - titulo: Transformar 138 presídios estaduais em prisões de segurança máxima
