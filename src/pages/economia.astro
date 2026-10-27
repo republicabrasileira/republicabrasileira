@@ -5,7 +5,8 @@ import GraficoDolar from '../components/GraficoDolar.astro';
 import BarrasGoverno from '../components/BarrasGoverno.astro';
 import economia from '../data/economia.json';
 import { CONTEXTO } from '../data/contexto-economia';
-import { num, pct, reais, mes } from '../lib/formato';
+import { num, pct, reais, mes, marcarPandemia } from '../lib/formato';
+import NotaPandemia from '../components/NotaPandemia.astro';
 import { url } from '../lib/url';
 
 const governos = economia.governos;
@@ -142,18 +143,18 @@ const periodo = (g: (typeof governos)[number]) =>
             <dl>
               <div>
                 <dt>O que herdou</dt>
-                <dd>{c.herdou}</dd>
+                <dd set:html={marcarPandemia(c.herdou)} />
               </div>
               <div>
                 <dt>O cenário (o que "surfou" ou enfrentou)</dt>
-                <dd>{c.cenario}</dd>
+                <dd set:html={marcarPandemia(c.cenario)} />
               </div>
               <div>
                 <dt>O que decidiu</dt>
-                <dd>{c.decisoes}</dd>
+                <dd set:html={marcarPandemia(c.decisoes)} />
               </div>
             </dl>
-            {c.nota && <p class="nota">{c.nota}</p>}
+            {c.nota && <p class="nota" set:html={marcarPandemia(c.nota)} />}
           </div>
         </section>
       );
@@ -171,4 +172,5 @@ const periodo = (g: (typeof governos)[number]) =>
       a maior parte do ano.
     </li>
   </ul>
+  <NotaPandemia />
 </Base>

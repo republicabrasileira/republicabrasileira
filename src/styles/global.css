@@ -255,6 +255,12 @@ table.dados.propostas td.vazio { color: var(--tinta-3); font-style: italic; }
 .governo dd { margin: 2px 0 0; }
 .governo .nota { margin-top: 12px; padding: 10px 14px; background: var(--superficie); border-left: 4px solid var(--opiniao); border-radius: 0 var(--raio) var(--raio) 0; font-size: 0.95rem; }
 
+/* ---------- notas de rodapé ---------- */
+.nota-ref { text-decoration: none; font-weight: 700; padding: 0 2px; }
+.nota-rodape { margin-top: 48px; padding-top: 14px; border-top: 1px solid var(--linha); font-size: 0.9rem; color: var(--tinta-2); max-width: 760px; }
+.nota-rodape p { margin: 0 0 6px; }
+.nota-rodape:target { background: var(--superficie); outline: 2px solid var(--amarelo); outline-offset: 8px; }
+
 /* ---------- esquerda e direita ---------- */
 .eixos { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; max-width: 700px; margin: 20px auto 8px; background: var(--linha); border: 2px solid var(--linha); border-radius: var(--raio); overflow: hidden; }
 .eixos div { background: var(--superficie); padding: 16px; }

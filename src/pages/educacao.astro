@@ -12,7 +12,8 @@ import {
   PROGRAMAS,
   FONTES,
 } from '../data/educacao';
-import { num, pct } from '../lib/formato';
+import { num, pct, marcarPandemia } from '../lib/formato';
+import NotaPandemia from '../components/NotaPandemia.astro';
 
 const iniciais = IDEB.series[0].valores;
 ---
@@ -162,8 +163,8 @@ const iniciais = IDEB.series[0].valores;
             <tr>
               <th scope="row">{p.nome}</th>
               <td style="width:9%">{p.area}</td>
-              <td style="width:30%">{p.criou}</td>
-              <td style="width:36%">{p.mudou}</td>
+              <td style="width:30%" set:html={marcarPandemia(p.criou)} />
+              <td style="width:36%" set:html={marcarPandemia(p.mudou)} />
               <td style="width:9%">{p.hoje}</td>
             </tr>
           ))
@@ -186,7 +187,7 @@ const iniciais = IDEB.series[0].valores;
         Fundeb, criou o ProUni, o Sisu, os Institutos Federais e a maior leva de universidades federais.
         <strong>Dilma</strong> criou as cotas e inflou o Fies além do que o orçamento aguentava.
         <strong>Temer</strong> fez a reforma do ensino médio e a Base Nacional Comum Curricular. Os anos iniciais seguiram
-        melhorando com <strong>Bolsonaro</strong>, mesmo com a pandemia, e o Congresso tornou o Fundeb permanente em 2020.
+        melhorando com <strong>Bolsonaro</strong>, mesmo com a pandemia<sup><a class="nota-ref" href="#nota-pandemia">*</a></sup>, e o Congresso tornou o Fundeb permanente em 2020.
       </p>
       <p>
         O exemplo que mais funcionou não veio de Brasília: o Ceará criou em 2007 um programa de alfabetização na idade
@@ -209,4 +210,5 @@ const iniciais = IDEB.series[0].valores;
       ))
     }
   </ul>
+  <NotaPandemia />
 </Base>
