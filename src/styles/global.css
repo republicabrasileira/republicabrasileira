@@ -91,6 +91,9 @@ a.cartao:hover { border-color: var(--verde); }
 
 /* artigo */
 .artigo { max-width: 700px; }
+.artigo figure { margin: 1.8em 0; }
+.artigo figure img { display: block; border-radius: var(--raio); border: 1px solid var(--borda); }
+.artigo figcaption { font-size: 0.85rem; color: var(--texto-suave); margin-top: 6px; }
 .artigo blockquote { border-left: 4px solid var(--amarelo); margin: 1.5em 0; padding: 0.2em 1em; color: var(--texto-suave); }
 
 /* placar */

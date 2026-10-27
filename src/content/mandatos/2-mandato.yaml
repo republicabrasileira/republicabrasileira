@@ -3,11 +3,22 @@ presidente: Luiz Inácio Lula da Silva
 inicio: 2007
 fim: 2010
 eleicao: 2006
+resumo: >-
+  O programa de 2006 ("Lula de novo com a força do povo") trouxe metas qualitativas, sem números,
+  o que foi criticado na época. O eixo era "desenvolvimento com distribuição de renda e educação
+  de qualidade". Não encontrei avaliação independente, item por item, das promessas de 2006.
 
-# EXEMPLOS — confira dados e fontes antes de marcar verificado: true
 promessas:
-  - titulo: Levar energia elétrica a todos os domicílios (Luz para Todos)
+  - titulo: Acelerar o crescimento com investimento em infraestrutura (PAC)
     tema: Infraestrutura
-    status: em_andamento
-    analise: Exemplo. Registre a meta, o que foi alcançado e o que ficou pendente.
+    status: parcial
+    analise: >-
+      O PAC foi lançado em janeiro de 2007, prevendo R$ 636,2 bilhões em energia, transporte e
+      infraestrutura urbana. Na metade do prazo, dados oficiais indicavam só cerca de 15% da meta
+      executada. Parte das obras passou para o PAC 2, no governo Dilma.
+    fontes:
+      - titulo: Programa de Lula destaca crescimento econômico — Congresso em Foco
+        url: https://www.congressoemfoco.com.br/noticia/89037/programa-de-lula-destaca-crescimento-economico
+      - titulo: El segundo mandato de Lula — Real Instituto Elcano
+        url: https://www.realinstitutoelcano.org/analisis/el-segundo-mandato-de-lula-obstaculos-politicos-y-planes-de-crecimiento-economico-para-un-brasil-sub-emergente-ari/
     verificado: false

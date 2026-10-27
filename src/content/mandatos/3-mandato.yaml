@@ -3,26 +3,131 @@ presidente: Luiz Inácio Lula da Silva
 inicio: 2023
 fim: 2026
 eleicao: 2022
+resumo: >-
+  Levantamento do g1 até 30/06/2026 avaliou 36 compromissos de 2022: 26 cumpridos, 4 parciais
+  e 6 não cumpridos (cerca de 78% pelo critério deste site). A classificação é editorial, não
+  auditoria oficial. Abaixo estão só os principais itens, por isso o placar desta página é
+  menor que o do levantamento completo.
 
-# EXEMPLOS — confira dados e fontes antes de marcar verificado: true
 promessas:
   - titulo: Isentar do Imposto de Renda quem ganha até R$ 5 mil por mês
     tema: Economia
     status: cumprida
-    analise: Exemplo. Indique a lei aprovada e quando passou a valer.
-    verificado: false
+    analise: Aprovada pelo Congresso; a isenção passou a valer nos salários a partir de janeiro de 2026.
+    fontes:
+      - titulo: Promessas de Lula (levantamento g1) — Fenafisco
+        url: https://fenafisco.org.br/23/07/2026/promessas-de-lula-governo-aprovou-reforma-tributaria-e-isencao-do-ir-e-nao-recriou-ministerio-da-seguranca/
+    verificado: true
 
-  - titulo: Retomar a política de aumento real do salário mínimo
-    tema: Trabalho
+  - titulo: Aprovar a reforma tributária
+    tema: Economia
     status: cumprida
-    analise: Exemplo. Indique a lei e os reajustes de cada ano.
-    verificado: false
+    analise: >-
+      Aprovada, com criação da CBS e do IBS, cashback para famílias de baixa renda e desoneração
+      da cesta básica. A transição para o novo sistema se estende até a próxima década.
+    fontes:
+      - titulo: Promessas de Lula (levantamento g1) — Fenafisco
+        url: https://fenafisco.org.br/23/07/2026/promessas-de-lula-governo-aprovou-reforma-tributaria-e-isencao-do-ir-e-nao-recriou-ministerio-da-seguranca/
+    verificado: true
+
+  - titulo: Retomar o Mais Médicos
+    tema: Saúde
+    status: cumprida
+    analise: Programa retomado com editais e contratação de médicos para áreas vulneráveis.
+    fontes:
+      - titulo: Balanço de três anos — ND+
+        url: https://ndmais.com.br/politica/promessas-de-lula-balanco-tres-anos-governo/
+    verificado: true
+
+  - titulo: Retomar o Minha Casa, Minha Vida
+    tema: Habitação
+    status: cumprida
+    fontes:
+      - titulo: Balanço de governo aponta 26 promessas cumpridas — News Rondônia
+        url: https://newsrondonia.com.br/politica/2026/07/22/balanco-de-governo-de-lula-aponta-26-promessas-cumpridas/
+    verificado: true
+
+  - titulo: Ampliar o Farmácia Popular
+    tema: Saúde
+    status: cumprida
+    analise: Gratuidade integral para os itens do programa e inclusão de novos medicamentos.
+    fontes:
+      - titulo: Balanço de três anos — ND+
+        url: https://ndmais.com.br/politica/promessas-de-lula-balanco-tres-anos-governo/
+    verificado: true
+
+  - titulo: Reduzir as filas do SUS
+    tema: Saúde
+    status: parcial
+    analise: >-
+      O programa de redução de filas realizou parte das cirurgias represadas, mas as filas não
+      acabaram.
+    fontes:
+      - titulo: Balanço de três anos — ND+
+        url: https://ndmais.com.br/politica/promessas-de-lula-balanco-tres-anos-governo/
+    verificado: true
+
+  - titulo: Universalizar a internet nas escolas públicas
+    tema: Educação
+    status: parcial
+    fontes:
+      - titulo: Balanço de governo aponta 26 promessas cumpridas — News Rondônia
+        url: https://newsrondonia.com.br/politica/2026/07/22/balanco-de-governo-de-lula-aponta-26-promessas-cumpridas/
+    verificado: true
+
+  - titulo: Universalizar o acesso à água e à energia elétrica
+    tema: Infraestrutura
+    status: parcial
+    fontes:
+      - titulo: Balanço de governo aponta 26 promessas cumpridas — News Rondônia
+        url: https://newsrondonia.com.br/politica/2026/07/22/balanco-de-governo-de-lula-aponta-26-promessas-cumpridas/
+    verificado: true
+
+  - titulo: Nova legislação para autônomos e trabalhadores de aplicativos
+    tema: Trabalho
+    status: parcial
+    analise: O projeto foi enviado ao Congresso, mas não virou lei no mandato.
+    fontes:
+      - titulo: Balanço de governo aponta 26 promessas cumpridas — News Rondônia
+        url: https://newsrondonia.com.br/politica/2026/07/22/balanco-de-governo-de-lula-aponta-26-promessas-cumpridas/
+    verificado: true
 
   - titulo: Zerar o desmatamento na Amazônia até 2030
     tema: Meio ambiente
     status: em_andamento
-    analise: Exemplo. Use os dados anuais do Prodes/Inpe.
+    analise: O desmatamento caiu (–11% no ciclo 2024/2025, segundo o Prodes), mas a meta é para 2030.
     fontes:
       - titulo: TerraBrasilis — Inpe
         url: https://terrabrasilis.dpi.inpe.br/
+      - titulo: Balanço de três anos — ND+
+        url: https://ndmais.com.br/politica/promessas-de-lula-balanco-tres-anos-governo/
+    verificado: true
+
+  - titulo: Recriar o Ministério da Segurança Pública
+    tema: Segurança
+    status: nao_cumprida
+    analise: O governo condicionou a criação à aprovação da PEC da Segurança Pública, que não avançou a tempo.
+    fontes:
+      - titulo: Promessas de Lula (levantamento g1) — Fenafisco
+        url: https://fenafisco.org.br/23/07/2026/promessas-de-lula-governo-aprovou-reforma-tributaria-e-isencao-do-ir-e-nao-recriou-ministerio-da-seguranca/
+    verificado: true
+
+  - titulo: Não disputar a reeleição em 2026
+    tema: Política
+    status: nao_cumprida
+    analise: Lula foi candidato em 2026 e venceu o segundo turno contra Flávio Bolsonaro.
+    fontes:
+      - titulo: Lula já cumpriu 26 das 36 promessas — Revista Coité (cita g1)
+        url: https://revistacoite.com.br/lula-ja-cumpriu-26-das-36-promessas-feitas-na-campanha-de-2022/
+    verificado: true
+
+  - titulo: '"Voltar a comer picanha e tomar cerveja" — baratear a comida'
+    tema: Custo de vida
+    status: nao_cumprida
+    analise: >-
+      Frase de campanha, não item formal do plano. A Gazeta do Povo a lista como não cumprida;
+      o g1 não a incluiu no levantamento.
+    fontes:
+      - titulo: Lula disse, mas não fez — Gazeta do Povo
+        url: https://www.gazetadopovo.com.br/ideias/lula-disse-mas-nao-fez-balanco-mandato-furadas/
     verificado: false

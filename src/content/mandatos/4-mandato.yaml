@@ -3,13 +3,87 @@ presidente: Luiz Inácio Lula da Silva
 inicio: 2027
 fim: 2030
 eleicao: 2026
-resumo: Mandato que começa em 1º de janeiro de 2027.
-planoDeGoverno: https://divulgacandcontas.tse.jus.br/
+resumo: >-
+  Reeleito em 25/10/2026 com 51,79% dos votos válidos contra Flávio Bolsonaro (48,21%).
+  O plano de governo tem 13 eixos e cerca de 84 páginas; críticos apontam que não traz
+  estimativa de custo das promessas.
+planoDeGoverno: https://static.poder360.com.br/uploads/2026/08/Programa-Governo-LULA-2026.pdf
 
-# Preencha com as promessas da campanha de 2026 (status inicial: nao_iniciada)
 promessas:
-  - titulo: Exemplo de promessa da campanha de 2026 — substitua
-    tema: Economia
+  - titulo: Acabar com a escala 6x1, reduzindo a jornada de 44 para 40 horas sem cortar salário
+    tema: Trabalho
     status: nao_iniciada
-    analise: Copie o texto da promessa e a fonte (plano de governo, debate, entrevista).
-    verificado: false
+    fontes: &opovo
+      - titulo: Confira as promessas de Lula em caso de reeleição — O Povo
+        url: https://www.opovo.com.br/noticias/politica/eleicoes/2026/10/24/confira-as-promessas-de-lula-em-caso-de-reeleicao.html
+    verificado: true
+
+  - titulo: Criar o Ministério da Segurança Pública (após aprovação da PEC)
+    tema: Segurança
+    status: nao_iniciada
+    analise: Promessa repetida de 2022, quando não foi cumprida.
+    fontes: *opovo
+    verificado: true
+
+  - titulo: Transformar 138 presídios estaduais em prisões de segurança máxima
+    tema: Segurança
+    status: nao_iniciada
+    fontes: *opovo
+    verificado: true
+
+  - titulo: Universalizar o Pé-de-Meia no ensino médio público e levá-lo ao ensino superior (R$ 700/mês)
+    tema: Educação
+    status: nao_iniciada
+    fontes: *opovo
+    verificado: true
+
+  - titulo: Ensino em tempo integral em todas as escolas públicas
+    tema: Educação
+    status: nao_iniciada
+    analise: Em 2022, a promessa equivalente ficou parcial.
+    fontes: *opovo
+    verificado: true
+
+  - titulo: Retomar o Ciência sem Fronteiras, com foco em tecnologia e IA
+    tema: Educação
+    status: nao_iniciada
+    fontes: *opovo
+    verificado: true
+
+  - titulo: Criar a Rede Brasil contra o Câncer
+    tema: Saúde
+    status: nao_iniciada
+    fontes: *opovo
+    verificado: true
+
+  - titulo: Ampliar o Farmácia Popular com exames e teleconsultas gratuitos
+    tema: Saúde
+    status: nao_iniciada
+    fontes: *opovo
+    verificado: true
+
+  - titulo: Manter o aumento real do salário mínimo
+    tema: Custo de vida
+    status: nao_iniciada
+    fontes: *opovo
+    verificado: true
+
+  - titulo: Zerar impostos sobre a cesta básica e ampliar o cashback de impostos
+    tema: Custo de vida
+    status: nao_iniciada
+    fontes: *opovo
+    verificado: true
+
+  - titulo: Criar polos industriais de refino de terras raras
+    tema: Soberania
+    status: nao_iniciada
+    fontes: *opovo
+    verificado: true
+
+  - titulo: Desmatamento líquido zero até 2030
+    tema: Meio ambiente
+    status: nao_iniciada
+    fontes:
+      - titulo: Compare as propostas de Flávio Bolsonaro e Lula — Gazeta do Povo
+        url: https://www.gazetadopovo.com.br/eleicoes/2026/compare-principais-propostas-plano-de-gverno-flavio-bolsonaro-lula/
+    verificado: true

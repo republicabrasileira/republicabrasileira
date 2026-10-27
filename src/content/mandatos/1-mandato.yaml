@@ -3,21 +3,44 @@ presidente: Luiz Inácio Lula da Silva
 inicio: 2003
 fim: 2006
 eleicao: 2002
-resumo: Primeiro mandato, eleito com o programa "Um Brasil para Todos".
+resumo: >-
+  Eleito com o programa "Um Brasil para Todos". A campanha divulgou metas numéricas,
+  como a de 10 milhões de empregos, que o próprio Lula depois disse não ter sido promessa.
 
-# EXEMPLOS — confira dados e fontes antes de marcar verificado: true
 promessas:
-  - titulo: Garantir que todo brasileiro faça três refeições por dia (Fome Zero)
-    tema: Social
-    status: parcial
-    analise: Exemplo. Descreva aqui o que foi feito, com números e datas.
-    fontes:
-      - titulo: Divulgação de candidaturas — TSE
-        url: https://divulgacandcontas.tse.jus.br/
-    verificado: false
-
   - titulo: Criar 10 milhões de empregos
     tema: Economia
+    status: nao_cumprida
+    analise: >-
+      O caderno de campanha "Mais e Melhores Empregos" (2002) propunha mecanismos para
+      chegar a 10 milhões de empregos até 2006. Pelo Caged, foram criados cerca de
+      4,65 milhões de empregos com carteira entre 2003 e 2006. Mesmo a estimativa do
+      próprio governo (8,5 milhões, incluindo informais) ficou abaixo da meta. Em 2005,
+      Lula afirmou que o programa "não prometia" o número, apenas dizia que o país precisava dele.
+    fontes:
+      - titulo: Sob Lula, país criou 4,6 milhões de empregos formais — Congresso em Foco
+        url: https://www.congressoemfoco.com.br/noticia/86779/sob-lula-pais-criou-4-6-milhoes-de-empregos-formais
+      - titulo: O emprego no governo Lula — Congresso em Foco
+        url: https://www.congressoemfoco.com.br/noticia/103640/o-emprego-no-governo-lula
+    verificado: true
+
+  - titulo: Fome Zero — garantir três refeições por dia a todos os brasileiros
+    tema: Social
     status: parcial
-    analise: Exemplo. Compare a promessa com os dados oficiais de emprego do período.
+    analise: >-
+      O Fome Zero foi lançado em 2003, mas não funcionou como planejado e acabou absorvido
+      pelo Bolsa Família (2003/2004), que se tornou o principal programa de transferência
+      de renda. A saída do Brasil do Mapa da Fome da ONU só veio em 2014, já no governo Dilma.
+    fontes:
+      - titulo: O emprego no governo Lula — Congresso em Foco
+        url: https://www.congressoemfoco.com.br/noticia/103640/o-emprego-no-governo-lula
+    verificado: false
+
+  - titulo: Programa Primeiro Emprego para jovens
+    tema: Trabalho
+    status: nao_cumprida
+    analise: Lançado no início do governo, o programa não emplacou e teve resultados muito abaixo do anunciado.
+    fontes:
+      - titulo: O emprego no governo Lula — Congresso em Foco
+        url: https://www.congressoemfoco.com.br/noticia/103640/o-emprego-no-governo-lula
     verificado: false
