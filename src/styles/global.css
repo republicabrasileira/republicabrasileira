@@ -25,6 +25,10 @@
   --g-linha: #1f5fa8;
   --g-faixa: #ece5d6;
   --g-grade: #d9d1bf;
+  /* séries categóricas (validadas para daltonismo) */
+  --s1: #0f8a5a;
+  --s2: #1f5fa8;
+  --s3: #b07d00;
 
   --raio: 6px;
   --serif: 'Fraunces', Georgia, serif;
@@ -57,6 +61,9 @@
     --g-linha: #6aa3e8;
     --g-faixa: #1f2329;
     --g-grade: #343941;
+    --s1: #3aa57e;
+    --s2: #5b93d8;
+    --s3: #b8892a;
   }
 }
 

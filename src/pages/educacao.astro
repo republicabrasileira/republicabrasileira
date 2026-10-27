@@ -1,0 +1,212 @@
+---
+import Base from '../layouts/Base.astro';
+import BarrasGoverno from '../components/BarrasGoverno.astro';
+import GraficoIdeb from '../components/GraficoIdeb.astro';
+import {
+  ANALFABETISMO_CENSO,
+  ANALFABETISMO_PNAD,
+  IDEB,
+  PISA,
+  MATRICULAS_SUPERIOR,
+  UNIVERSIDADES,
+  PROGRAMAS,
+  FONTES,
+} from '../data/educacao';
+import { num, pct } from '../lib/formato';
+
+const iniciais = IDEB.series[0].valores;
+---
+
+<Base
+  titulo="Educação e programas sociais"
+  descricao="Analfabetismo, Ideb, Pisa, universidades criadas por governo e a história dos programas sociais mais conhecidos do Brasil."
+>
+  <header class="estreito">
+    <span class="selo-pilar fatos">Fatos</span>
+    <h1>Educação e programas sociais</h1>
+    <p class="suave" style="font-size:1.15rem">
+      A educação melhorou desde 1985? Quem abriu mais universidades? Quem criou e quem ampliou os programas que mais
+      chegam à população? Os números oficiais, governo por governo.
+    </p>
+  </header>
+
+  <div class="numeros" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin-top:28px">
+    <div class="numero">
+      <strong style="color:var(--fatos)">{pct(ANALFABETISMO_CENSO[0].valor)} → {pct(ANALFABETISMO_CENSO.at(-1)!.valor)}</strong>
+      <span>analfabetismo de {ANALFABETISMO_CENSO[0].ano} a {ANALFABETISMO_CENSO.at(-1)!.ano} (Censo)</span>
+    </div>
+    <div class="numero">
+      <strong style="color:var(--fatos)">{num(iniciais[0])} → {num(iniciais.at(-1)!)}</strong>
+      <span>Ideb dos anos iniciais, de {IDEB.anos[0]} a {IDEB.anos.at(-1)}</span>
+    </div>
+    <div class="numero">
+      <strong style="color:var(--fatos)">{num(MATRICULAS_SUPERIOR[0].valor)} → {num(MATRICULAS_SUPERIOR.at(-1)!.valor)} mi</strong>
+      <span>alunos no ensino superior, de {MATRICULAS_SUPERIOR[0].ano} a {MATRICULAS_SUPERIOR.at(-1)!.ano}</span>
+    </div>
+  </div>
+
+  <div class="secao-titulo"><h2>Analfabetismo</h2></div>
+  <p>Pessoas com 15 anos ou mais que não sabem ler e escrever um bilhete simples, segundo os Censos do IBGE:</p>
+  <BarrasGoverno
+    cor="var(--fatos)"
+    itens={ANALFABETISMO_CENSO.map((a) => ({ rotulo: String(a.ano), valor: a.valor, texto: pct(a.valor) }))}
+  />
+  <p class="pequeno suave">
+    Pela PNAD Contínua, que usa outra metodologia, a taxa caiu de {pct(ANALFABETISMO_PNAD.inicio.valor)} em
+    {ANALFABETISMO_PNAD.inicio.ano} para {pct(ANALFABETISMO_PNAD.fim.valor)} em {ANALFABETISMO_PNAD.fim.ano}, o menor
+    nível da série. A queda é contínua há 40 anos e atravessa todos os governos; a maior parte dos analfabetos de hoje é
+    idosa e vive no Nordeste.
+  </p>
+
+  <div class="secao-titulo"><h2>Ideb: a qualidade da escola</h2></div>
+  <p>
+    O Ideb, criado em 2007 com dados desde 2005, junta a nota dos alunos em provas nacionais com a taxa de aprovação. É o
+    principal termômetro da educação básica.
+  </p>
+  <GraficoIdeb />
+  <div class="tabela-rolagem" style="margin-top:12px">
+    <table class="dados">
+      <thead>
+        <tr>
+          <th>Etapa</th>
+          {IDEB.anos.map((a) => <th>{a}</th>)}
+        </tr>
+      </thead>
+      <tbody>
+        {
+          IDEB.series.map((s) => (
+            <tr>
+              <td>{s.nome}</td>
+              {s.valores.map((v) => (
+                <td>{num(v)}</td>
+              ))}
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+  <p>
+    <strong>O que os números mostram:</strong> os anos iniciais melhoraram em todos os governos, de forma quase contínua.
+    Os anos finais avançaram mais devagar. O ensino médio ficou parado em 3,7 de 2011 a 2015 e só voltou a subir a partir
+    de 2019.
+  </p>
+
+  <div class="secao-titulo"><h2>Pisa: o Brasil comparado ao mundo</h2></div>
+  <div class="tabela-rolagem">
+    <table class="dados" style="min-width:420px">
+      <thead><tr><th>Edição</th><th>Matemática</th><th>Leitura</th><th>Ciências</th></tr></thead>
+      <tbody>
+        {
+          PISA.map((p) => (
+            <tr>
+              <td>{p.ano}</td>
+              <td>{p.matematica}</td>
+              <td>{p.leitura}</td>
+              <td>{p.ciencias}</td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+  <p>
+    O Brasil segue entre os últimos colocados, abaixo da média dos países da OCDE nas três áreas, e os resultados estão
+    praticamente estáveis desde 2009. A distância para os países ricos diminuiu de 2006 para 2025, mas continua grande: em
+    matemática, 73% dos alunos brasileiros não atingiram o nível básico em 2022.
+  </p>
+
+  <div class="secao-titulo"><h2>Universidades: quem abriu mais?</h2></div>
+  <p>Universidades federais criadas por lei em cada governo:</p>
+  <div class="tabela-rolagem">
+    <table class="dados propostas" style="min-width:640px">
+      <thead><tr><th>Governo</th><th>Quantas</th><th>Quais</th><th>Observação</th></tr></thead>
+      <tbody>
+        {
+          UNIVERSIDADES.map((u) => (
+            <tr>
+              <th scope="row">{u.governo}</th>
+              <td style="width:10%;font-weight:700">{u.quantidade ?? 'várias'}</td>
+              <td>{u.exemplos}</td>
+              <td>{u.nota}</td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+  <p>
+    <strong>A ditadura ou depois?</strong> A ditadura ampliou a rede federal e espalhou universidades pelos estados, mas a
+    sua principal herança no ensino superior foi o crescimento das faculdades <strong>privadas</strong>, depois da
+    reforma de 1968. Depois de 1985, quem mais criou universidades federais foi Lula, em 2003–2010 (14), com o Reuni
+    ampliando as vagas das federais que já existiam. Muitas das universidades "novas" de todos os governos foram criadas
+    pelo desmembramento de campi que já funcionavam.
+  </p>
+  <p>Alunos matriculados no ensino superior (em milhões):</p>
+  <BarrasGoverno
+    cor="var(--fatos)"
+    itens={MATRICULAS_SUPERIOR.map((m) => ({ rotulo: String(m.ano), valor: m.valor, texto: num(m.valor, 1) }))}
+  />
+  <p class="pequeno suave">
+    Hoje, cerca de 80% dos alunos de graduação estão em instituições privadas, e o ensino a distância já supera o
+    presencial.
+  </p>
+
+  <div class="secao-titulo"><h2>Os programas mais conhecidos: quem criou, quem mudou</h2></div>
+  <div class="tabela-rolagem">
+    <table class="dados propostas" style="min-width:820px">
+      <thead><tr><th>Programa</th><th>Área</th><th>Quem criou</th><th>Quem ampliou ou mudou</th><th>Hoje</th></tr></thead>
+      <tbody>
+        {
+          PROGRAMAS.map((p) => (
+            <tr>
+              <th scope="row">{p.nome}</th>
+              <td style="width:9%">{p.area}</td>
+              <td style="width:30%">{p.criou}</td>
+              <td style="width:36%">{p.mudou}</td>
+              <td style="width:9%">{p.hoje}</td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+
+  <section class="estreito artigo" style="margin:48px 0 0">
+    <span class="selo-pilar opiniao">Opinião</span>
+    <h2 style="margin-top:12px">Quem melhorou a educação, afinal?</h2>
+    <div class="corpo">
+      <p>
+        <strong>Ninguém sozinho.</strong> A educação brasileira melhorou devagar e de forma contínua, atravessando
+        governos de todos os lados. Os programas que funcionaram foram os que sobreviveram às trocas de presidente.
+      </p>
+      <p>
+        <strong>FHC montou a base:</strong> o Fundef garantiu dinheiro por aluno para as escolas, o Enem e o Fies foram
+        criados e a escola fundamental ficou praticamente universal. <strong>Lula ampliou:</strong> transformou o Fundef em
+        Fundeb, criou o ProUni, o Sisu, os Institutos Federais e a maior leva de universidades federais.
+        <strong>Dilma</strong> criou as cotas e inflou o Fies além do que o orçamento aguentava.
+        <strong>Temer</strong> fez a reforma do ensino médio e a Base Nacional Comum Curricular. Os anos iniciais seguiram
+        melhorando com <strong>Bolsonaro</strong>, mesmo com a pandemia, e o Congresso tornou o Fundeb permanente em 2020.
+      </p>
+      <p>
+        O exemplo que mais funcionou não veio de Brasília: o Ceará criou em 2007 um programa de alfabetização na idade
+        certa que levou suas escolas ao topo do Ideb e depois foi copiado pelo governo federal.
+      </p>
+      <p>
+        <strong>O que cobrar:</strong> o ensino médio e o desempenho no Pisa continuam muito ruins. Ampliar vagas foi o que
+        o Brasil soube fazer; agora o desafio é garantir que o aluno aprenda.
+      </p>
+    </div>
+  </section>
+
+  <div class="secao-titulo"><h2>Fontes</h2></div>
+  <ul class="pequeno">
+    {
+      FONTES.map((f) => (
+        <li>
+          <a href={f.url} target="_blank" rel="noopener">{f.titulo}</a>
+        </li>
+      ))
+    }
+  </ul>
+</Base>
