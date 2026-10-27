@@ -26,7 +26,15 @@ Os fatos:
 O detalhe que torna isso pior: em 2022, Lula prometeu um "revogaço" dos sigilos de 100 anos do governo
 Bolsonaro **no primeiro dia de governo**. No poder, mandou a CGU revisar os sigilos do antecessor. Mas o
 próprio governo continuou usando o mesmo instrumento. Em 2023 foram 1.339 pedidos negados, número próximo
-ao de 2022.
+ao de 2022. Segundo a CGU, foram cerca de **5,6 mil pedidos negados por "dados pessoais" desde 2023**.
+
+E o sigilo chegou ao caso Master. A coluna de Tácio Lorran, do *Metrópoles*, pediu à Força Aérea os
+**planos de voo do jato particular de Daniel Vorcaro** entre 10 e 20 de novembro de 2025, os dias em
+torno da sua prisão. A FAB, que controla o tráfego aéreo do país, negou com base no mesmo artigo da lei
+que permite o sigilo de até 100 anos, alegando proteger a "intimidade" de quem usou o avião, porque o
+itinerário permitiria saber por onde andaram os seus ocupantes. Em nota, a FAB disse que não impõe
+sigilo a listas de passageiros, que ficam com os donos das aeronaves. Na prática, o resultado é o mesmo:
+o público não sabe para onde o avião do dono do maior escândalo bancário do país voou na semana da prisão.
 
 **O que ela quer esconder?** Não sei, e não vou inventar. Não encontrei nenhuma prova de irregularidade.
 Mas o argumento de que "ela não tem cargo" não se sustenta: a primeira-dama viaja com estrutura pública,
@@ -122,7 +130,7 @@ contrato da esposa, de preferência não para os próprios colegas.
 ## O que cobrar
 
 1. Uma lei que obrigue a divulgação da agenda e dos gastos públicos de cônjuges de presidentes, de qualquer
-   governo.
+   governo, e que impeça o uso do "sigilo de 100 anos" para esconder deslocamentos de investigados.
 2. A publicação efetiva dos sigilos que Lula e Flávio prometeram abrir.
 3. Uma CPI do Banco Master que investigue **todos** os citados, sem escolher partido.
 4. Que o Senado analise os pedidos sobre a conduta de Moraes, em vez de engavetá-los.
@@ -135,6 +143,8 @@ contrato da esposa, de preferência não para os próprios colegas.
 - [1.339 pedidos negados em 2023 — O Poder](https://opoder.ncnews.com.br/2024/03/22/agenda-de-janja-etc-governo-lula-decreta-sigilo-de-100-anos/)
 - [Lula diz que revogará sigilos de 100 anos no 1º dia de governo — Tribuna de Jundiaí](https://tribunadejundiai.com.br/politica/lula-diz-que-revogara-sigilos-de-100-de-bolsonaro-no-1dia-de-governo/)
 - [Lula determina que CGU reavalie sigilos — PT](https://pt.org.br/lula-determina-que-cgu-investigue-sigilos-de-100-anos/)
+- [FAB põe até 100 anos de sigilo em lista de passageiros de jato de Vorcaro — Metrópoles](https://www.metropoles.com/colunas/tacio-lorran/sigilo-100-anos-fab-vorcaro)
+- [FAB impõe sigilo de 100 anos a lista de jato de Vorcaro, tema de promessa de Lula — Times Brasil](https://timesbrasil.com.br/brasil/fab-impoe-sigilo-de-100-anos-sobre-lista-de-passageiros-do-jato-de-vorcaro-tema-de-promessa-de-lula/)
 
 **Abertura de sigilos**
 - [Acordo prevê divulgação simultânea de sigilos — Brasil de Fato](https://www.brasildefato.com.br/2026/10/22/acordo-assinado-por-campanhas-de-lula-e-flavio-bolsonaro-preve-divulgacao-simultanea-de-sigilos-pelo-tse/)
