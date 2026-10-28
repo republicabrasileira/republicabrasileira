@@ -5,7 +5,9 @@ inicio: 2016
 fim: 2018
 resumo: >-
   Sem campanha própria. Os compromissos vêm do documento "Uma Ponte para o Futuro", lançado pelo PMDB em
-  2015, que virou o programa do governo. O Aos Fatos concluiu que a maior parte dele ficou pelo caminho.
+  2015, que virou o programa do governo. Como não foi um programa votado nas urnas, a página avisa que
+  são compromissos de governo, não de campanha. O Aos Fatos avaliou 13 propostas em dezembro de 2018 e
+  concluiu que a maior parte ficou pelo caminho.
 
 promessas:
   - titulo: Criar um teto para os gastos públicos
@@ -27,6 +29,82 @@ promessas:
   - titulo: Fazer a reforma da Previdência
     tema: Economia
     status: nao_cumprida
-    analise: A proposta travou no Congresso em 2018. A reforma só foi aprovada em 2019, no governo Bolsonaro.
+    analise: >-
+      A Ponte para o Futuro propunha idade mínima de 65 anos para homens e 60 para mulheres. A PEC 287 foi
+      enviada em dezembro de 2016, mas travou com a intervenção federal no Rio, em fevereiro de 2018, e
+      nunca foi votada. A reforma só foi aprovada em 2019, no governo Bolsonaro.
+    fontes: *aosfatos
+    verificado: true
+
+  - titulo: Reforma tributária, com unificação do ICMS
+    tema: Economia
+    status: nao_cumprida
+    analise: >-
+      A proposta fatiada não saiu do papel. Na direção contrária, 39 setores perderam a desoneração da
+      folha de pagamento em 2017.
+    fontes: *aosfatos
+    verificado: true
+
+  - titulo: Equilíbrio fiscal duradouro e redução do endividamento
+    tema: Economia
+    status: nao_cumprida
+    analise: >-
+      O déficit primário em 12 meses até outubro de 2018 era de R$ 84,8 bilhões (1,24% do PIB), e a dívida
+      bruta subiu de 67,7% para 76,5% do PIB entre maio de 2016 e outubro de 2018.
+    fontes: *aosfatos
+    verificado: true
+
+  - titulo: Inflação no centro da meta e juros reais menores
+    tema: Economia
+    status: parcial
+    analise: >-
+      O IPCA caiu de 6,29% em 2016 para 2,95% em 2017, abaixo até do piso da meta, e a Selic foi de 14,25%
+      para 6,5%. Mas a dívida pública, parte do mesmo compromisso, não foi estabilizada.
+    fontes: *aosfatos
+    verificado: true
+
+  - titulo: Concessões, privatizações e fim da exclusividade da Petrobras no pré-sal
+    tema: Economia
+    status: parcial
+    analise: >-
+      A Petrobras deixou de ser operadora obrigatória do pré-sal em novembro de 2016. Do programa de
+      concessões (PPI), 106 dos 193 projetos foram concluídos. Eletrobras e Casa da Moeda não chegaram
+      nem à primeira etapa.
+    fontes: *aosfatos
+    verificado: true
+
+  - titulo: Melhorar a governança das estatais
+    tema: Gestão pública
+    status: parcial
+    analise: >-
+      A Lei das Estatais foi sancionada em 2016, mas muitas empresas não seguiam as novas regras, e
+      nomeações políticas continuaram.
+    fontes: *aosfatos
+    verificado: true
+
+  - titulo: Ampliar acordos comerciais
+    tema: Relações exteriores
+    status: parcial
+    analise: >-
+      Houve acordos com China e Suriname e negociações avançadas com EFTA, Canadá, Singapura e Coreia do
+      Sul, mas o acordo Mercosul–União Europeia não foi fechado.
+    fontes: *aosfatos
+    verificado: true
+
+  - titulo: Dar alta prioridade à pesquisa e à tecnologia
+    tema: Ciência e tecnologia
+    status: nao_cumprida
+    analise: >-
+      O orçamento de ciência e tecnologia teve contingenciamento de 44% em 2017, o CNPq sofreu corte de
+      cerca de 40% e a Capes perdeu 22% entre 2017 e 2018.
+    fontes: *aosfatos
+    verificado: true
+
+  - titulo: Simplificar a burocracia e o licenciamento ambiental
+    tema: Gestão pública
+    status: nao_cumprida
+    analise: >-
+      A mudança no licenciamento ficou parada no Senado. O tempo para abrir empresa caiu de 8 para 5 dias,
+      mas a agenda de desburocratização ficou paralisada.
     fontes: *aosfatos
     verificado: true

@@ -4,7 +4,10 @@ forma: direta
 inicio: 1990
 fim: 1992
 eleicao: 1989
-resumo: Mandato interrompido pela renúncia em 29 de dezembro de 1992, durante o impeachment.
+resumo: >-
+  Primeira eleição direta desde 1960. Não há plano de governo registrado como hoje; as promessas vêm dos
+  slogans e compromissos da campanha de 1989, como "caçar marajás" e "modernizar o Brasil". Mandato
+  interrompido pela renúncia em 29 de dezembro de 1992, durante o impeachment.
 
 promessas:
   - titulo: Caçar os "marajás" — acabar com privilégios e corrupção no setor público
@@ -34,8 +37,37 @@ promessas:
   - titulo: Derrotar a inflação
     tema: Economia
     status: nao_cumprida
-    analise: A inflação caiu logo após o Plano Collor, mas voltou a subir; a estabilização só veio com o Plano Real, em 1994.
+    analise: >-
+      Collor dizia que mataria a inflação "com um tiro só". Ela caiu logo após o Plano Collor, mas voltou a
+      subir, e o IPCA ficou acima de 400% ao ano em todos os anos do mandato. A estabilização só veio com
+      o Plano Real, em 1994.
     fontes:
       - titulo: Plano Collor, 36 anos — Jornal Opção
         url: https://www.jornalopcao.com.br/reportagens/plano-collor-36-anos-o-dia-em-que-o-brasil-acordou-confiscado-805625/
-    verificado: false
+      - titulo: Tabela histórica do IPCA — Numerando (dados IBGE/BCB)
+        url: https://numerando.com.br/indices/ipca/tabela-completa
+    verificado: true
+
+  - titulo: Modernizar e abrir a economia
+    tema: Economia
+    status: cumprida
+    analise: >-
+      A modernização foi a outra bandeira da campanha. O governo eliminou a maior parte das barreiras não
+      tarifárias e baixou a tarifa média de importação de cerca de 32% para 14% em três anos.
+    fontes:
+      - titulo: Abertura comercial e agricultura — Instituto de Economia Agrícola (SP)
+        url: https://iea.agricultura.sp.gov.br/ftpiea/ie/2001/tec3-0301.pdf
+    verificado: true
+
+  - titulo: Começar as privatizações
+    tema: Economia
+    status: cumprida
+    analise: >-
+      O Programa Nacional de Desestatização foi criado em 1990 (Lei 8.031), e a primeira grande venda,
+      a Usiminas, ocorreu em outubro de 1991.
+    fontes:
+      - titulo: Lei 8.031, de 1990 — Planalto
+        url: https://www.planalto.gov.br/ccivil_03/leis/l8031.htm
+      - titulo: Histórico das desestatizações — BNDES
+        url: https://www.bndes.gov.br/wps/portal/site/home/transparencia/desestatizacao/processos-encerrados/Historico
+    verificado: true
