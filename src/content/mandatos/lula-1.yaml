@@ -6,7 +6,8 @@ fim: 2006
 eleicao: 2002
 resumo: >-
   Eleito com o programa "Um Brasil para Todos". A campanha divulgou metas numéricas,
-  como a de 10 milhões de empregos, que o próprio Lula depois disse não ter sido promessa.
+  como a de 10 milhões de empregos, que o próprio Lula depois disse não ter sido promessa. Em 2006, a
+  revista Época analisou 111 promessas e deu nota média 5,2 ao cumprimento.
 
 promessas:
   - titulo: Criar 10 milhões de empregos
@@ -31,17 +32,45 @@ promessas:
     analise: >-
       O Fome Zero foi lançado em 2003, mas não funcionou como planejado e acabou absorvido
       pelo Bolsa Família (2003/2004), que se tornou o principal programa de transferência
-      de renda. A saída do Brasil do Mapa da Fome da ONU só veio em 2014, já no governo Dilma.
+      de renda. O desenho original, com cupons de alimentação, cestas básicas e frentes de trabalho, foi
+      abandonado por ser impraticável, segundo o balanço da revista Época em 2006.
     fontes:
-      - titulo: O emprego no governo Lula — Congresso em Foco
-        url: https://www.congressoemfoco.com.br/noticia/103640/o-emprego-no-governo-lula
-    verificado: false
+      - titulo: Revista Época faz balanço das promessas de Lula; nota foi 5,2 — Alagoas 24 Horas
+        url: https://www.alagoas24horas.com.br/848187/revista-epoca-faz-balanco-das-promessas-de-lula-nota-foi-52/
+    verificado: true
 
   - titulo: Programa Primeiro Emprego para jovens
     tema: Trabalho
     status: nao_cumprida
-    analise: Lançado no início do governo, o programa não emplacou e teve resultados muito abaixo do anunciado.
+    analise: >-
+      Lançado em 2003, o governo anunciava atender 150 mil jovens no primeiro ano e 450 mil até o fim de
+      2004. Os dados da PNAD e do Ministério do Trabalho confirmaram o fracasso do programa.
     fontes:
       - titulo: O emprego no governo Lula — Congresso em Foco
         url: https://www.congressoemfoco.com.br/noticia/103640/o-emprego-no-governo-lula
+      - titulo: O governo federal acaba de anunciar o Programa do Primeiro Emprego — Monitor Mercantil
+        url: https://monitormercantil.com.br/o-governo-federal-acaba-de-anunciar-o-programa-do-primeiro-emprego-como/
+    verificado: true
+
+  - titulo: Crescer em média 5% ao ano
+    tema: Economia
+    status: nao_cumprida
+    analise: >-
+      A promessa de 2002 era de crescimento médio de 5% ao ano. Em setembro de 2006, a revista Época
+      concluiu que a meta continuava fora de alcance; a média do mandato ficou abaixo disso.
+    fontes:
+      - titulo: Revista Época faz balanço das promessas de Lula; nota foi 5,2 — Alagoas 24 Horas
+        url: https://www.alagoas24horas.com.br/848187/revista-epoca-faz-balanco-das-promessas-de-lula-nota-foi-52/
+    verificado: true
+
+  - titulo: Dobrar o poder de compra do salário mínimo em quatro anos
+    tema: Trabalho
+    status: nao_cumprida
+    analise: >-
+      Logo no início do governo, o líder no Senado, Aloizio Mercadante, admitiu que não seria possível
+      dobrar o poder de compra no mandato. O mínimo teve ganho real expressivo, mas o aumento acumulado
+      até 2010, já no fim do segundo mandato, foi de cerca de 54% acima da inflação, longe de dobrar.
+    fontes:
+      - titulo: Pronunciamento no Senado sobre a promessa do salário mínimo — Senado Federal
+        url: https://www25.senado.leg.br/web/atividade/pronunciamentos/-/p/pronunciamento/346632
     verificado: false

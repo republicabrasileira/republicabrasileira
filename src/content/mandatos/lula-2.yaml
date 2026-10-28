@@ -5,9 +5,10 @@ inicio: 2007
 fim: 2010
 eleicao: 2006
 resumo: >-
-  O programa de 2006 ("Lula de novo com a força do povo") trouxe metas qualitativas, sem números,
-  o que foi criticado na época. O eixo era "desenvolvimento com distribuição de renda e educação
-  de qualidade". Não encontrei avaliação independente, item por item, das promessas de 2006.
+  O programa de 2006 ("Lula de novo com a força do povo") trouxe poucas metas com número: crescimento
+  de 6% a partir de 2008 e superávit de 4,25% do PIB. Sobre emprego, o programa evitou números, segundo
+  a imprensa da época, para não ser cobrado. Não há avaliação independente, item por item, das
+  promessas de 2006; a lista abaixo confere as metas verificáveis.
 
 promessas:
   - titulo: Acelerar o crescimento com investimento em infraestrutura (PAC)
@@ -23,3 +24,44 @@ promessas:
       - titulo: El segundo mandato de Lula — Real Instituto Elcano
         url: https://www.realinstitutoelcano.org/analisis/el-segundo-mandato-de-lula-obstaculos-politicos-y-planes-de-crecimiento-economico-para-un-brasil-sub-emergente-ari/
     verificado: false
+
+  - titulo: Crescer 6% ao ano a partir de 2008
+    tema: Economia
+    status: nao_cumprida
+    analise: >-
+      Meta do programa de 2006. O PIB cresceu 5,2% em 2008, caiu 0,6% em 2009, com a crise mundial, e
+      subiu 7,5% em 2010, a maior alta desde 1986. A média dos três anos ficou em torno de 4%.
+    fontes:
+      - titulo: Programa de Lula destaca crescimento econômico — Congresso em Foco
+        url: https://www.congressoemfoco.com.br/noticia/89037/programa-de-lula-destaca-crescimento-economico
+      - titulo: Relatório Anual 2010, capítulo 1 — Banco Central
+        url: https://bcb.gov.br/pec/boletim/banual2010/rel2010cap1p.pdf
+    verificado: true
+
+  - titulo: Manter o superávit primário em 4,25% do PIB
+    tema: Economia
+    status: nao_cumprida
+    analise: >-
+      O programa prometia manter 4,25% nos quatro anos. Com a crise de 2009, a meta foi reduzida por lei
+      para 2,5%, e o resultado do ano foi de 2,05% do PIB.
+    fontes:
+      - titulo: Programa de Lula destaca crescimento econômico — Congresso em Foco
+        url: https://www.congressoemfoco.com.br/noticia/89037/programa-de-lula-destaca-crescimento-economico
+      - titulo: Lei 12.053/2009, que reduziu a meta fiscal — LegisWeb
+        url: https://www.legisweb.com.br/legislacao/?id=87429
+      - titulo: Anexo de metas fiscais, LDO 2011 (resultado de 2009) — Câmara dos Deputados
+        url: https://www.camara.gov.br/internet/comissao/index/mista/orca/ldo/LDO2011/rel_apres/07_AnexoIII_2.pdf
+    verificado: true
+
+  - titulo: Ampliar a cobertura do Bolsa Família
+    tema: Assistência social
+    status: cumprida
+    analise: >-
+      O programa chegou a 11 milhões de famílias em 2006. A meta foi revista em 2009 e a cobertura chegou
+      a 12,7 milhões de famílias em 2010.
+    fontes:
+      - titulo: Targeting and Coverage of the Bolsa Família Programme — Ipea / IPC-IG
+        url: https://repositorio.ipea.gov.br/entities/publication/0a21a31c-0f8d-4daa-99c5-2637af01e162
+      - titulo: Bolsa Família atenderá cerca de 13 milhões de domicílios em 2010 — A Gazeta do Acre
+        url: https://agazetadoacre.com/2009/12/noticias/politica/bolsa-familia-atendera-cerca-de-13-milhoes-de-domicilios-em-2010
+    verificado: true
