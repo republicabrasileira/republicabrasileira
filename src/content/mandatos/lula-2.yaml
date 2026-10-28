@@ -8,7 +8,8 @@ resumo: >-
   O programa de 2006 ("Lula de novo com a força do povo") trouxe poucas metas com número: crescimento
   de 6% a partir de 2008 e superávit de 4,25% do PIB. Sobre emprego, o programa evitou números, segundo
   a imprensa da época, para não ser cobrado. Não há avaliação independente, item por item, das
-  promessas de 2006; a lista abaixo confere as metas verificáveis.
+  promessas de 2006; a lista abaixo confere as metas verificáveis e os compromissos escritos no programa.
+planoDeGoverno: https://siac.fpabramo.org.br/uploads/acervo/Programa-de-governo-presidencia_2006.pdf
 
 promessas:
   - titulo: Acelerar o crescimento com investimento em infraestrutura (PAC)
@@ -64,4 +65,58 @@ promessas:
         url: https://repositorio.ipea.gov.br/entities/publication/0a21a31c-0f8d-4daa-99c5-2637af01e162
       - titulo: Bolsa Família atenderá cerca de 13 milhões de domicílios em 2010 — A Gazeta do Acre
         url: https://agazetadoacre.com/2009/12/noticias/politica/bolsa-familia-atendera-cerca-de-13-milhoes-de-domicilios-em-2010
+    verificado: true
+
+  - titulo: Aprovar e implantar o Fundeb
+    tema: Educação
+    status: cumprida
+    analise: >-
+      O programa dizia ser "fundamental a aprovação do FUNDEB pelo Congresso Nacional". A emenda que criou
+      o fundo foi promulgada em dezembro de 2006, e a lei que o regulamentou foi sancionada em junho de
+      2007, ampliando o financiamento da creche ao ensino médio.
+    fontes:
+      - titulo: Lei nº 11.494, de 2007 (Fundeb) — Planalto
+        url: https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/lei/l11494.htm
+      - titulo: As prioridades do segundo governo Lula — Congresso em Foco
+        url: https://www.congressoemfoco.com.br/noticia/88691/as-prioridades-do-segundo-governo-lula
+    verificado: true
+
+  - titulo: Superar o analfabetismo
+    tema: Educação
+    status: nao_cumprida
+    analise: >-
+      O programa prometia ênfase na "superação do analfabetismo". A taxa caiu de 13,6% no Censo de 2000
+      para 9,6% no Censo de 2010, entre pessoas de 15 anos ou mais, mas o país chegou ao fim do mandato
+      com cerca de 14 milhões de analfabetos.
+    fontes:
+      - titulo: Censo 2010, incidência de pobreza é maior nos municípios de porte médio — Jornal do Brasil
+        url: https://www.jb.com.br/pais/noticias/2011/11/16/amp/censo-2010-incidencia-de-pobreza-e-maior-nos-municipios-de-porte-medio.html
+      - titulo: Indicadores Sociais Municipais 2010 — IBGE
+        url: https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/14124-asi-indicadores-sociais-municipais-2010-incidencia-de-pobreza-e-maior-nos-municipios-de-porte-medio
+    verificado: true
+
+  - titulo: Garantir luz para todos
+    tema: Infraestrutura
+    status: parcial
+    analise: >-
+      O programa prometia prosseguir "em sua determinação de garantir luz para todos". O Luz para Todos
+      atendeu em média 430 mil famílias por ano, mas a meta, ampliada de 2 milhões para quase 3,1 milhões
+      de famílias até 2010, não foi atingida, e o próprio Lula admitiu isso. O programa foi prorrogado.
+    fontes:
+      - titulo: Lula deve prorrogar de novo Luz para Todos — Folha de S.Paulo (acervo Instituto Acende Brasil)
+        url: https://acendebrasil.com.br/wp-content/uploads/2020/04/20100321_FolhadeS.pdf
+    verificado: true
+
+  - titulo: Reforma agrária "ampla, massiva e de qualidade"
+    tema: Agricultura
+    status: nao_cumprida
+    analise: >-
+      O programa prometia tornar a reforma agrária "ampla, massiva e de qualidade", e Lula falou em manter o
+      ritmo de 140 mil famílias por ano. Segundo o Incra, o número de assentados caiu ao longo do mandato:
+      62.683 famílias em 2008, cerca de 51 mil em 2009 e 37.352 em 2010.
+    fontes:
+      - titulo: As prioridades do segundo governo Lula — Congresso em Foco
+        url: https://www.congressoemfoco.com.br/noticia/88691/as-prioridades-do-segundo-governo-lula
+      - titulo: Reforma agrária, número de assentados cai 24% em 2012 — Jornal do Brasil
+        url: https://www.jb.com.br/pais/noticias/2012/11/11/amp/reforma-agraria-numero-de-assentados-cai-24-em-2012.html
     verificado: true

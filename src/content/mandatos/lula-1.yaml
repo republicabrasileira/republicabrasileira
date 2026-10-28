@@ -74,3 +74,32 @@ promessas:
       - titulo: Pronunciamento no Senado sobre a promessa do salário mínimo — Senado Federal
         url: https://www25.senado.leg.br/web/atividade/pronunciamentos/-/p/pronunciamento/346632
     verificado: false
+
+  - titulo: Manter a inflação sob controle (Carta ao Povo Brasileiro)
+    tema: Economia
+    status: cumprida
+    analise: >-
+      Na Carta ao Povo Brasileiro, de junho de 2002, Lula se comprometeu a manter a inflação sob controle e
+      o superávit primário necessário para a dívida não crescer. O IPCA, que fechou 2002 em 12,53% com a
+      alta do dólar na eleição, caiu para 9,30% em 2003, 7,60% em 2004, 5,69% em 2005 e 3,14% em 2006.
+    fontes:
+      - titulo: Controle da inflação resiste a pressões políticas e torna-se trunfo de petista — Senado (clipping)
+        url: https://www2.senado.leg.br/jspui/bitstream/id/353493/1/noticia.htm
+      - titulo: Tabela histórica do IPCA — Numerando (dados IBGE/BCB)
+        url: https://numerando.com.br/indices/ipca/tabela-completa
+    verificado: true
+
+  - titulo: Assentar 400 mil famílias na reforma agrária até 2006
+    tema: Agricultura
+    status: parcial
+    analise: >-
+      A reforma agrária era uma das principais bandeiras de 2002, e a meta de 400 mil famílias foi fixada no
+      Plano Nacional de Reforma Agrária de novembro de 2003. O Ministério do Desenvolvimento Agrário
+      informou 381.419 famílias no mandato, 4,65% abaixo da meta. O MST contesta o número, porque ele
+      inclui regularização de posses antigas e reposição de famílias que deixaram lotes.
+    fontes:
+      - titulo: Brasil, insatisfação com a reforma agrária — IPS
+        url: https://www.ipsnews.net/portuguese/2007/03/america-latina/brasil-insatisfacao-com-a-reforma-agraria/
+      - titulo: Governo ainda promete assentar 400 mil famílias — Tribuna do Paraná
+        url: https://www.tribunapr.com.br/noticias/brasil/governo-ainda-promete-assentar-400-mil-familias/amp/
+    verificado: true

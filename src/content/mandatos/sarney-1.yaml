@@ -5,37 +5,90 @@ inicio: 1985
 fim: 1990
 eleicao: 1985
 resumo: >-
-  Eleição indireta, sem campanha popular. As promessas abaixo são os compromissos da Aliança Democrática
-  de Tancredo Neves, que Sarney herdou ao assumir.
+  Eleição indireta, no Colégio Eleitoral, sem campanha popular. As promessas abaixo vêm do "Compromisso
+  com a Nação", o documento de agosto de 1984 que uniu o PMDB e a Frente Liberal na Aliança Democrática
+  e elegeu a chapa Tancredo Neves e José Sarney. Com a morte de Tancredo, Sarney assumiu e adotou o
+  documento como programa de governo.
+planoDeGoverno: https://acervodigital.cedec.org.br/wp-content/uploads/2022/09/Alianca-Democratica-Manifesto-de-uniao-da-Frente-Liberal-com-o-PMDB.pdf
 
 promessas:
   - titulo: Restabelecer as eleições diretas para presidente
     tema: Democracia
     status: cumprida
     analise: >-
-      A emenda constitucional de maio de 1985 restabeleceu as eleições diretas e deu direito de voto aos
-      analfabetos. A primeira eleição direta aconteceu em 1989.
+      O manifesto da Aliança Democrática prometia o "restabelecimento imediato das eleições diretas". A
+      Emenda Constitucional 25, de maio de 1985, restabeleceu as eleições diretas para presidente, em dois
+      turnos, e deu direito de voto aos analfabetos. A primeira eleição direta para presidente aconteceu em 1989.
     fontes:
-      - titulo: Governo Sarney — História do Mundo
-        url: https://www.historiadomundo.com.br/idade-contemporanea/governo-sarney.htm
+      - titulo: Emenda Constitucional nº 25, de 1985 — Planalto
+        url: https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc25-85.htm
+      - titulo: Emenda de 1985 garantiu o direito ao voto aos eleitores analfabetos — TSE
+        url: https://www.tse.jus.br/imprensa/noticias-tse/2016/Novembro/constituicao-de-1985-garantiu-o-direito-ao-voto-aos-eleitores-analfabetos
+    verificado: true
+
+  - titulo: Garantir a liberdade de organização partidária
+    tema: Democracia
+    status: cumprida
+    analise: >-
+      A mesma Emenda 25 permitiu a reorganização de partidos que tinham o registro negado ou cassado. Com
+      isso, o PCB e o PCdoB voltaram à legalidade em 1985.
+    fontes:
+      - titulo: Emenda Constitucional nº 25, de 1985 — Planalto
+        url: https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc25-85.htm
     verificado: true
 
   - titulo: Convocar uma Assembleia Nacional Constituinte
     tema: Democracia
     status: cumprida
-    analise: A Constituinte foi instalada em fevereiro de 1987 e promulgou a Constituição em 5 de outubro de 1988.
+    analise: >-
+      Sarney enviou ao Congresso a proposta de convocação em 1985. A Constituinte foi instalada em
+      fevereiro de 1987 e promulgou a Constituição em 5 de outubro de 1988.
     fontes:
+      - titulo: Panorama da Constituinte — Câmara dos Deputados
+        url: https://www2.camara.leg.br/atividade-legislativa/plenario/discursos/escrevendohistoria/25-anos-da-constituicao-de-1988/constituinte-1987-1988/panorama-da-constituinte
       - titulo: A Nova República chega aos 40 anos — Revista Pesquisa FAPESP
         url: https://revistapesquisa.fapesp.br/a-nova-republica-chega-aos-40-anos/
+    verificado: true
+
+  - titulo: Fortalecer a Federação, com autonomia financeira de estados e municípios
+    tema: Gestão pública
+    status: cumprida
+    analise: >-
+      Está entre os objetivos do "Compromisso com a Nação", ao lado da reforma tributária. A Constituição de
+      1988 ampliou a parcela do Imposto de Renda e do IPI repassada aos fundos de participação dos estados
+      (FPE) e dos municípios (FPM) e deu aos estados o ICMS, com base mais ampla que o antigo ICM.
+    fontes:
+      - titulo: Do sistema tributário nacional — o federalismo fiscal na Constituição de 1988 — Senado
+        url: https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/outras-publicacoes/volume-iv-constituicao-de-1988-o-brasil-20-anos-depois.-estado-e-economia-em-vinte-anos-de-mudancas/do-sistema-tributario-nacional-o-federalismo-fiscal-na-organizacao-do-estado-brasileiro-pela-constituicao-de-1988
+      - titulo: Compromisso com a Nação (Marco Maciel) — Senado
+        url: https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/outras-publicacoes/volume-i-constituicao-de-1988/compromisso-com-a-nacao
+    verificado: true
+
+  - titulo: Assentar 1,4 milhão de famílias na reforma agrária
+    tema: Agricultura
+    status: nao_cumprida
+    analise: >-
+      O Plano Nacional de Reforma Agrária, aprovado por decreto em outubro de 1985, previa 1,4 milhão de
+      famílias beneficiadas até 1989. Segundo o Atlas dos beneficiários da reforma agrária, o governo
+      beneficiou de fato cerca de 90 mil, menos de 6% da meta. Outros estudos chegam a números diferentes,
+      mas todos muito abaixo do prometido.
+    fontes:
+      - titulo: Decreto nº 91.766, de 1985 (Plano Nacional de Reforma Agrária) — Planalto
+        url: https://planalto.gov.br/ccivil_03/atos/decretos/1985/d91766.html
+      - titulo: Atlas dos beneficiários da reforma agrária — Estudos Avançados (USP), SciELO
+        url: https://www.scielo.br/j/ea/a/RzgPHFpX5Y7CYnRspZTXbzF/?lang=pt
     verificado: true
 
   - titulo: Controlar a inflação
     tema: Economia
     status: nao_cumprida
     analise: >-
-      O Plano Cruzado (1986) congelou preços e teve sucesso inicial, mas fracassou. Vieram o Cruzado II,
-      o Plano Bresser e o Plano Verão, e o governo terminou em hiperinflação.
+      O Plano Cruzado (1986) congelou preços e teve sucesso inicial, mas fracassou. Vieram o Cruzado II, o
+      Plano Bresser (1987) e o Plano Verão (1989). O governo terminou em hiperinflação: o IPCA de 1989 foi
+      de 1.972,91%.
     fontes:
-      - titulo: O governo Sarney — Prepara Enem
-        url: https://www.preparaenem.com/historia-do-brasil/o-governo-sarney.htm
+      - titulo: IPCA de 1989, mês a mês (dados do IBGE) — eCálculos
+        url: https://www.ecalculos.com.br/utilitarios/ipca-ibge.php
+      - titulo: Vendendo o arroz para comprar feijão — InfoMoney
+        url: https://www.infomoney.com.br/?p=1685875
     verificado: true
