@@ -4,7 +4,7 @@
 
 <h1 align="center">República Brasileira</h1>
 <p align="center"><strong>Quem promete, deve.</strong></p>
-<p align="center"><a href="https://republicabrasileira.github.io/republicabrasileira/">republicabrasileira.github.io/republicabrasileira</a></p>
+<p align="center"><a href="https://republicabrasileira.github.io/">republicabrasileira.github.io</a></p>
 
 ---
 

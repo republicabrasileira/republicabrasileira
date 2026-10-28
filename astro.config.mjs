@@ -1,11 +1,9 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 
-// Ao publicar no GitHub Pages em https://SEU-USUARIO.github.io/republicabrasileira:
-//   site: 'https://SEU-USUARIO.github.io', base: '/republicabrasileira'
-// Com domínio próprio (ex.: republicabrasileira.com.br):
-//   site: 'https://republicabrasileira.com.br', base: '/'
+// Publicado no GitHub Pages como site de usuário, na raiz de https://republicabrasileira.github.io.
+// Com domínio próprio (ex.: republicabrasileira.com.br), basta trocar o site.
 export default defineConfig({
   site: 'https://republicabrasileira.github.io',
-  base: '/republicabrasileira',
+  base: '/',
 });
