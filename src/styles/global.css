@@ -183,6 +183,9 @@ a.cartao:hover { border-color: var(--tinta-2); transform: translateY(-2px); }
 .artigo .corpo { font-size: 1.08rem; line-height: 1.75; }
 .artigo .corpo:first-of-type > p:first-of-type::first-letter { float: left; font: 700 3.6em/0.8 var(--serif); padding: 6px 8px 0 0; color: var(--verde); }
 .artigo p, .artigo li, .artigo blockquote { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+/* links (e principalmente e-mails) nunca recebem hífen automático */
+.artigo a { hyphens: none; -webkit-hyphens: none; }
+a[href^='mailto:'] { white-space: nowrap; }
 .artigo h2 { font-size: 1.6rem; }
 .artigo figure { margin: 2em 0; }
 .artigo figure img { display: block; border-radius: var(--raio); border: 1px solid var(--linha); }
