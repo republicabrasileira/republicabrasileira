@@ -39,9 +39,11 @@ ministros, e o único recurso possível voltou para a mesma turma. Dos quatro qu
 indicados por Lula: Zanin, Dino e Cármen Lúcia. O quarto era a vítima.
 
 **O padrão assusta.** Jair Bolsonaro já estava inelegível pelo TSE e foi condenado a 27 anos pelo STF.
-Agora é a vez do filho, também inelegível. Em 2022, **49,1% dos eleitores** votaram em Bolsonaro, mais
-de 58 milhões de pessoas. A esquerda venceu aquela eleição, e venceu de forma legítima. Mas, depois de
-vencer, a impressão que fica é de que o objetivo passou a ser tirar do jogo quem disputou com ela. Quando
+Com o pai preso, a liderança da família passou aos filhos, e Eduardo era um deles. Agora ele também está
+condenado e inelegível. E não se trata de um grupo pequeno: em 2022, **49,1%** dos votos válidos foram
+para Jair; em 2026, o irmão Flávio teve **48,21%** no segundo turno, quase 60 milhões de votos. Lula
+venceu as duas eleições, e venceu de forma legítima. Mas, depois de vencer, a impressão que fica é de
+que o objetivo passou a ser tirar do jogo quem disputa com ele. Quando
 os principais nomes da oposição vão sendo removidos um a um, sempre pelas mãos do mesmo tribunal, metade
 do país tem motivo para se sentir silenciada.
 
@@ -67,11 +69,12 @@ não constituiu advogado) e julgamento público. E o que ele fez não foi cantar
 abertamente, por um tarifaço que prejudicou exportadores brasileiros para tentar mudar o resultado do
 julgamento do pai.
 
-Também é preciso dizer que o mandato não foi tirado pelo STF, e sim pela Mesa da Câmara, presidida por
-Hugo Motta, do Republicanos, um partido que não é de esquerda. E as faltas eram reais.
+Também é preciso separar o que veio de cada lugar. A condenação, a prisão e o cancelamento do passaporte
+vieram do STF, pelas mãos de Moraes. Já o mandato caiu pela Mesa da Câmara, presidida por Hugo Motta, do
+Republicanos, um partido que não é de esquerda, e as faltas eram reais.
 
 **Minha opinião:** Eduardo não é um herói nem um perseguido inocente. Mas um julgamento em que a vítima é
-o relator, sem instância para recorrer, contra os herdeiros políticos de quase metade do eleitorado, não
+o relator, sem instância para recorrer, contra a família que recebe quase metade dos votos do país, não
 transmite confiança a ninguém, nem a quem não gosta dele. Num país em que a Justiça fosse vista como
 neutra, a fuga dele seria indefensável. No Brasil de hoje, eu entendo. E, no lugar dele, faria o mesmo.
 
@@ -93,8 +96,10 @@ neutra, a fuga dele seria indefensável. No Brasil de hoje, eu entendo. E, no lu
 - [STF mantém condenação de Eduardo Bolsonaro — Conjur](https://conjur.com.br/2026-set-19/stf-mantem-condenacao-de-eduardo-bolsonaro-por-coacao-no-curso-do-processo/)
 - [Moraes determina emissão de mandado de prisão contra Eduardo Bolsonaro — Agência Brasil](https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/moraes-determina-emissao-de-mandado-de-prisao-contra-eduardo-bolsonaro)
 
-**Eleição de 2022**
+**Eleições de 2022 e 2026**
 - [Resultados da eleição de 2022 — TSE](https://resultados.tse.jus.br/oficial/app/index.html)
+- [Presidente do TSE anuncia reeleição de Lula e faz balanço do 2º turno — TSE](https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/presidente-do-tse-anuncia-reeleicao-de-lula-e-faz-balanco-do-2o-turno-das-eleicoes-2026)
+- [Flávio Bolsonaro entra na disputa com o aval do pai — Al Jazeera](https://www.aljazeera.com/news/2025/12/6/flavio-bolsonaro-enters-brazils-2026-presidential-race-with-fathers-nod)
 
 **Exílios na ditadura**
 - [Fernando Henrique Cardoso — Portal Latino-Americano da USP](https://sites.usp.br/portalatinoamericano/espanol-cardoso-fernando-henrique)
