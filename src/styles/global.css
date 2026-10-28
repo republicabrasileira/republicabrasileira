@@ -281,6 +281,11 @@ table.dados.propostas td.vazio { color: var(--tinta-3); font-style: italic; }
 .espectro p { margin: 10px 0 0; font-weight: 600; font-size: 0.95rem; }
 .nota-opiniao { margin: 32px 0; padding: 16px 20px; background: var(--superficie); border-left: 4px solid var(--opiniao); border-radius: 0 var(--raio) var(--raio) 0; }
 .nota-opiniao p { margin: 10px 0 0; }
+.nota-metodo { margin: 48px 0 0; padding: 18px 22px; background: var(--superficie); border-left: 4px solid var(--fatos); border-radius: 0 var(--raio) var(--raio) 0; max-width: 820px; }
+.nota-metodo h2 { margin: 0 0 8px; font-size: 1.2rem; }
+.nota-metodo p, .nota-metodo li { color: var(--tinta-2); }
+.nota-metodo ul { padding-left: 20px; }
+.nota-metodo li { margin: 6px 0; }
 
 /* ---------- responsivo ---------- */
 @media (max-width: 820px) {
