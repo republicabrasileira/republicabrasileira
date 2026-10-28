@@ -6,12 +6,101 @@ fim: 1998
 eleicao: 1994
 resumo: >-
   Programa "Mãos à Obra, Brasil", simbolizado pela mão espalmada com cinco prioridades: emprego, saúde,
-  agricultura, segurança e educação.
+  agricultura, segurança e educação. O texto tem poucas metas com número; a principal é a da reforma
+  agrária. As demais promessas abaixo são as reformas e políticas que o programa dizia que faria.
 planoDeGoverno: https://static.scielo.org/scielobooks/b27wf/pdf/cardoso-9788599662663.pdf
 
 promessas:
   - titulo: Manter a estabilidade da moeda com o Plano Real
     tema: Economia
     status: cumprida
-    analise: A inflação (IPCA) caiu de 916% em 1994 para menos de 2% em 1998.
+    analise: >-
+      A inflação (IPCA) caiu de 22,41% em 1995 para 9,56% em 1996, 5,22% em 1997 e 1,65% em 1998, a menor
+      da série histórica até então.
+    fontes:
+      - titulo: Tabela histórica do IPCA — Numerando (dados IBGE/BCB)
+        url: https://numerando.com.br/indices/ipca/tabela-completa
+      - titulo: IPCA acumulado no Plano Real desde julho de 1994 — IstoÉ
+        url: https://istoe.com.br/ipca-acumulado-no-plano-real-desde-julho-de-1994-e-de-50823
+    verificado: true
+
+  - titulo: Assentar 280 mil famílias na reforma agrária
+    tema: Agricultura
+    status: cumprida
+    analise: >-
+      O programa prometia 40 mil famílias no primeiro ano, 60 mil no segundo, 80 mil no terceiro e 100 mil
+      no quarto. O governo anunciou cerca de 300 mil famílias assentadas no mandato, acima da meta. A conta
+      é contestada por estudos, porque inclui famílias colocadas em assentamentos antigos, e não só em
+      áreas novas.
+    fontes:
+      - titulo: A reforma agrária brasileira — evolução do número de famílias assentadas (Lauro Mattei, 2012)
+        url: https://static.poder360.com.br/2023/03/evolucao-reforma-agraria-lauromattei.pdf
+    verificado: true
+
+  - titulo: Gerar emprego, a primeira das cinco metas
+    tema: Trabalho
+    status: nao_cumprida
+    analise: >-
+      O desemprego subiu no mandato. Pela PNAD do IBGE, eram cerca de 4,5 milhões de desempregados em 1995
+      (6,1% da força de trabalho) e cerca de 6,9 milhões em 1998.
+    fontes:
+      - titulo: O gargalo do emprego — IstoÉ Dinheiro
+        url: https://istoedinheiro.com.br/o-gargalo-do-emprego
+    verificado: true
+
+  - titulo: Acelerar as privatizações
+    tema: Economia
+    status: cumprida
+    analise: >-
+      A Vale do Rio Doce foi vendida em maio de 1997 e o Sistema Telebrás em julho de 1998, em 12 leilões
+      que arrecadaram cerca de R$ 22 bilhões. A venda da Vale até hoje é alvo de críticas sobre o preço.
+    fontes:
+      - titulo: Histórico das desestatizações — BNDES
+        url: https://www.bndes.gov.br/wps/portal/site/home/transparencia/desestatizacao/processos-encerrados/Historico
+    verificado: true
+
+  - titulo: Quebrar monopólios estatais (petróleo, telecomunicações, gás)
+    tema: Economia
+    status: cumprida
+    analise: >-
+      Em 1995, o Congresso aprovou as emendas constitucionais que abriram o petróleo, as telecomunicações
+      e a distribuição de gás canalizado à iniciativa privada.
+    fontes:
+      - titulo: Emenda Constitucional nº 9, de 1995 (petróleo) — Planalto
+        url: https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc09.htm
+      - titulo: Emenda Constitucional nº 8, de 1995 (telecomunicações) — Planalto
+        url: https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc08.htm
+    verificado: true
+
+  - titulo: Fazer a reforma administrativa
+    tema: Gestão pública
+    status: cumprida
+    analise: >-
+      Aprovada em 1998 (Emenda Constitucional 19), com o fim da estabilidade absoluta do servidor e a
+      criação do teto salarial, embora parte dela dependesse de leis posteriores.
+    fontes:
+      - titulo: Emenda Constitucional nº 19, de 1998 — Planalto
+        url: https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc19.htm
+    verificado: true
+
+  - titulo: Fazer a reforma da Previdência
+    tema: Economia
+    status: parcial
+    analise: >-
+      Aprovada em dezembro de 1998 (Emenda Constitucional 20), trocando tempo de serviço por tempo de
+      contribuição. A idade mínima para o setor privado, peça central da proposta, foi derrubada na Câmara.
+    fontes:
+      - titulo: Emenda Constitucional nº 20, de 1998 — Planalto
+        url: https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc20.htm
+    verificado: true
+
+  - titulo: Enviar e aprovar uma reforma tributária
+    tema: Economia
+    status: nao_cumprida
+    analise: >-
+      O programa dizia que o governo encaminharia uma reforma que simplificasse os tributos. A proposta foi
+      enviada, mas não foi aprovada no mandato.
+    fontes:
+      - titulo: Mãos à Obra, Brasil — proposta de governo (capítulo 4.2, Reforma fiscal)
+        url: https://static.scielo.org/scielobooks/b27wf/pdf/cardoso-9788599662663.pdf
     verificado: false

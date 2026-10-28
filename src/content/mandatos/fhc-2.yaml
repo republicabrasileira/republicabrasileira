@@ -4,13 +4,68 @@ forma: direta
 inicio: 1999
 fim: 2002
 eleicao: 1998
-resumo: Programa "Avança, Brasil". Reeleito no primeiro turno.
+resumo: >-
+  Programa "Avança, Brasil". Reeleito no primeiro turno. Ao contrário de 1994, o programa traz várias
+  metas com número para 2002, e elas permitem uma conferência mais direta.
+planoDeGoverno: https://static.scielo.org/scielobooks/62rp6/pdf/cardoso-9788599662687.pdf
 
 promessas:
-  - titulo: Manter a política cambial do Real
+  - titulo: Manter o câmbio do Real
     tema: Economia
     status: nao_cumprida
     analise: >-
-      O governo defendeu o câmbio controlado durante a campanha de 1998. Em janeiro de 1999, duas semanas
-      após a posse, o real foi desvalorizado e passou a flutuar.
-    verificado: false
+      O governo sustentou o câmbio controlado até a eleição. O real começou a perder valor 12 dias depois
+      da vitória e, em 15 de janeiro de 1999, duas semanas após a posse, o Banco Central abandonou as bandas
+      e deixou a moeda flutuar. O próprio FHC admitiu depois que o governo teve "medo de mexer no câmbio".
+    fontes:
+      - titulo: Atacamos a infecção e não a febre (entrevista de FHC) — IstoÉ Dinheiro
+        url: https://istoedinheiro.com.br/atacamos-a-infeccao-e-nao-a-febre-3
+      - titulo: Política cambial em 1999 — Banco Central
+        url: https://www.bcb.gov.br/rex/MerCambio/Port/cambio991/1999-1Pol%C3%ADticaCambial.asp?frame=1
+    verificado: true
+
+  - titulo: Dobrar as exportações para US$ 100 bilhões em 2002
+    tema: Economia
+    status: nao_cumprida
+    analise: >-
+      Meta escrita no programa. As exportações de 2002 ficaram em cerca de US$ 60 bilhões, e o próprio
+      governo abandonou a meta antes do fim do mandato. A marca de US$ 100 bilhões em 12 meses só foi alcançada no início de 2005.
+    fontes:
+      - titulo: Exportação, a prioridade número um — IstoÉ Dinheiro
+        url: https://istoedinheiro.com.br/exportacao-a-prioridade-numero-um
+      - titulo: Brasil, resumo do comércio em 2002 — Banco Mundial (WITS)
+        url: https://wits.worldbank.org/CountryProfile/es/Country/BRA/Year/2002/Summary
+      - titulo: Exportação bate recorde de US$ 100 bi — Senado
+        url: https://www2.senado.leg.br/jspui/bitstream/id/59133/1/noticia.htm
+    verificado: true
+
+  - titulo: Chegar a 20 mil equipes de Saúde da Família até 2002
+    tema: Saúde
+    status: parcial
+    analise: >-
+      O programa partia de cerca de 3.500 equipes. Em dezembro de 2002 eram 16.698, um crescimento grande,
+      mas abaixo da meta.
+    fontes:
+      - titulo: Saúde da Família reduz mortalidade e internações — Conselho Federal de Medicina
+        url: https://portal.cfm.org.br/noticias/saude-da-familia-reduz-mortalidade-e-internacoes/
+    verificado: true
+
+  - titulo: Ampliar o ensino superior para 2,7 milhões de alunos em 2002
+    tema: Educação
+    status: cumprida
+    analise: >-
+      O Censo da Educação Superior registrou 3,48 milhões de matrículas em 2002, acima da meta, puxadas
+      principalmente pelas faculdades particulares.
+    fontes:
+      - titulo: Série de matrículas no ensino superior (MEC/Inep) — FURG
+        url: https://avaliacao.furg.br/images/DAI/Av.Interna/Congressos/2006Congressos/15_SINAES.pdf
+    verificado: true
+
+  - titulo: Chegar a 10 milhões de alunos no ensino médio em 2002
+    tema: Educação
+    status: nao_cumprida
+    analise: O Censo Escolar registrou 8,71 milhões de matrículas no ensino médio em 2002.
+    fontes:
+      - titulo: Matrículas no ensino médio 2000–2006 (Corbucci, Ipea)
+        url: https://www.maxwell.vrac.puc-rio.br/9273/9273_3.PDF
+    verificado: true
