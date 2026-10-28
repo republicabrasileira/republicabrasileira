@@ -111,6 +111,8 @@ nav.menu a.cobrar[aria-current='page'], nav.menu a.cobrar:hover { border-bottom-
 main { padding-top: 28px; padding-bottom: 72px; }
 
 .rodape { border-top: 3px double var(--linha); color: var(--tinta-2); font-size: 0.9rem; padding: 28px 0 40px; }
+.rodape p { margin: 0; }
+.rodape p + p { margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--linha); }
 
 /* ---------- selos dos pilares ---------- */
 .selo-pilar { display: inline-block; font: 700 0.72rem/1 var(--sans); letter-spacing: 0.14em; text-transform: uppercase; padding: 5px 8px 4px; border-radius: 3px; color: #fff; }

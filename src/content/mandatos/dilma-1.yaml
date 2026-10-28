@@ -4,5 +4,156 @@ forma: direta
 inicio: 2011
 fim: 2014
 eleicao: 2010
-resumo: Promessas da campanha de 2010 ainda a pesquisar.
-promessas: []
+resumo: >-
+  O programa registrado em 2010, "Os 13 compromissos programáticos", tinha mais diretrizes do que metas;
+  a própria Dilma disse que não eram metas. Por isso, a lista abaixo junta as poucas metas com número do
+  programa (creches, quadras, moradias) e as promessas concretas feitas na campanha, conferidas pelo
+  Congresso em Foco em setembro de 2014.
+planoDeGoverno: https://siac.fpabramo.org.br/uploads/acervo/Programa-de-governo-presidencia_2010.pdf
+
+promessas:
+  - titulo: Construir 6 mil creches e pré-escolas
+    tema: Educação
+    status: nao_cumprida
+    analise: >-
+      A meta está no programa de 2010: "O Governo Federal assumirá a responsabilidade da criação de 6 mil
+      creches e pré-escolas". Em 2014 o governo passou a falar em creches "contratadas" (6.036 com recursos
+      autorizados até maio). Concluídas, o FNDE registrava cerca de 2 mil no primeiro semestre de 2014,
+      parte delas herdada de obras do governo Lula.
+    fontes:
+      - titulo: O que foi realizado e o que ficou só na promessa de Dilma — Congresso em Foco
+        url: https://congressoemfoco.com.br/noticia/53702/o-que-foi-realizado-e-o-que-ficou-so-na-promessa-de-dilma
+      - titulo: Insuficiente receita do Fundo Social frustra planos da União (dados do FNDE) — Andifes
+        url: https://www.andifes.org.br/2014/08/11/insuficiente-receita-do-fundo-social-frustra-planos-da-uniao/
+    verificado: true
+
+  - titulo: Construir 10 mil quadras esportivas cobertas
+    tema: Educação
+    status: nao_cumprida
+    analise: >-
+      Também está no programa. Em 2014 o governo previa construir 6.116 quadras até o fim do ano e cobrir
+      cerca de 4 mil já existentes, somando as duas coisas para chegar perto do número prometido.
+    fontes:
+      - titulo: O que foi realizado e o que ficou só na promessa de Dilma — Congresso em Foco
+        url: https://congressoemfoco.com.br/noticia/53702/o-que-foi-realizado-e-o-que-ficou-so-na-promessa-de-dilma
+    verificado: true
+
+  - titulo: Mais 2 milhões de moradias no Minha Casa, Minha Vida
+    tema: Habitação
+    status: parcial
+    analise: >-
+      A meta de contratação foi alcançada: em meados de 2013 já eram 1,78 milhão de unidades contratadas
+      na segunda fase, e a meta de 2 milhões foi superada até o fim de 2014. A entrega das casas, porém,
+      ficou bem atrás, e em 2014 o próprio governo reconhecia não ter entregado a quantidade prometida.
+    fontes:
+      - titulo: Minha Casa, Minha Vida atinge 75% da meta, diz Miriam — Jornal de Brasília
+        url: https://jornaldebrasilia.com.br/noticias/economia/minha-casa-minha-vida-atinge-75-da-meta-diz-miriam/
+      - titulo: O que foi realizado e o que ficou só na promessa de Dilma — Congresso em Foco
+        url: https://congressoemfoco.com.br/noticia/53702/o-que-foi-realizado-e-o-que-ficou-so-na-promessa-de-dilma
+    verificado: true
+
+  - titulo: Erradicar a extrema pobreza
+    tema: Assistência social
+    status: parcial
+    analise: >-
+      O plano Brasil Sem Miséria, de 2011, elevou a renda de 22 milhões de pessoas do Bolsa Família acima
+      da linha de extrema pobreza (R$ 70, depois R$ 77 por pessoa). O critério é só de renda, e o próprio
+      governo reconhecia cerca de 300 mil famílias miseráveis ainda não localizadas.
+    fontes:
+      - titulo: O que foi realizado e o que ficou só na promessa de Dilma — Congresso em Foco
+        url: https://congressoemfoco.com.br/noticia/53702/o-que-foi-realizado-e-o-que-ficou-so-na-promessa-de-dilma
+      - titulo: Governo apresenta balanço do Plano Brasil Sem Miséria — Jornal do Brasil
+        url: https://www.jb.com.br/pais/noticias/2013/03/04/amp/governo-apresenta-balanco-do-plano-brasil-sem-miseria.html
+    verificado: true
+
+  - titulo: Remédios grátis para hipertensão e diabetes
+    tema: Saúde
+    status: cumprida
+    analise: >-
+      Prometido no programa. Os remédios passaram a ser gratuitos no Farmácia Popular, em cerca de 15 mil
+      drogarias conveniadas, atendendo mais de 6,8 milhões de pessoas por mês.
+    fontes:
+      - titulo: O que foi realizado e o que ficou só na promessa de Dilma — Congresso em Foco
+        url: https://congressoemfoco.com.br/noticia/53702/o-que-foi-realizado-e-o-que-ficou-so-na-promessa-de-dilma
+      - titulo: Dilma só cumpriu uma entre dez grandes metas — Congresso em Foco
+        url: https://congressoemfoco.com.br/noticia/53708/dilma-so-cumpriu-uma-entre-dez-grandes-metas
+    verificado: true
+
+  - titulo: Erradicar o analfabetismo
+    tema: Educação
+    status: nao_cumprida
+    analise: >-
+      O programa prometia "uma ampla mobilização" para acabar com o analfabetismo. A taxa caiu, mas em
+      2014 ainda era de 8,3% entre pessoas de 15 anos ou mais, cerca de 13,2 milhões de brasileiros,
+      segundo a PNAD do IBGE.
+    fontes:
+      - titulo: Analfabetismo cai em 2014, mas 13,2 milhões ainda não sabem ler e escrever — Gazeta do Povo
+        url: https://www.gazetadopovo.com.br/vida-e-cidadania/analfabetismo-cai-em-2014-mas-132-milhoes-ainda-nao-sabem-ler-e-escrever-2j1xgvranfawsf9ip9etis08e
+    verificado: true
+
+  - titulo: Levar 100% dos pobres para a classe média
+    tema: Assistência social
+    status: nao_cumprida
+    analise: >-
+      A meta exigiria elevar a renda de cerca de 59 milhões de pessoas. Em 2014, a própria campanha dizia
+      que 55% da população estava na classe média e que as classes D e E ainda somavam 25%.
+    fontes:
+      - titulo: O que foi realizado e o que ficou só na promessa de Dilma — Congresso em Foco
+        url: https://congressoemfoco.com.br/noticia/53702/o-que-foi-realizado-e-o-que-ficou-so-na-promessa-de-dilma
+    verificado: true
+
+  - titulo: Criar um ProUni para o ensino médio
+    tema: Educação
+    status: nao_cumprida
+    analise: >-
+      Nada parecido saiu do papel. O governo passou a apostar no Pronatec, que tem uma faixa de cursos
+      técnicos para alunos do ensino médio, mas não é bolsa em escola particular como o ProUni.
+    fontes:
+      - titulo: O que foi realizado e o que ficou só na promessa de Dilma — Congresso em Foco
+        url: https://congressoemfoco.com.br/noticia/53702/o-que-foi-realizado-e-o-que-ficou-so-na-promessa-de-dilma
+    verificado: true
+
+  - titulo: Fazer cumprir o piso nacional do magistério
+    tema: Educação
+    status: nao_cumprida
+    analise: >-
+      O piso já existia em lei desde 2008. Muitos estados e municípios continuaram sem pagá-lo, e o MEC
+      afirmou não ter responsabilidade legal para fiscalizar ou exigir o cumprimento.
+    fontes:
+      - titulo: Dilma só cumpriu uma entre dez grandes metas — Congresso em Foco
+        url: https://congressoemfoco.com.br/noticia/53708/dilma-so-cumpriu-uma-entre-dez-grandes-metas
+    verificado: true
+
+  - titulo: Zerar o PIS/Cofins de saneamento, energia e transportes
+    tema: Economia
+    status: parcial
+    analise: >-
+      Não foi zerado nesses setores, mas houve desonerações: cesta básica, folha de pagamento de 56
+      setores e parte dos tributos na conta de luz.
+    fontes:
+      - titulo: O que foi realizado e o que ficou só na promessa de Dilma — Congresso em Foco
+        url: https://congressoemfoco.com.br/noticia/53702/o-que-foi-realizado-e-o-que-ficou-so-na-promessa-de-dilma
+    verificado: true
+
+  - titulo: Usar drones para vigiar as fronteiras
+    tema: Segurança
+    status: nao_cumprida
+    analise: >-
+      O programa prometia intensificar o controle das fronteiras contra o tráfico de drogas e armas. Dos 14
+      veículos aéreos não tripulados orçados, só 4 foram recebidos até 2014.
+    fontes:
+      - titulo: O que foi realizado e o que ficou só na promessa de Dilma — Congresso em Foco
+        url: https://congressoemfoco.com.br/noticia/53702/o-que-foi-realizado-e-o-que-ficou-so-na-promessa-de-dilma
+    verificado: true
+
+  - titulo: Crescer mais, com controle da inflação e equilíbrio fiscal
+    tema: Economia
+    status: nao_cumprida
+    analise: >-
+      É o segundo dos 13 compromissos. O PIB cresceu 2,7% em 2011, 1% em 2012, 2,3% em 2013 e quase parou
+      em 2014. A inflação ficou acima do centro da meta (4,5%) em todos os anos do mandato, e as contas
+      públicas pioraram ao longo do período.
+    fontes:
+      - titulo: O antes e depois de Dilma na economia — Exame
+        url: https://exame.com/economia/o-antes-e-depois-de-dilma-na-economia
+    verificado: true
