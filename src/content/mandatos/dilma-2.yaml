@@ -4,7 +4,12 @@ forma: direta
 inicio: 2015
 fim: 2016
 eleicao: 2014
-resumo: Mandato interrompido pelo impeachment em 31 de agosto de 2016.
+resumo: >-
+  Mandato interrompido pelo impeachment em 31 de agosto de 2016, com Dilma afastada desde maio. Ela
+  governou cerca de 16 meses de um mandato de 4 anos, então metas com prazo em 2018 são avaliadas pelo
+  que foi feito ou abandonado nesse período. O programa registrado em 2014 se chamava "Mais Mudanças, Mais
+  Futuro".
+planoDeGoverno: https://www.conjur.com.br/wp-content/uploads/2023/09/programa-governo-dilma-2014.pdf
 
 promessas:
   - titulo: Não mexer em direitos trabalhistas "nem que a vaca tussa"
@@ -19,4 +24,77 @@ promessas:
         url: https://www.congressoemfoco.com.br/noticia/57620/dilma-diz-que-nao-reduz-direitos-trabalhistas-%e2%80%9cnem-que-a-vaca-tussa%e2%80%9d
       - titulo: Dilma deu tiro no pé com MPs, diz senador petista — Congresso em Foco
         url: https://congressoemfoco.com.br/noticia/48732/dilma-deu-tiro-no-pe-com-mps-diz-senador-petista
+    verificado: true
+
+  - titulo: Sem alta de juros e sem "arrocho" na economia
+    tema: Economia
+    status: nao_cumprida
+    analise: >-
+      Na campanha, Dilma dizia que a vitória de Aécio traria alta de juros e arrocho. Logo depois da
+      reeleição, o Banco Central subiu a Selic, e o governo nomeou Joaquim Levy para fazer um ajuste fiscal.
+      A mudança de rumo gerou acusações de "estelionato eleitoral".
+    fontes:
+      - titulo: Reeleição de Dilma teve campanha marcada por reviravoltas — Agência Senado
+        url: https://www12.senado.leg.br/noticias/materias/2014/12/30/reeleicao-de-dilma-teve-campanha-marcada-por-reviravoltas
+    verificado: true
+
+  - titulo: Manter a inflação sob controle
+    tema: Economia
+    status: nao_cumprida
+    analise: >-
+      O controle da inflação aparece com destaque no programa de 2014. Em 2015, o IPCA fechou em 10,67%,
+      acima do teto da meta (6,5%) e o maior desde 2002. A conta de luz subiu 51% em média no ano.
+    fontes:
+      - titulo: Official inflation closes out 2015 at 10.67% — Agência Brasil
+        url: https://agenciabrasil.ebc.com.br/en/economia/noticia/2016-01/official-inflation-closes-out-2015-1067
+      - titulo: Programa de Dilma reforça mote em ciclo de mudanças — Estado de Minas
+        url: https://www.em.com.br/app/noticia/politica/2014/07/05/interna_politica,545749/programa-de-dilma-reforca-mote-em-ciclo-de-mudancas.shtml
+    verificado: true
+
+  - titulo: Mais 3 milhões de moradias no Minha Casa, Minha Vida 3
+    tema: Habitação
+    status: nao_cumprida
+    analise: >-
+      Prometida em outubro de 2014 para até 2018. Em fevereiro de 2016, Dilma reconheceu oficialmente que
+      não cumpriria a meta, e a terceira fase foi lançada em março de 2016 com meta menor, de 2 milhões.
+    fontes:
+      - titulo: Governo não cumprirá meta de campanha do Minha Casa Minha Vida 3 — Estado de Minas
+        url: https://www.em.com.br/app/noticia/politica/2016/02/03/interna_politica,731269/governo-nao-cumprira-meta-de-campanha-do-minha-casa-minha-vida-3.shtml
+      - titulo: 1 milhão de casas somem da meta do Minha Casa Minha Vida — Gazeta do Povo
+        url: https://www.gazetadopovo.com.br/economia/1-milhao-de-casas-somem-da-meta-do-minha-casa-minha-vida-1tdof4ep76xrt88bmxy7101hc
+    verificado: true
+
+  - titulo: Mais 12 milhões de vagas no Pronatec
+    tema: Educação
+    status: nao_cumprida
+    analise: >-
+      Anunciada em junho de 2014 como a segunda fase do programa, a partir de 2015. Com o ajuste fiscal, o
+      Pronatec ofereceu pouco mais de 1 milhão de vagas em 2015, cerca de 60% menos que em 2014.
+    fontes:
+      - titulo: Dilma — 2ª fase do Pronatec oferecerá 12 milhões de vagas — Estado de Minas
+        url: https://www.em.com.br/app/noticia/politica/2014/06/18/interna_politica,540465/dilma-2-fase-do-pronatec-oferecera-12-milhoes-de-vagas.shtml
+      - titulo: Pronatec perde 60% das vagas este ano com ajuste fiscal — Congresso em Foco
+        url: https://congressoemfoco.com.br/noticia/47911/pronatec-perde-60-das-vagas-este-ano-com-ajuste-fiscal
+    verificado: true
+
+  - titulo: Mais 100 mil bolsas do Ciência sem Fronteiras até 2018
+    tema: Educação
+    status: nao_cumprida
+    analise: >-
+      O programa sofreu contingenciamento já em 2015: o orçamento do ano (R$ 3,3 bilhões) ficou abaixo do
+      que foi gasto em 2014 (R$ 3,42 bilhões, com 42.209 bolsas), sem a expansão prometida.
+    fontes:
+      - titulo: Promessas sociais feitas por Dilma durante campanha ainda não são cumpridas — Correio Braziliense
+        url: https://www.correiobraziliense.com.br/app/noticia/politica/2015/09/07/interna_politica,497564/promessas-sociais-feitas-por-dilma-durante-campanha-ainda-nao-sao-cumpridas.shtml
+    verificado: true
+
+  - titulo: Mobilizar a base para criminalizar a homofobia
+    tema: Direitos humanos
+    status: nao_cumprida
+    analise: >-
+      Compromisso assumido na campanha com o deputado Jean Wyllys. O projeto ficou parado na CCJ da Câmara
+      desde o início de 2015, sem mobilização do governo para aprová-lo.
+    fontes:
+      - titulo: Promessas sociais feitas por Dilma durante campanha ainda não são cumpridas — Correio Braziliense
+        url: https://www.correiobraziliense.com.br/app/noticia/politica/2015/09/07/interna_politica,497564/promessas-sociais-feitas-por-dilma-durante-campanha-ainda-nao-sao-cumpridas.shtml
     verificado: true
