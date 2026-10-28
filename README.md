@@ -1,79 +1,59 @@
-# República Brasileira
+<p align="center">
+  <img src="public/logo/selo-192.png" alt="Selo do República Brasileira" width="140" />
+</p>
 
-Site estático feito com [Astro](https://astro.build) e publicado no GitHub Pages.
+<h1 align="center">República Brasileira</h1>
+<p align="center"><strong>Quem promete, deve.</strong></p>
+<p align="center"><a href="https://republicabrasileira.github.io/republicabrasileira/">republicabrasileira.github.io/republicabrasileira</a></p>
 
-## Como escrever um artigo
-
-Crie um arquivo em `src/content/artigos/`, por exemplo `meu-texto.md`:
-
-```markdown
----
-titulo: Título do texto
-descricao: Uma frase de resumo.
-data: 2026-11-01
-tags: [economia, opinião]
-rascunho: false   # true = não aparece no site
 ---
 
-Texto em Markdown...
-```
+## Por que este site existe
 
-O nome do arquivo vira o endereço: `/artigos/meu-texto/`.
+A cada quatro anos, o Brasil ouve uma lista de promessas. Emprego, saúde, segurança, comida mais barata,
+menos impostos. O candidato vence, toma posse, e poucas semanas depois quase ninguém lembra do que foi
+prometido: nem quem prometeu, nem quem votou.
 
-## Como cadastrar uma promessa
+Enquanto isso, o debate político virou briga de torcida. De um lado, tudo é "fascista"; do outro, tudo é
+"comunista". Notícia falsa circula mais rápido do que a correção, e cada um só lê o que confirma o que já
+pensa.
 
-Cada presidente tem uma ficha em `src/content/presidentes/` (ex.: `lula.yaml`) e cada mandato um arquivo em
-`src/content/mandatos/` (ex.: `lula-3.yaml`), ligado ao presidente pelo campo `presidente: lula`.
+O **República Brasileira** nasceu para fazer o contrário: **lembrar, conferir e cobrar**.
 
-Para cadastrar uma promessa, edite o arquivo do mandato e adicione um item em `promessas`:
+Promessa de campanha não é conversa. É uma dívida com o eleitor. E dívida se cobra.
 
-```yaml
-  - titulo: Texto da promessa
-    tema: Saúde
-    status: em_andamento   # cumprida | parcial | em_andamento | nao_cumprida | nao_iniciada
-    analise: O que foi feito, com números.
-    fontes:
-      - titulo: Plano de governo (TSE)
-        url: https://...
-    verificado: true       # false mostra o selo "rascunho"
-```
+## O que você encontra aqui
 
-O placar e a página "O que cobrar" se atualizam sozinhos. O mandato mais recente (maior `inicio`) é sempre
-tratado como o atual, e "O que cobrar" lista as pendências dos mandatos anteriores do mesmo presidente.
+O site é organizado em três partes, e cada página mostra a qual delas pertence:
 
-Para um novo mandato, crie `src/content/mandatos/NOME-N.yaml`:
+- **Opinião:** o que o autor pensa sobre os temas do momento. É opinião assumida, escrita em primeira
+  pessoa e sempre separada dos fatos.
+- **Fatos:** o que foi pesquisado, sempre com a fonte ao lado. As promessas de cada presidente desde o fim da
+  ditadura, o que foi cumprido e o que não foi, a economia de cada governo, a educação, as eleições.
+- **Cobrança:** a lista do que o governo atual prometeu e do que ficou pendente dos mandatos anteriores.
 
-```yaml
-presidente: lula        # nome do arquivo em src/content/presidentes/
-ordem: 4                # 4º mandato deste presidente
-forma: direta           # direta | indireta | sucessao
-inicio: 2027
-fim: 2030
-eleicao: 2026
-promessas: []
-```
+## As regras da casa
 
-## Rodar no computador
+1. **Todo fato tem fonte.** Se ainda não foi conferido, aparece marcado como rascunho.
+2. **Opinião é opinião.** Ela aparece identificada, e o leitor sempre sabe quando está lendo um fato e quando
+   está lendo uma interpretação.
+3. **Fake news não entra, nem a favor nem contra.** Se algo que circula nas redes for falso, o site vai dizer
+   que é falso, mesmo quando isso contraria a opinião do autor.
+4. **A mesma régua para todos.** Lula, Bolsonaro, FHC, Dilma, Temer: todos são cobrados pelo que prometeram,
+   com os mesmos critérios. Nenhum governo é poupado por ser de esquerda ou de direita.
+5. **Fontes de todos os lados, conferidas.** Dados oficiais (IBGE, Banco Central, TSE, Congresso) vêm
+   primeiro. Quando uma informação vem de um veículo com linha editorial marcada, ela só entra depois de
+   confirmada em outra fonte.
+6. **Duvidar é legítimo.** Perguntar não é acusar. Uma pergunta bem fundamentada vale mais do que uma certeza
+   sem prova.
 
-Requer Node.js 20 ou superior.
+## Independência
 
-```bash
-npm install
-npm run dev      # abre em http://localhost:4321/republicabrasileira/
-```
+Este site não tem vínculo com partido, candidato, governo ou empresa. Não recebe dinheiro de ninguém e não
+tem anúncios. É um projeto independente, feito por um cidadão que quer entender e acompanhar a política do
+próprio país.
 
-## Publicar no GitHub Pages
+## Encontrou um erro?
 
-1. Crie um repositório chamado `republicabrasileira` no GitHub.
-2. Em `astro.config.mjs`, ajuste `site` e `base` se mudar de endereço ou usar domínio próprio.
-3. No repositório: **Settings → Pages → Source: GitHub Actions**.
-4. Envie o código:
-   ```bash
-   git init -b main
-   git add .
-   git commit -m "Primeira versão"
-   git remote add origin https://github.com/republicabrasileira/republicabrasileira.git
-   git push -u origin main
-   ```
-
-A cada `git push` na branch `main`, o site é recompilado e publicado automaticamente.
+Erros acontecem e serão corrigidos. Se você encontrou uma informação errada, tem uma fonte melhor ou quer
+sugerir um tema, escreva para **[republicadobrasil@proton.me](mailto:republicadobrasil@proton.me)**.
