@@ -5,25 +5,49 @@ inicio: 2019
 fim: 2022
 eleicao: 2018
 resumo: >-
-  Levantamento do g1 ao fim do mandato avaliou 58 compromissos de 2018: 21 cumpridos (36%), cerca de 16%
-  parciais e 48% não cumpridos. Abaixo, os principais.
+  O plano registrado no TSE em 2018 se chamava "O Caminho da Prosperidade". No balanço final do g1, de 58
+  compromissos de campanha, 19 foram cumpridos integralmente (33%) e cerca de 17% em parte. Em julho de
+  2022, o parcial do mesmo levantamento era de 21 cumpridos (36%). Abaixo, os principais itens.
+planoDeGoverno: https://eleicoes-monitor.poder360.com.br/media/planos/jair-bolsonaro.pdf
 
 promessas:
   - titulo: Fazer a reforma da Previdência
     tema: Economia
     status: cumprida
-    analise: Aprovada em novembro de 2019 (Emenda Constitucional 103).
+    analise: >-
+      Aprovada em novembro de 2019 (Emenda Constitucional 103). O regime de capitalização, que também
+      estava no plano, ficou de fora.
     fontes: &jp
       - titulo: Após meio mandato, veja promessas de Bolsonaro realizadas e deixadas de lado — Jovem Pan
         url: https://jovempan.com.br/noticias/politica/apos-meio-mandato-veja-promessas-de-bolsonaro-que-foram-realizadas-e-as-deixadas-de-lado.html
-    verificado: false
+      - titulo: Em 3 anos, Bolsonaro cumpriu 24,5% das promessas de campanha — Metrópoles
+        url: https://www.metropoles.com/brasil/politica-brasil/em-3-anos-bolsonaro-cumpriu-245-das-promessas-de-campanha-confira
+    verificado: true
 
   - titulo: Dar autonomia ao Banco Central
     tema: Economia
     status: cumprida
     analise: Aprovada em 2021 (Lei Complementar 179).
     fontes: *jp
-    verificado: false
+    verificado: true
+
+  - titulo: Garantir renda igual ou maior que a do Bolsa Família
+    tema: Assistência social
+    status: cumprida
+    analise: >-
+      O plano prometia renda "igual ou superior" à do Bolsa Família. O programa foi substituído pelo Auxílio
+      Brasil, com valor maior.
+    fontes: &metropoles
+      - titulo: Em 3 anos, Bolsonaro cumpriu 24,5% das promessas de campanha — Metrópoles
+        url: https://www.metropoles.com/brasil/politica-brasil/em-3-anos-bolsonaro-cumpriu-245-das-promessas-de-campanha-confira
+    verificado: true
+
+  - titulo: Reformular o Mais Médicos
+    tema: Saúde
+    status: cumprida
+    analise: O programa foi reformulado e substituído pelo Médicos pelo Brasil.
+    fontes: *metropoles
+    verificado: true
 
   - titulo: Reduzir os ministérios para 15
     tema: Gestão pública
@@ -39,9 +63,42 @@ promessas:
     status: parcial
     analise: >-
       Privatizações lideram a lista de promessas não cumpridas no levantamento do g1. A principal entrega
-      foi a privatização da Eletrobras, em 2022.
+      foi a Eletrobras, em 2022, além da venda de refinarias e da BR Distribuidora pela Petrobras. Os
+      Correios não foram privatizados, e o governo ainda criou uma estatal nova, a NAV Brasil.
+    fontes:
+      - titulo: Governo Bolsonaro cumpriu apenas 36% das promessas, aponta levantamento — IstoÉ
+        url: https://istoe.com.br/governo-bolsonaro-cumpriu-apenas-36-das-promessas-feitas-aponta-levantamento/
+      - titulo: Em 3 anos, Bolsonaro cumpriu 24,5% das promessas de campanha — Metrópoles
+        url: https://www.metropoles.com/brasil/politica-brasil/em-3-anos-bolsonaro-cumpriu-245-das-promessas-de-campanha-confira
+    verificado: true
+
+  - titulo: Zerar o déficit primário no primeiro ano
+    tema: Economia
+    status: nao_cumprida
+    analise: 2019 fechou com déficit de R$ 95 bilhões (1,3% do PIB), o sexto ano seguido no vermelho.
+    fontes: *metropoles
+    verificado: true
+
+  - titulo: Fazer a reforma tributária
+    tema: Economia
+    status: nao_cumprida
+    analise: Dois projetos foram enviados ao Congresso, mas nenhum foi aprovado no mandato.
+    fontes: *metropoles
+    verificado: true
+
+  - titulo: Criar alíquota única e corrigir a tabela do Imposto de Renda
+    tema: Economia
+    status: nao_cumprida
+    analise: A tabela não foi corrigida no mandato, e a alíquota única não foi adotada.
     fontes: *istoe
-    verificado: false
+    verificado: true
+
+  - titulo: Não negociar cargos com o Centrão
+    tema: Política
+    status: nao_cumprida
+    analise: Em 2021, ministérios centrais, como a Casa Civil, foram entregues a partidos do Centrão.
+    fontes: *metropoles
+    verificado: true
 
   - titulo: Acabar com a reeleição para presidente
     tema: Política
@@ -50,8 +107,33 @@ promessas:
     fontes: *istoe
     verificado: true
 
-  - titulo: Criar alíquota única e corrigir a tabela do Imposto de Renda
-    tema: Economia
+  - titulo: Facilitar a posse e o porte de armas
+    tema: Segurança
+    status: parcial
+    analise: >-
+      Vários decretos ampliaram o acesso a armas e munição, mas parte deles foi suspensa pelo STF.
+    fontes: *metropoles
+    verificado: true
+
+  - titulo: Reduzir a maioridade penal para 16 anos
+    tema: Segurança
     status: nao_cumprida
-    fontes: *istoe
+    analise: A proposta não avançou no Congresso durante o mandato.
+    fontes: *metropoles
+    verificado: true
+
+  - titulo: Acabar com a progressão de penas e as saídas temporárias
+    tema: Segurança
+    status: nao_cumprida
+    analise: Não saiu do papel no mandato.
+    fontes: *metropoles
+    verificado: true
+
+  - titulo: Escolas cívico-militares
+    tema: Educação
+    status: parcial
+    analise: >-
+      O Programa Nacional das Escolas Cívico-Militares foi criado e chegou a 26 estados, mas sem alcançar
+      todas as capitais como prometido.
+    fontes: *metropoles
     verificado: true
