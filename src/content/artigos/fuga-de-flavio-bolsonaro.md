@@ -23,11 +23,14 @@ A história ainda está em andamento. Este é o quadro em 28 de outubro de 2026:
   oposição.
 - **27 de outubro:** o prazo vence sem a entrega, e a PF cancela os passaportes comum e diplomático. Um
   aliado e uma fonte do governo americano confirmam à Reuters que Flávio foi para os Estados Unidos com a
-  mulher e as filhas. A rota ainda tem versões conflitantes: segundo a CNN, a família cruzou a fronteira
-  para Puerto Iguazú, na Argentina, e seguiu em voo particular, mas o governo argentino chegou a dizer que
-  não tinha registro da entrada.
-- **28 de outubro:** segundo a CNN, registros da imigração americana mostram a entrada de Flávio em Miami
-  com o passaporte diplomático que a PF já tinha cancelado.
+  mulher e as filhas. Por volta das 22h50, a família atravessa a ponte de Foz do Iguaçu para Puerto
+  Iguazú, na Argentina. O governo argentino chegou a negar a entrada, mas depois o registro de migração a
+  confirmou. Às 23h30, eles embarcam num jato particular com destino a Guayaquil, no Equador.
+- **28 de outubro:** depois de reabastecer no Equador, o avião pousa por volta das 10h25 (horário de
+  Brasília) no aeroporto executivo de Opa-Locka, em Miami. Flávio chega com a mulher e as duas filhas.
+  Segundo a CNN, os registros da imigração americana mostram a entrada com o passaporte diplomático que a
+  PF já tinha cancelado. Dois funcionários do governo americano disseram à CNN que os EUA estão emitindo
+  vistos para a família, e um assessor de Trump afirmou que o presidente aprovou a entrada.
 
 **De que ele é suspeito?** Flávio é **investigado** num inquérito do STF, junto com Willer Tomaz, por
 lavagem de dinheiro e evasão de divisas. A PF aponta sociedade dos dois em empresas, principalmente a
@@ -102,6 +105,8 @@ a fuga dele seria indefensável. No Brasil de hoje, eu entendo. E, no lugar dele
 - [Moraes manda Flávio entregar passaporte e não se comunicar com Willer — CNN Brasil](https://www.cnnbrasil.com.br/politica/moraes-manda-flavio-entregar-passaporte-e-nao-se-comunicar-com-willer/)
 - [Flávio Bolsonaro entrou nos EUA com passaporte diplomático que PF cancelou — CNN Brasil](https://www.cnnbrasil.com.br/internacional/flavio-bolsonaro-entrou-nos-eua-com-passaporte-diplomatico-que-pf-cancelou/)
 - [Flávio chega com mulher e filhas aos EUA — CNN Brasil](https://www.cnnbrasil.com.br/blogs/jussara-soares/politica/flavio-chega-com-mulher-e-filhas-aos-eua/)
+- [Flávio Bolsonaro chega com família a Miami após fuga do Brasil — CNN Brasil](https://www.cnnbrasil.com.br/internacional/flavio-bolsonaro-chega-com-familia-a-miami-apos-fuga-do-brasil/)
+- [Avião com Flávio Bolsonaro chega aos EUA — Poder360](https://www.poder360.com.br/poder-internacional/aviao-com-flavio-bolsonaro-chega-aos-eua/)
 - [A fuga de Flávio Bolsonaro aos EUA, 2 dias depois da eleição — Nexo](https://www.nexojornal.com.br/expresso/2026/10/27/flavio-bolsonaro-fugiu-argentina-pf-passaporte)
 
 **A investigação**
