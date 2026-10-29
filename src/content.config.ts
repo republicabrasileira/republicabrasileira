@@ -8,6 +8,8 @@ const artigos = defineCollection({
     titulo: z.string(),
     descricao: z.string(),
     data: z.coerce.date(),
+    // data da última edição; a data de publicação original continua em `data`
+    atualizado: z.coerce.date().optional(),
     tags: z.array(z.string()).default([]),
     rascunho: z.boolean().default(false),
   }),

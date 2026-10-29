@@ -21,7 +21,10 @@ const minutos = minutosDeLeitura(artigo.body ?? '');
       <span class="selo-pilar opiniao">Opinião</span>
       <h1>{artigo.data.titulo}</h1>
       <p class="lead">{artigo.data.descricao}</p>
-      <span class="data">{dataBR(artigo.data.data)} · {minutos} min de leitura</span>
+      <span class="data">
+        {dataBR(artigo.data.data)}
+        {artigo.data.atualizado && <> · editado em {dataBR(artigo.data.atualizado)}</>} · {minutos} min de leitura
+      </span>
       <div class="aviso-leitura">
         <span><span class="selo-pilar fatos">Fatos</span> com fonte no fim do texto</span>
         <span><span class="selo-pilar opiniao">Opinião</span> do autor, assumida</span>

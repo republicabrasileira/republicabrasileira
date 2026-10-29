@@ -2,6 +2,7 @@
 titulo: A fuga de Flávio Bolsonaro — no lugar dele, eu também teria ido
 descricao: Flávio não é inocente, e eu não estou aqui para defendê-lo. Mas quase metade do país votou nele, e quem decide o destino da família no STF é sempre o mesmo ministro.
 data: 2026-10-28
+atualizado: 2026-10-29
 tags: [Justiça, STF, Flávio Bolsonaro, oposição, eleições 2026]
 ---
 
@@ -11,7 +12,7 @@ inocente, teria tomado a mesma decisão de sair do Brasil. E quero explicar por 
 
 ## Os fatos
 
-A história ainda está em andamento. Este é o quadro em 28 de outubro de 2026:
+A história ainda está em andamento. Este é o quadro em 29 de outubro de 2026:
 
 - **25 de outubro:** Lula vence o segundo turno com **51,79%** dos votos válidos. Flávio fica com
   **48,21%**, quase 60 milhões de votos. No dia seguinte, o PL reconhece a vitória de Lula.
@@ -31,11 +32,28 @@ A história ainda está em andamento. Este é o quadro em 28 de outubro de 2026:
   Segundo a CNN, os registros da imigração americana mostram a entrada com o passaporte diplomático que a
   PF já tinha cancelado. Dois funcionários do governo americano disseram à CNN que os EUA estão emitindo
   vistos para a família, e um assessor de Trump afirmou que o presidente aprovou a entrada.
+- **28 de outubro, à tarde: a carta.** Já nos EUA, Flávio divulga uma nota. Três versões circularam em
+  menos de uma hora. A primeira o chamava de "o verdadeiro presidente eleito do Brasil" e trazia no
+  cabeçalho o brasão antigo, com a inscrição "Estados Unidos do Brazil", nome que o país deixou de usar no
+  fim dos anos 1960. Minutos depois, ele trocou a expressão por "líder do Brasil" e o brasão pelo atual. Na
+  carta, escreve: "Não fugi do Brasil, eu saí pelo Brasil". Diz que vai liderar a oposição a partir dos
+  EUA e fala em "fraude eleitoral", sem apresentar provas. No mesmo dia, encontra Eduardo Bolsonaro e
+  Alexandre Ramagem.
+- **As reações:** em nota, o presidente do TSE, Kassio Nunes Marques, disse que a eleição transcorreu
+  "dentro da mais absoluta normalidade". O presidente do PL, Valdemar Costa Neto, criticou a carta: "Não
+  gostei". Um grupo de advogados pediu à PF que investigue o uso do brasão. Lula, que já tinha dito "quem
+  não deve, não teme", orientou os ministros a não explorar a fuga, para não alimentar a tese de
+  perseguição. Deputados do PT pediram a Moraes a prisão preventiva de Flávio e um alerta vermelho da
+  Interpol. Até agora, não há decisão sobre o pedido.
+- **29 de outubro:** segundo o aliado Paulo Figueiredo, Flávio dará uma entrevista coletiva em Miami
+  nesta tarde.
 
 **De que ele é suspeito?** Flávio é **investigado** num inquérito do STF, junto com Willer Tomaz, por
-lavagem de dinheiro e evasão de divisas. A PF aponta sociedade dos dois em empresas, principalmente a
-Alcazar Holding, e movimentações suspeitas de **R$ 130 milhões** entre março e maio de 2025. Tomaz já mora
-nos EUA. Os dois negam qualquer irregularidade. Flávio **não é réu, não foi condenado e não tem mandado
+lavagem de dinheiro e evasão de divisas. Segundo a PF, uma conta ligada a Tomaz movimentou cerca de
+**R$ 130 milhões** entre março e maio de 2025, valor que os investigadores consideram incompatível com as
+atividades conhecidas. A PF também encontrou e-mails que indicariam Flávio como "usuário master" de uma
+conta da Alcazar Holdings, empresa do advogado. Tomaz já mora nos EUA. Os dois negam qualquer
+irregularidade, e a assessoria de Flávio nega ter conta em conjunto com ele. Flávio **não é réu, não foi condenado e não tem mandado
 de prisão**.
 
 ## Por que eu teria ido embora
@@ -86,12 +104,18 @@ regime democrático, com advogados, acesso aos autos e um país inteiro acompanh
 Também há pontos que pesam contra ele:
 
 - **Ele disse que ficaria e saiu no dia seguinte.** O vídeo de 26 de outubro não envelheceu nem 24 horas.
-- **A suspeita não é política.** R$ 130 milhões em três meses, numa empresa em sociedade com um advogado
-  investigado em outro caso, é uma pergunta que precisa de resposta, qualquer que seja o partido.
+- **A suspeita não é política.** R$ 130 milhões em três meses, na conta de um advogado amigo, de cuja
+  empresa ele aparece como usuário de conta bancária, é uma pergunta que precisa de resposta, qualquer
+  que seja o partido.
 - **O risco de fuga era real.** Moraes mandou recolher o passaporte por medo de que Flávio fugisse, e ele
   fugiu. Daqui para a frente, a fuga é um problema que ele mesmo criou, e um descumprimento de ordem
   judicial pesa mais que muita acusação.
 - **Ninguém o mandou para a cadeia.** Ele não estava preso, nem condenado, nem com mandado de prisão.
+- **A fraude não tem prova.** O próprio PL reconheceu o resultado no dia seguinte à eleição. A carta
+  culpa Cristiano Zanin, que prorrogou a votação a pedido da campanha de Lula, mas a campanha de Flávio
+  também pediu prorrogação ao TSE em alguns estados. Segundo o TSE, 34.330 pessoas votaram depois das 17h,
+  numa eleição decidida por mais de 4,4 milhões de votos. Chamar-se de "presidente eleito" enfraquece
+  justamente o argumento de perseguição, que é o mais forte que ele tem.
 
 **Minha opinião:** Flávio não é um herói nem um perseguido inocente. Mas quando o mesmo ministro conduz os
 processos do pai, do irmão e agora o dele, depois de ter sido alvo da família, quem perdeu a eleição por
@@ -107,10 +131,27 @@ a fuga dele seria indefensável. No Brasil de hoje, eu entendo. E, no lugar dele
 - [Flávio chega com mulher e filhas aos EUA — CNN Brasil](https://www.cnnbrasil.com.br/blogs/jussara-soares/politica/flavio-chega-com-mulher-e-filhas-aos-eua/)
 - [Flávio Bolsonaro chega com família a Miami após fuga do Brasil — CNN Brasil](https://www.cnnbrasil.com.br/internacional/flavio-bolsonaro-chega-com-familia-a-miami-apos-fuga-do-brasil/)
 - [Avião com Flávio Bolsonaro chega aos EUA — Poder360](https://www.poder360.com.br/poder-internacional/aviao-com-flavio-bolsonaro-chega-aos-eua/)
-- [A fuga de Flávio Bolsonaro aos EUA, 2 dias depois da eleição — Nexo](https://www.nexojornal.com.br/expresso/2026/10/27/flavio-bolsonaro-fugiu-argentina-pf-passaporte)
+- [Leia a cronologia dos fatos que levaram Flávio a deixar o Brasil — Poder360](https://www.poder360.com.br/poder-justica/leia-a-cronologia-dos-fatos-que-levaram-flavio-bolsonaro-deixar-o-brasil/)
+- [Flávio está descansando e dará coletiva na quinta em Miami, diz aliado — CNN Brasil](https://www.cnnbrasil.com.br/blogs/caio-junqueira/politica/flavio-esta-descansando-e-dara-coletiva-na-quinta-em-miami-diz-aliado/)
+- [Flávio se encontra com Eduardo Bolsonaro e Ramagem nos EUA — Poder360](https://www.poder360.com.br/poder-internacional/flavio-se-encontra-com-eduardo-bolsonaro-e-ramagem-nos-eua/)
+
+**A carta e as reações**
+- [Leia as 3 versões da nota divulgada por Flávio ao chegar aos EUA — Poder360](https://poder360.com.br/poder-integras/leia-a-integra-da-carta-de-flavio-bolsonaro)
+- [Flávio recua em carta com teor golpista e se diz "líder do Brasil" — CNN Brasil](https://www.cnnbrasil.com.br/politica/flavio-recua-em-carta-com-teor-golpista-e-se-diz-lider-do-brasil/)
+- [Nota em que Flávio se declara "presidente" traz brasão antigo do Brasil — Metrópoles](https://www.metropoles.com/colunas/igor-gadelha/nota-em-que-flavio-se-declara-presidente-traz-brasao-antigo-do-brasil)
+- [Advogados pedem à PF investigação sobre uso de brasão em carta de Flávio — Metrópoles](https://www.metropoles.com/brasil/advogados-pedem-a-pf-investigacao-sobre-uso-de-brasao-em-carta-de-flavio)
+- [Após carta de Flávio, Kassio cita "absoluta normalidade" na eleição — Poder360](https://www.poder360.com.br/poder-eleicoes-2026/apos-carta-de-flavio-kassio-cita-absoluta-normalidade-na-eleicao/)
+- [Leia reações à carta de Flávio Bolsonaro após fuga para os EUA — Poder360](https://www.poder360.com.br/poder-eleicoes-2026/leia-todas-as-reacoes-a-carta-de-flavio-apos-fuga-para-os-eua/)
+- [Lula orienta ministros a não explorar fuga de Flávio — CNN Brasil](https://www.cnnbrasil.com.br/blogs/taina-falcao/politica/lula-orienta-ministros-a-nao-explorar-fuga-de-flavio/)
+- [Deputados do PT pedem a prisão de Flávio e alerta vermelho da Interpol — CNN Brasil](https://www.cnnbrasil.com.br/politica/deputados-do-pt-pedem-a-prisao-de-flavio-e-alerta-vermelho-da-interpol/)
+
+**A prorrogação da votação**
+- [Leia a cronologia da ampliação do horário de votação no 2º turno — Poder360](https://www.poder360.com.br/poder-eleicoes-2026/leia-a-cronologia-da-ampliacao-do-horario-de-votacao-no-2o-turno/)
+- [34 mil eleitores votaram após as 17h no 2º turno, mostram dados do TSE — CNN Brasil](https://www.cnnbrasil.com.br/eleicoes/dados-tse-votacao-apos-prorrogacao/)
 
 **A investigação**
-- [Entenda as investigações contra Flávio Bolsonaro e a decisão de Moraes — Itatiaia](https://www.itatiaia.com.br/politica/entenda-as-investigacoes-contra-flavio-bolsonaro-e-a-decisao-de-moraes)
+- [Advogado amigo de Flávio movimentou R$ 130 milhões em três meses, diz PF — CNN Brasil](https://www.cnnbrasil.com.br/politica/advogado-amigo-de-flavio-movimentou-r-130-milhoes-em-tres-meses-diz-pf/)
+- [PF envia ao STF nova investigação sobre Flávio, segundo jornal — Poder360](https://www.poder360.com.br/poder-justica/pf-envia-ao-stf-nova-investigacao-sobre-flavio-segundo-jornal/)
 
 **Eleições de 2022 e 2026**
 - [Presidente do TSE anuncia reeleição de Lula e faz balanço do 2º turno — TSE](https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/presidente-do-tse-anuncia-reeleicao-de-lula-e-faz-balanco-do-2o-turno-das-eleicoes-2026)
