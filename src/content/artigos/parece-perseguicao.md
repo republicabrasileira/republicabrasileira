@@ -2,7 +2,8 @@
 titulo: Parece perseguição — e a escolha para o Ministério da Justiça não ajuda
 descricao: O governo venceu de forma legítima. Mas, num país dividido ao meio, não basta ser justo, é preciso parecer justo. E cotar o ex-advogado de Vorcaro para comandar a PF é, no mínimo, estranho.
 data: 2026-10-29
-tags: [Governo Lula, oposição, Justiça, STF, Banco Master, Ministério da Justiça]
+atualizado: 2026-10-29
+tags: [Governo Lula, oposição, PT, PL, Justiça, STF, Banco Master, Ministério da Justiça]
 ---
 
 Não estou dizendo que existe um plano do governo para perseguir a oposição. Não tenho prova disso, e
@@ -18,6 +19,11 @@ os seus amigos não estão deixando andar, agora vai andar". O mandato de Flávi
 fevereiro de 2027. Ouvir isso do adversário, que também é o presidente da República, e um dia depois da
 derrota receber a ordem de entregar o passaporte, a pedido da PF, não é algo que se esqueça.
 
+**Sem condenação, nem denúncia.** Flávio não foi condenado, nem sequer denunciado: é investigado. Mesmo
+assim, perdeu o passaporte. A lei permite isso, porque a apreensão é uma medida cautelar, usada quando o
+juiz vê risco de fuga, e não uma pena. Mas, para quem está de fora, a sequência é difícil de engolir:
+ainda não existe acusação formal, e a punição mais visível já veio.
+
 **A reação do próprio governo.** Quem achou a apreensão do passaporte exagerada não foi só a oposição.
 Segundo a CNN e o Metrópoles, interlocutores de Lula avaliaram a decisão de Moraes como "precipitada e
 desnecessária", e senadores aliados a chamaram de "inadequada". Ministros chegaram a culpar Moraes pela
@@ -32,6 +38,34 @@ eliminação de adversários.
 **A crítica de fora.** Em editorial de 28 de outubro, o *Wall Street Journal*, um dos jornais mais
 influentes dos EUA, acusou o governo de "vingança política". Citou a fala de Lula no debate e resumiu
 assim, na tradução do Poder360: Lula "escolheu o homem e prometeu encontrar o crime".
+
+## E o PT?
+
+Uma pergunta que muita gente faz: se o caso Master é tão grande, por que parece que só o PL aparece? Os
+fatos mostram que o caso também chega ao PT e ao próprio governo:
+
+- **Jaques Wagner (PT-BA)**, líder do governo no Senado, foi alvo da 9ª fase da operação da PF, em junho.
+  Segundo a PF, ele recebeu vantagens de sócios do banco, como uso de jatinhos e um apartamento de
+  R$ 2,45 milhões em Salvador. O ministro André Mendonça o proibiu de falar com outros investigados.
+  Wagner nega e diz que vai provar a inocência.
+- **Lula recebeu Vorcaro no Planalto** em 4 de dezembro de 2024, fora da agenda oficial, com os ministros
+  Rui Costa e Alexandre Silveira e com Gabriel Galípolo, então indicado ao Banco Central. Segundo o
+  Poder360, Lula aconselhou Vorcaro a não vender o banco. Mensagens no celular de Vorcaro citam conversas
+  no Planalto, inclusive com Lula. **Lula não é investigado.**
+- **Alexandre Silveira (PSD)**, ministro de Minas e Energia de Lula: segundo o Metrópoles, Vorcaro disse à
+  PF e à PGR, em 28 de outubro, que entregou a ele R$ 20 milhões em dinheiro vivo, como caixa 2, para a
+  eleição de 2024. Silveira nega. A PF e a PGR já recusaram três propostas de delação de Vorcaro, por
+  omitir fatos.
+- **Lulinha**, filho do presidente, é investigado em outro caso, o das fraudes no INSS. Em julho,
+  Mendonça autorizou a PF a apurar suspeita de tráfico de influência, e em outubro a PF juntou tudo num
+  só inquérito. A defesa nega.
+- Do outro lado aparecem **Flávio** e o ex-governador do Rio **Cláudio Castro**, ambos do PL, e o senador
+  **Ciro Nogueira**, do PP.
+
+Ou seja, a investigação não é só do PL. A diferença está em **como** cada um é tratado. Flávio perdeu o
+passaporte sem denúncia. Wagner continua líder do governo, e Silveira continua ministro. Cada caso tem os
+seus indícios e o seu juiz, mas a régua parece diferente. E ainda falta muito: se Vorcaro fechar uma
+delação, o que vier dela vai passar justamente pela PF, que fica sob o Ministério da Justiça.
 
 ## Os advogados do presidente
 
@@ -57,9 +91,8 @@ primeiro governo Lula. O problema não é o currículo, é **o caso Master**:
   defesa em março de 2026. Segundo a CNN, por um potencial conflito de interesses: entre os clientes dele
   há políticos do Centrão que poderiam ser citados numa eventual delação de Vorcaro.
 - O caso Master atinge os dois lados. **Flávio** é investigado por pedir dinheiro a Vorcaro para o filme
-  *Dark Horse*, sobre o pai: a suspeita é de R$ 61 milhões. Do lado do governo, a PF aponta que o senador
-  **Jaques Wagner**, aliado próximo de Lula, recebeu vantagens de sócios do banco, e mensagens no celular
-  de Vorcaro o citam como possível ponte até o presidente. Wagner nega.
+  *Dark Horse*, sobre o pai: a suspeita é de R$ 61 milhões. Do lado do governo, estão Jaques Wagner e
+  Alexandre Silveira, e mensagens no celular de Vorcaro citam Wagner como possível ponte até o presidente.
 - O Ministério da Justiça comanda a **Polícia Federal**, que conduz essa investigação. Entre os motivos
   citados por interlocutores do governo à CNN para escolher Bottini está justamente o peso sobre a PF,
   que precisaria de um ministro politicamente forte.
@@ -87,7 +120,10 @@ Honestidade exige mostrar o que pesa contra essa leitura:
 - **Bottini ainda não foi escolhido.** Por enquanto, é um nome cotado, segundo os bastidores. Nem ele nem
   o Planalto comentaram.
 
-**Minha opinião:** Lula venceu, e venceu de forma legítima. Mas governar um país que votou dividido ao
+**Minha opinião:** o que o governo quer com isso, eu não sei. Nunca acreditei que um escândalo desse
+tamanho não tivesse ninguém do PT, e os fatos já mostram petistas e ministros do governo no caso. Se até o
+presidente recebeu o banqueiro fora da agenda, a investigação tem que ir até onde os fatos levarem, sem
+poupar ninguém, de nenhum partido. Lula venceu, e venceu de forma legítima. Mas governar um país que votou dividido ao
 meio exige mais do que vencer. Exige que a metade derrotada consiga confiar que a polícia e os tribunais
 não jogam no time de quem ganhou. Hoje essa confiança não existe, e o governo sabe disso, tanto que pediu
 cautela aos próprios ministros. Escolher para o Ministério da Justiça alguém ligado ao caso Master seria
@@ -116,6 +152,18 @@ Se o governo quer mesmo desmontar a tese da perseguição, começa por aí.
 - [Senado aprova indicação de Flávio Dino para ministro do STF — Agência Brasil](https://agenciabrasil.ebc.com.br/politica/noticia/2023-12/senado-aprova-indicacao-de-flavio-dino-para-ministro-do-stf)
 - [Lewandowski toma posse como ministro da Justiça em cerimônia com Lula no Planalto — CNN Brasil](https://www.cnnbrasil.com.br/politica/lewandowski-toma-posse-como-ministro-da-justica-em-cerimonia-com-lula-no-planalto/)
 - [Zanin prorroga eleição até 19h deste domingo em todo o país — CNN Brasil](https://www.cnnbrasil.com.br/eleicoes/zanin-prorroga-eleicao-ate-as-19h-deste-domingo-em-todo-o-pais/)
+
+**O PT e o governo no caso Master**
+- [PF mira Jaques Wagner em operação sobre Banco Master — Poder360](https://www.poder360.com.br/poder-justica/pf-deflagra-9a-fase-da-operacao-compliance-zero/)
+- [Lula recebeu Vorcaro, dono do Master, sem registro na agenda — Poder360](https://www.poder360.com.br/poder-governo/lula-recebeu-vorcaro-dono-do-master-sem-registro-na-agenda/)
+- [Lula aconselhou Vorcaro a não vender Master ao BTG — Poder360](https://www.poder360.com.br/poder-economia/lula-aconselhou-vorcaro-a-nao-vender-master-ao-btg/)
+- [Saiba o que é conhecido e quem já foi alvo da PF no caso Master — Poder360](https://www.poder360.com.br/poder-justica/saiba-o-que-e-conhecido-e-quem-ja-foi-alvo-da-pf-no-caso-master-2/)
+- [Vorcaro diz ter pago R$ 20 milhões a Alexandre Silveira na eleição de 2024 — Metrópoles](https://metropoles.com/colunas/thiago-herdy/vorcaro-20-milhoes-silveira-caixa2)
+- [Mendonça autoriza que PF investigue Lulinha por tráfico de influência — Poder360](https://www.poder360.com.br/poder-justica/pf-pede-ao-stf-para-investigar-lulinha-por-trafico-de-influencia/)
+- [PF agrupa informações de Lulinha em um único inquérito — CNN Brasil](https://www.cnnbrasil.com.br/politica/pf-agrupa-informacoes-de-lulinha-em-um-unico-inquerito/)
+- [Com Ciro Nogueira como alvo, entenda "teia" de envolvidos no caso Master — CNN Brasil](https://www.cnnbrasil.com.br/politica/com-ciro-nogueira-como-alvo-entenda-teia-de-envolvidos-no-caso-master/)
+- [Caso Master: quem são os alvos da PF em nova fase da Compliance Zero — CNN Brasil](https://www.cnnbrasil.com.br/politica/caso-master-quem-sao-os-alvos-da-pf-em-nova-fase-da-compliance-zero/)
+- [Código de Processo Penal, arts. 319 e 320 (medidas cautelares e passaporte) — Planalto](https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm)
 
 **Bottini e o caso Master**
 - [Criminalista Pierpaolo Bottini é cotado para Ministério da Justiça — CNN Brasil](https://www.cnnbrasil.com.br/blogs/caio-junqueira/politica/criminalista-pierpaolo-bottini-e-cotado-para-ministerio-da-justica/)
