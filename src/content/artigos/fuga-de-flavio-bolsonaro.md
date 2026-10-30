@@ -10,14 +10,86 @@ Começo pelo que eu **não** estou dizendo: não estou dizendo que Flávio Bolso
 nem que é inocente. Longe disso. O que eu digo é outra coisa: se eu estivesse no lugar dele, mesmo sendo
 inocente, teria tomado a mesma decisão de sair do Brasil. E quero explicar por quê.
 
-## Os fatos
+## O que aconteceu
 
-A história ainda está em andamento. Este é o quadro em 29 de outubro de 2026:
+Três dias depois de perder o segundo turno para Lula, Flávio deixou o Brasil sem entregar os passaportes,
+como Alexandre de Moraes tinha mandado, e chegou a Miami com a família em 28 de outubro. De lá, divulgou
+uma carta em que fala em fraude, sem apresentar provas, e diz que vai liderar a oposição a partir dos EUA.
+Ele é investigado por lavagem de dinheiro, mas **não é réu, não foi condenado e não tem mandado de
+prisão**. A linha do tempo completa e os detalhes da investigação estão no fim do texto.
 
+## Por que eu teria ido embora
+
+**O juiz é sempre o mesmo, e é parte.** Neste inquérito, Moraes não é a vítima. Mas é impossível olhar
+para ele sem lembrar o resto da história da família:
+
+- Segundo a PF, Moraes seria o **primeiro alvo** do plano "Punhal Verde e Amarelo". Mesmo assim, foi o
+  relator do processo que condenou Jair Bolsonaro a 27 anos.
+- Eduardo fez campanha nos EUA por sanções contra Moraes, e conseguiu: em julho de 2025, o ministro foi
+  incluído na Lei Magnitsky. Depois, Moraes foi o relator do processo que condenou Eduardo a 4 anos e 2
+  meses por coação, rejeitou o pedido para se declarar impedido e mandou prendê-lo.
+- Agora é o mesmo Moraes que decide sobre o passaporte do terceiro Bolsonaro.
+
+O pai foi condenado por ele. O irmão foi condenado por ele, num caso em que o próprio Moraes era o alvo.
+Se eu fosse o Flávio, não acreditaria que ele me julgaria com isenção. Ninguém acreditaria.
+
+**Não há para quem recorrer.** Enquanto Flávio for senador, o caso fica no STF, e o recurso volta para o
+próprio tribunal. Nos processos do pai e do irmão, a decisão ficou com a Primeira Turma, e no do Eduardo
+três dos quatro votos foram de ministros indicados por Lula.
+
+**O padrão assusta.** Jair está preso e inelegível. Eduardo está condenado, inelegível e com mandado de
+prisão. Flávio, que acabou de ter **48,21%** dos votos para presidente, agora é alvo. Em 2022, **49,1%**
+votaram em Jair. Lula venceu as duas eleições. Mas, depois de vencer, a
+impressão que fica é de que o objetivo passou a ser tirar do jogo quem disputa com ele. Quando os nomes de
+quem recebe quase metade dos votos do país vão sendo removidos um a um, sempre pelas mãos do mesmo
+ministro, metade do país tem motivo para se sentir silenciada.
+
+## Não é a primeira vez que alguém sai do Brasil
+
+Sair do país para escapar de quem está no poder não é novidade na nossa história:
+
+- **Fernando Henrique Cardoso**, que depois seria presidente da República por dois mandatos, foi
+  perseguido depois do golpe de 1964 e viveu exilado no Chile e na França até 1968.
+- **Gilberto Gil e Caetano Veloso** foram presos em dezembro de 1968, logo depois do AI-5. Soltos em
+  fevereiro de 1969, ficaram confinados em Salvador até que os militares deixaram claro que a saída era o
+  exílio. Viveram em Londres de 1969 até o início de 1972.
+- O próprio **Jair Bolsonaro** foi para os EUA no fim de 2022, depois de perder a eleição. Voltou meses
+  depois, e acabou condenado e preso. Para o filho, o recado parece claro.
+
+## Onde a comparação tem limite
+
+Honestidade exige mostrar a diferença. FHC, Gil e Caetano fugiram de uma **ditadura**: não havia processo
+com direito a defesa, e o AI-5 tinha suspendido o habeas corpus. Flávio fugiu de uma investigação num
+regime democrático, com advogados, acesso aos autos e um país inteiro acompanhando.
+
+Também há pontos que pesam contra ele:
+
+- **Ele disse que ficaria e saiu no dia seguinte.** O vídeo de 26 de outubro não envelheceu nem 24 horas.
+- **A suspeita não é política.** R$ 130 milhões em três meses na conta de um advogado amigo, e e-mails
+  que ligam Flávio a uma conta da empresa dele, são uma pergunta que precisa de resposta, qualquer que
+  seja o partido.
+- **O risco de fuga era real.** Moraes mandou recolher o passaporte por medo de que Flávio fugisse, e ele
+  fugiu. Daqui para a frente, a fuga é um problema que ele mesmo criou, e um descumprimento de ordem
+  judicial pesa mais que muita acusação.
+- **A fraude não tem prova.** O próprio PL reconheceu o resultado no dia seguinte à eleição. A carta
+  culpa Cristiano Zanin, que prorrogou a votação a pedido da campanha de Lula, mas a campanha de Flávio
+  também pediu prorrogação ao TSE em alguns estados. Segundo o TSE, 34.330 pessoas votaram depois das 17h,
+  numa eleição decidida por mais de 4,4 milhões de votos. Chamar-se de "presidente eleito" enfraquece
+  justamente o argumento de perseguição, que é o mais forte que ele tem.
+
+**Minha opinião:** Flávio não é um herói nem um perseguido inocente. Mas quando o mesmo ministro conduz os
+processos do pai, do irmão e agora o dele, depois de ter sido alvo da família, quem perdeu a eleição por
+pouco não tem por que confiar no próprio julgamento. Num país em que a Justiça fosse vista como neutra,
+a fuga dele seria indefensável. No Brasil de hoje, eu entendo. E, no lugar dele, faria o mesmo.
+
+## Linha do tempo
+
+Este é o quadro em 29 de outubro de 2026:
+
+- **Antes do segundo turno:** em uma transmissão nas redes, o irmão Eduardo diz que Flávio deveria
+  deixar o país se perdesse. Segundo a Agência Brasil, essa fala pesou na decisão de Moraes.
 - **25 de outubro:** Lula vence o segundo turno com **51,79%** dos votos válidos. Flávio fica com
   **48,21%**, quase 60 milhões de votos. No dia seguinte, o PL reconhece a vitória de Lula.
-- **Antes disso:** em uma transmissão nas redes, o irmão Eduardo diz que Flávio deveria deixar o país se
-  perdesse. Segundo a Agência Brasil, essa fala pesou na decisão de Moraes.
 - **26 de outubro:** a PF entrega a Flávio uma decisão de Alexandre de Moraes. Ele tem 24 horas para
   entregar os passaportes, está proibido de sair do país e de falar com o advogado Willer Tomaz. No mesmo
   dia, Flávio publica um vídeo dizendo que não pretende sair do Brasil e que vai ficar para organizar a
@@ -45,82 +117,16 @@ A história ainda está em andamento. Este é o quadro em 29 de outubro de 2026:
   não deve, não teme", orientou os ministros a não explorar a fuga, para não alimentar a tese de
   perseguição. Deputados do PT pediram a Moraes a prisão preventiva de Flávio e um alerta vermelho da
   Interpol. Até agora, não há decisão sobre o pedido.
-- **29 de outubro:** segundo o aliado Paulo Figueiredo, Flávio dará uma entrevista coletiva em Miami
-  nesta tarde.
+- **29 de outubro:** segundo o aliado Paulo Figueiredo, Flávio deve dar uma entrevista coletiva em Miami.
 
-**De que ele é suspeito?** Flávio é **investigado** num inquérito do STF, junto com Willer Tomaz, por
-lavagem de dinheiro e evasão de divisas. Segundo a PF, uma conta ligada a Tomaz movimentou cerca de
+## A investigação
+
+Flávio é **investigado** num inquérito do STF, junto com Willer Tomaz, por lavagem de dinheiro e evasão
+de divisas. Segundo a PF, uma conta ligada a Tomaz movimentou cerca de
 **R$ 130 milhões** entre março e maio de 2025, valor que os investigadores consideram incompatível com as
 atividades conhecidas. A PF também encontrou e-mails que indicariam Flávio como "usuário master" de uma
 conta da Alcazar Holdings, empresa do advogado. Tomaz já mora nos EUA. Os dois negam qualquer
-irregularidade, e a assessoria de Flávio nega ter conta em conjunto com ele. Flávio **não é réu, não foi condenado e não tem mandado
-de prisão**.
-
-## Por que eu teria ido embora
-
-**O juiz é sempre o mesmo, e é parte.** Neste inquérito, Moraes não é a vítima. Mas é impossível olhar
-para ele sem lembrar o resto da história da família:
-
-- Segundo a PF, Moraes seria o **primeiro alvo** do plano "Punhal Verde e Amarelo". Mesmo assim, foi o
-  relator do processo que condenou Jair Bolsonaro a 27 anos.
-- Eduardo fez campanha nos EUA por sanções contra Moraes, e conseguiu: em julho de 2025, o ministro foi
-  incluído na Lei Magnitsky. Depois, Moraes foi o relator do processo que condenou Eduardo a 4 anos e 2
-  meses por coação, rejeitou o pedido para se declarar impedido e mandou prendê-lo.
-- Agora é o mesmo Moraes que decide sobre o passaporte do terceiro Bolsonaro.
-
-O pai foi condenado por ele. O irmão foi condenado por ele, num caso em que o próprio Moraes era o alvo.
-Se eu fosse o Flávio, não acreditaria que ele me julgaria com isenção. Ninguém acreditaria.
-
-**Não há para quem recorrer.** Enquanto Flávio for senador, o caso fica no STF, e o recurso volta para o
-próprio tribunal. Nos processos do pai e do irmão, a decisão ficou com a Primeira Turma, e no do Eduardo
-três dos quatro votos foram de ministros indicados por Lula.
-
-**O padrão assusta.** Jair está preso e inelegível. Eduardo está condenado, inelegível e com mandado de
-prisão. Flávio, que acabou de ter **48,21%** dos votos para presidente, agora é alvo. Em 2022, **49,1%**
-votaram em Jair. Lula venceu as duas eleições, e venceu de forma legítima. Mas, depois de vencer, a
-impressão que fica é de que o objetivo passou a ser tirar do jogo quem disputa com ele. Quando os nomes de
-quem recebe quase metade dos votos do país vão sendo removidos um a um, sempre pelas mãos do mesmo
-ministro, metade do país tem motivo para se sentir silenciada.
-
-## Não é a primeira vez que alguém sai do Brasil
-
-Sair do país para escapar de quem está no poder não é novidade na nossa história:
-
-- **Fernando Henrique Cardoso**, que depois seria presidente da República por dois mandatos, deixou o
-  Brasil logo depois do golpe de 1964, ao ser alvo de um inquérito policial-militar. Passou pela
-  Argentina, viveu no Chile e terminou o exílio na França.
-- **Gilberto Gil e Caetano Veloso** foram presos em dezembro de 1968, logo depois do AI-5. Soltos em
-  fevereiro de 1969, ficaram confinados em Salvador até que os militares deixaram claro que a saída era o
-  exílio. Viveram em Londres de 1969 até o início de 1972.
-- O próprio **Jair Bolsonaro** foi para os EUA no fim de 2022, depois de perder a eleição. Voltou meses
-  depois, e acabou condenado e preso. Para o filho, o recado parece claro.
-
-## Onde a comparação tem limite
-
-Honestidade exige mostrar a diferença. FHC, Gil e Caetano fugiram de uma **ditadura**: não havia processo
-com direito a defesa, e o AI-5 tinha suspendido o habeas corpus. Flávio fugiu de uma investigação num
-regime democrático, com advogados, acesso aos autos e um país inteiro acompanhando.
-
-Também há pontos que pesam contra ele:
-
-- **Ele disse que ficaria e saiu no dia seguinte.** O vídeo de 26 de outubro não envelheceu nem 24 horas.
-- **A suspeita não é política.** R$ 130 milhões em três meses, na conta de um advogado amigo, de cuja
-  empresa ele aparece como usuário de conta bancária, é uma pergunta que precisa de resposta, qualquer
-  que seja o partido.
-- **O risco de fuga era real.** Moraes mandou recolher o passaporte por medo de que Flávio fugisse, e ele
-  fugiu. Daqui para a frente, a fuga é um problema que ele mesmo criou, e um descumprimento de ordem
-  judicial pesa mais que muita acusação.
-- **Ninguém o mandou para a cadeia.** Ele não estava preso, nem condenado, nem com mandado de prisão.
-- **A fraude não tem prova.** O próprio PL reconheceu o resultado no dia seguinte à eleição. A carta
-  culpa Cristiano Zanin, que prorrogou a votação a pedido da campanha de Lula, mas a campanha de Flávio
-  também pediu prorrogação ao TSE em alguns estados. Segundo o TSE, 34.330 pessoas votaram depois das 17h,
-  numa eleição decidida por mais de 4,4 milhões de votos. Chamar-se de "presidente eleito" enfraquece
-  justamente o argumento de perseguição, que é o mais forte que ele tem.
-
-**Minha opinião:** Flávio não é um herói nem um perseguido inocente. Mas quando o mesmo ministro conduz os
-processos do pai, do irmão e agora o dele, depois de ter sido alvo da família, quem perdeu a eleição por
-pouco não tem por que confiar no próprio julgamento. Num país em que a Justiça fosse vista como neutra,
-a fuga dele seria indefensável. No Brasil de hoje, eu entendo. E, no lugar dele, faria o mesmo.
+irregularidade, e a assessoria de Flávio nega ter conta em conjunto com ele.
 
 ## Fontes
 
@@ -161,10 +167,9 @@ a fuga dele seria indefensável. No Brasil de hoje, eu entendo. E, no lugar dele
 - [Moraes seria o 1º alvo do plano de atentado, diz PF — Poder360](https://www.poder360.com.br/poder-justica/moraes-seria-o-1o-alvo-do-plano-de-atentado-diz-pf/)
 - [Oposição comemora sanções dos EUA a Moraes — Poder360](https://www.poder360.com.br/poder-gente/oposicao-comemora-sancoes-dos-eua-a-moraes/)
 - [STF condena Eduardo Bolsonaro a inelegibilidade e a 4 anos de prisão — Agência Brasil](https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/stf-condena-eduardo-bolsonaro-inelegibilidade-e-4-anos-de-prisao)
-- [STF condena Eduardo Bolsonaro por coação — Conjur](https://conjur.com.br/2026-jun-16/stf-condena-eduardo-bolsonaro-por-coacao-em-acao-ligada-a-trama-golpista/)
 - [Moraes determina emissão de mandado de prisão contra Eduardo Bolsonaro — Agência Brasil](https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/moraes-determina-emissao-de-mandado-de-prisao-contra-eduardo-bolsonaro)
 
 **Exílios na ditadura**
-- [Fernando Henrique Cardoso — Portal Latino-Americano da USP](https://sites.usp.br/portalatinoamericano/espanol-cardoso-fernando-henrique)
+- [FHC questiona reeleição em documentário que estreia no dia 31 — Poder360](https://www.poder360.com.br/midia/fhc-questiona-reeleicao-em-documentario-que-estreia-no-dia-31/)
 - [Presos há 45 anos, Gil e Caetano foram vítimas do AI-5 — Jornal do Brasil](https://www.jb.com.br/cultura/noticias/2013/12/23/amp/presos-ha-45-anos-gil-e-caetano-foram-vitimas-do-ai-5.html)
-- ["Não vai ter golpe". Caetano e Gil — Diário de Notícias](https://www.dn.pt/artes/nao-vai-ter-golpe-caetano-e-gil-5141942.html)
+- [História Hoje: há 47 anos, Gil e Caetano eram presos pela ditadura — Agência Brasil](https://agenciabrasil.ebc.com.br/radioagencia-nacional/direitos-humanos/audio/2015-12/historia-hoje-ha-47-anos-gil-e-caetano-eram)

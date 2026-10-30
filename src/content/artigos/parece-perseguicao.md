@@ -1,6 +1,6 @@
 ---
 titulo: Parece perseguição — e a escolha para o Ministério da Justiça não ajuda
-descricao: O governo venceu de forma legítima. Mas, num país dividido ao meio, não basta ser justo, é preciso parecer justo. E cotar o ex-advogado de Vorcaro para comandar a PF é, no mínimo, estranho.
+descricao: Num país dividido ao meio, não basta ser justo, é preciso parecer justo. E cotar o ex-advogado de Vorcaro para o ministério que comanda a PF é, no mínimo, estranho.
 data: 2026-10-29
 atualizado: 2026-10-29
 tags: [Governo Lula, oposição, PT, PL, Justiça, STF, Banco Master, Ministério da Justiça]
@@ -50,7 +50,7 @@ fatos mostram que o caso também chega ao PT e ao próprio governo:
   Wagner nega e diz que vai provar a inocência.
 - **Lula recebeu Vorcaro no Planalto** em 4 de dezembro de 2024, fora da agenda oficial, com os ministros
   Rui Costa e Alexandre Silveira e com Gabriel Galípolo, então indicado ao Banco Central. Segundo o
-  Poder360, Lula aconselhou Vorcaro a não vender o banco. Mensagens no celular de Vorcaro citam conversas
+  Poder360, Lula aconselhou Vorcaro a não vender o Master ao BTG. Mensagens no celular de Vorcaro citam conversas
   no Planalto, inclusive com Lula. **Lula não é investigado.**
 - **Alexandre Silveira (PSD)**, ministro de Minas e Energia de Lula: segundo o Metrópoles, Vorcaro disse à
   PF e à PGR, em 28 de outubro, que entregou a ele R$ 20 milhões em dinheiro vivo, como caixa 2, para a
@@ -63,7 +63,7 @@ fatos mostram que o caso também chega ao PT e ao próprio governo:
   **Ciro Nogueira**, do PP.
 
 Ou seja, a investigação não é só do PL. A diferença está em **como** cada um é tratado. Flávio perdeu o
-passaporte sem denúncia. Wagner continua líder do governo, e Silveira continua ministro. Cada caso tem os
+passaporte sem denúncia. Wagner, alvo de busca da PF, segue no Senado, e Silveira continua ministro. Cada caso tem os
 seus indícios e o seu juiz, mas a régua parece diferente. E ainda falta muito: se Vorcaro fechar uma
 delação, o que vier dela vai passar justamente pela PF, que fica sob o Ministério da Justiça.
 
@@ -120,15 +120,19 @@ Honestidade exige mostrar o que pesa contra essa leitura:
 - **Bottini ainda não foi escolhido.** Por enquanto, é um nome cotado, segundo os bastidores. Nem ele nem
   o Planalto comentaram.
 
-**Minha opinião:** o que o governo quer com isso, eu não sei. Nunca acreditei que um escândalo desse
-tamanho não tivesse ninguém do PT, e os fatos já mostram petistas e ministros do governo no caso. Se até o
-presidente recebeu o banqueiro fora da agenda, a investigação tem que ir até onde os fatos levarem, sem
-poupar ninguém, de nenhum partido. Lula venceu, e venceu de forma legítima. Mas governar um país que votou dividido ao
-meio exige mais do que vencer. Exige que a metade derrotada consiga confiar que a polícia e os tribunais
-não jogam no time de quem ganhou. Hoje essa confiança não existe, e o governo sabe disso, tanto que pediu
-cautela aos próprios ministros. Escolher para o Ministério da Justiça alguém ligado ao caso Master seria
-jogar contra essa confiança. Há bons juristas no país sem nenhum vínculo com Vorcaro, nem com a campanha.
-Se o governo quer mesmo desmontar a tese da perseguição, começa por aí.
+## Minha opinião
+
+O que o governo quer com isso, eu não sei. Mas sei o que parece. **Investigar todo mundo é o certo.
+Tratar cada um com uma régua diferente, não.**
+
+Nunca acreditei que um escândalo desse tamanho não tivesse ninguém do PT, e não tem. Flávio deve explicar
+cada real que pediu a Vorcaro. Wagner deve explicar os jatinhos e o apartamento. Silveira deve explicar o
+que Vorcaro diz ter entregado. E Lula deve explicar por que recebeu o banqueiro no Planalto sem registrar
+o encontro na agenda.
+
+Se o governo quer mesmo desmontar a tese da perseguição, o primeiro passo é simples: não colocar o
+ex-advogado de Vorcaro no ministério que comanda a PF. Há bons juristas no país sem vínculo com o
+banqueiro nem com a campanha.
 
 ## Fontes
 
